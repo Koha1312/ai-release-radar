@@ -129,6 +129,14 @@ SEED: list[Release] = [
         tags=["Windows", "agents", "preview"],
     ),
     Release(
+        company="Z.ai", product="GLM-5.2",
+        title="Z.ai (Zhipu AI) releases GLM-5.2 — open-weight, coding-first",
+        summary="A 744B-parameter Mixture-of-Experts model (40B active) with a 1M-token context, built for long agentic coding sessions and shipped under an MIT open-weights license. Early reports claim it rivals GPT-5.5 on code at a fraction of the cost (no official benchmarks at launch).",
+        date="2026-06-13", type=ReleaseType.MODEL,
+        url="https://codersera.com/blog/glm-5-2-release-1m-context-coding-2026/",
+        tags=["1M context", "open weights (MIT)", "coding", "MoE", "744B"],
+    ),
+    Release(
         company="Microsoft", product="Microsoft Agent 365",
         title="Microsoft Agent 365 reaches general availability",
         summary="An enterprise control plane for managing AI agents; GA since May 1, expanded at Build 2026.",

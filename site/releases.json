@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-06-17 18:33 UTC",
-  "count": 16,
+  "generated_at": "2026-06-17 18:52 UTC",
+  "count": 17,
   "companies": [
     "Anthropic",
     "Google",
     "Microsoft",
-    "OpenAI"
+    "OpenAI",
+    "Z.ai"
   ],
   "types": [
     "deprecation",
@@ -25,6 +26,22 @@
       "tags": [
         "retirement",
         "scheduled"
+      ]
+    },
+    {
+      "company": "Z.ai",
+      "product": "GLM-5.2",
+      "title": "Z.ai (Zhipu AI) releases GLM-5.2 — open-weight, coding-first",
+      "summary": "A 744B-parameter Mixture-of-Experts model (40B active) with a 1M-token context, built for long agentic coding sessions and shipped under an MIT open-weights license. Early reports claim it rivals GPT-5.5 on code at a fraction of the cost (no official benchmarks at launch).",
+      "date": "2026-06-13",
+      "type": "model",
+      "url": "https://codersera.com/blog/glm-5-2-release-1m-context-coding-2026/",
+      "tags": [
+        "1M context",
+        "open weights (MIT)",
+        "coding",
+        "MoE",
+        "744B"
       ]
     },
     {
