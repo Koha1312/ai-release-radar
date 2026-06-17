@@ -74,6 +74,21 @@ main { max-width: 880px; margin: 0 auto; padding: 26px 20px 60px; }
 }
 .chip:hover { color: var(--text); border-color: var(--accent); }
 .chip.active { background: linear-gradient(110deg, var(--accent), var(--accent-2)); color: #fff; border-color: transparent; }
+.chip .cc { opacity: 0.6; font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+.chip.active .cc { opacity: 0.85; }
+
+/* month timeline headers */
+.month-header {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 10px 2px 2px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.month-header:first-child { margin-top: 0; }
 
 /* ---------- feed ---------- */
 .feed { display: flex; flex-direction: column; gap: 14px; }

@@ -15,6 +15,18 @@ const COMPANY_COLORS = {
   "Perplexity": "#20b8cd",
   "Cursor": "#6366f1",
   "Obsidian": "#9d6bf0",
+  "xAI": "#1d9bf0",
+  "ElevenLabs": "#a78bfa",
+  "GitHub": "#8b949e",
+  "OpenClaw": "#f59e0b",
+  "n8n": "#ea4b71",
+  "Notion": "#b9b3a9",
+  "Raycast": "#ff6363",
+  "Zed": "#2f6df6",
+  "Canva": "#00c4cc",
+  "Figma": "#f24e1e",
+  "Brave": "#fb542b",
+  "Apple": "#9aa0a6",
 };
 
 // Short monogram per company for the branded thumbnail tile.
@@ -22,8 +34,18 @@ const COMPANY_CODES = {
   "Anthropic": "A", "OpenAI": "O", "Google": "G", "Microsoft": "MS",
   "Z.ai": "Z", "DeepSeek": "DS", "Moonshot AI": "Mo", "Meta": "M", "Hugging Face": "HF",
   "Perplexity": "P", "Cursor": "C", "Obsidian": "Ob",
+  "xAI": "X", "ElevenLabs": "11", "GitHub": "GH", "OpenClaw": "OC", "n8n": "n8",
+  "Notion": "N", "Raycast": "Ra", "Zed": "Ze", "Canva": "Ca", "Figma": "Fi",
+  "Brave": "Br", "Apple": "Ap",
 };
 const monogram = (c) => COMPANY_CODES[c] || (c[0] || "?").toUpperCase();
+
+const MONTHS = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"];
+function monthLabel(mk) {
+  const [y, m] = (mk || "").split("-");
+  return m ? `${MONTHS[+m - 1]} ${y}` : "Undated";
+}
 
 const state = { all: [], company: "All", type: "All", access: "All", q: "" };
 
@@ -53,11 +75,16 @@ function buildFilters(companies, types) {
 function renderAccessChips() {
   const el = document.getElementById("access-filters");
   el.innerHTML = "";
+  const counts = {
+    All: state.all.length,
+    open: state.all.filter((r) => r.open_source).length,
+    proprietary: state.all.filter((r) => !r.open_source).length,
+  };
   const opts = [["All", "All"], ["open", "🔓 Open source"], ["proprietary", "🔒 Proprietary"]];
   for (const [val, label] of opts) {
     const chip = document.createElement("button");
     chip.className = "chip" + (state.access === val ? " active" : "");
-    chip.textContent = label;
+    chip.innerHTML = `${label} <span class="cc">${counts[val]}</span>`;
     chip.onclick = () => {
       state.access = val;
       [...el.children].forEach((c) => c.classList.remove("active"));
@@ -68,13 +95,19 @@ function renderAccessChips() {
   }
 }
 
+function countFor(key, value) {
+  if (value === "All") return state.all.length;
+  return state.all.filter((r) => r[key] === value).length;
+}
+
 function renderChips(containerId, values, key) {
   const el = document.getElementById(containerId);
   el.innerHTML = "";
   for (const v of values) {
     const chip = document.createElement("button");
     chip.className = "chip" + (state[key] === v ? " active" : "");
-    chip.textContent = key === "type" && v !== "All" ? v.toUpperCase() : v;
+    const label = key === "type" && v !== "All" ? v.toUpperCase() : v;
+    chip.innerHTML = `${esc(label)} <span class="cc">${countFor(key, v)}</span>`;
     chip.onclick = () => {
       state[key] = v;
       [...el.children].forEach((c) => c.classList.remove("active"));
@@ -104,7 +137,16 @@ function render() {
   feed.innerHTML = "";
   empty.hidden = items.length > 0;
 
+  let curMonth = null;
   for (const r of items) {
+    const mk = (r.date || "").slice(0, 7); // YYYY-MM
+    if (mk !== curMonth) {
+      curMonth = mk;
+      const h = document.createElement("div");
+      h.className = "month-header";
+      h.textContent = monthLabel(mk);
+      feed.appendChild(h);
+    }
     const color = COMPANY_COLORS[r.company] || "#7c5cff";
     // Thumbnail: branded monogram tile, with an optional real image layered on top.
     const img = r.image

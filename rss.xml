@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AI Release Radar</title>
+    <link>https://koha1312.github.io/ai-release-radar/</link>
+    <description>Every AI release worth knowing — from the big labs to the tools we use.</description>
+    <lastBuildDate>Wed, 17 Jun 2026 23:48:25 +0000</lastBuildDate>
+    <item>
+      <title>GPT-4.5 — GPT-4.5 sunsetting June 27</title>
+      <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes</link>
+      <guid isPermaLink="false">OpenAI|GPT-4.5|deprecation</guid>
+      <category>OpenAI</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] GPT-4.5 will be retired from ChatGPT on June 27, 2026 after a 30-day sunset.</description>
+    </item>
+    <item>
+      <title>GitHub Copilot app — GitHub Copilot desktop app reaches general availability</title>
+      <link>https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available/</link>
+      <guid isPermaLink="false">GitHub|GitHub Copilot app|feature</guid>
+      <category>GitHub</category>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[GitHub] An agent-native desktop home for Copilot (macOS/Windows/Linux) that runs parallel agent sessions across repos, each on its own branch and worktree. Follows the Copilot SDK going GA (embed Copilot&apos;s agent engine in your own tools).</description>
+    </item>
+    <item>
+      <title>Grok V9-Medium — xAI&apos;s Grok V9-Medium nears release; Imagine Video 1.5 ships</title>
+      <link>https://releasebot.io/updates/xai</link>
+      <guid isPermaLink="false">xAI|Grok V9-Medium|model</guid>
+      <category>xAI</category>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[xAI] Grok V9-Medium (~1.5T params, ~3x the prior production model, coding-focused) is in final training for a mid-June 2026 release. xAI also shipped Grok Imagine Video 1.5, an image-to-video model rendering 720p clips in ~25s.</description>
+    </item>
+    <item>
+      <title>GLM-5.2 — Z.ai (Zhipu AI) releases GLM-5.2 — open-weight, coding-first</title>
+      <link>https://codersera.com/blog/glm-5-2-release-1m-context-coding-2026/</link>
+      <guid isPermaLink="false">Z.ai|GLM-5.2|model</guid>
+      <category>Z.ai</category>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Z.ai] A 744B-parameter Mixture-of-Experts model (40B active) with a 1M-token context, built for long agentic coding sessions and shipped under an MIT open-weights license. Early reports claim it rivals GPT-5.5 on code at a fraction of the cost (no official benchmarks at launch).</description>
+    </item>
+    <item>
+      <title>Kimi K2.7 Code — Moonshot AI releases Kimi K2.7 Code</title>
+      <link>https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/</link>
+      <guid isPermaLink="false">Moonshot AI|Kimi K2.7 Code|model</guid>
+      <category>Moonshot AI</category>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Moonshot AI] A coding-focused upgrade on the 1T-parameter MoE Kimi K2.6 foundation, on Hugging Face under a modified-MIT license. +21.8% on Kimi Code Bench v2 and ~30% fewer reasoning tokens vs K2.6.</description>
+    </item>
+    <item>
+      <title>GPT-5.2 — GPT-5.2 retired from ChatGPT</title>
+      <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes</link>
+      <guid isPermaLink="false">OpenAI|GPT-5.2|deprecation</guid>
+      <category>OpenAI</category>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] GPT-5.2 Instant/Thinking/Pro removed June 12; existing chats auto-continue on GPT-5.5.</description>
+    </item>
+    <item>
+      <title>Legal MCP connectors — 20+ legal MCP connectors and 12 practice-area plugins</title>
+      <link>https://releasebot.io/updates/anthropic</link>
+      <guid isPermaLink="false">Anthropic|Legal MCP connectors|feature</guid>
+      <category>Anthropic</category>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Anthropic] Expands how law firms and in-house teams use Claude across research, contracts, discovery, matter management, and legal aid.</description>
+    </item>
+    <item>
+      <title>Composer 2.5 — Cursor&apos;s Composer in-house coding model</title>
+      <link>https://cursor.com/changelog</link>
+      <guid isPermaLink="false">Cursor|Composer 2.5|model</guid>
+      <category>Cursor</category>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Cursor] Anysphere&apos;s frontier agentic coding model — ~4x faster than similar models, finishing most turns in under 30s. Composer 2 launched Mar 19; Composer 2.5 now powers Cursor&apos;s Bugbot (review time down to ~90s) and the Cursor 3.7 editor (Design Mode).</description>
+    </item>
+    <item>
+      <title>Claude Opus 4.8 — Claude Opus 4.8 is the new top-tier model</title>
+      <link>https://releasebot.io/updates/anthropic/claude</link>
+      <guid isPermaLink="false">Anthropic|Claude Opus 4.8|model</guid>
+      <category>Anthropic</category>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Anthropic] Anthropic&apos;s latest flagship — an upgrade for coding, agentic tasks, and professional work.</description>
+    </item>
+    <item>
+      <title>Apple Intelligence + Siri — Apple unveils next-gen Apple Intelligence &amp; Siri at WWDC26</title>
+      <link>https://www.apple.com/newsroom/</link>
+      <guid isPermaLink="false">Apple|Apple Intelligence + Siri|feature</guid>
+      <category>Apple</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Apple] At WWDC 2026 Apple showed the next generation of Apple Intelligence and a more capable, AI-powered Siri — with on-device screen awareness and personal context — integrated across iPhone, iPad, Mac, Watch, and Vision Pro.</description>
+    </item>
+    <item>
+      <title>Claude Mythos 5 — Claude Mythos 5 launches for trusted access</title>
+      <link>https://www.infoq.com/news/2026/06/claude-5-release/</link>
+      <guid isPermaLink="false">Anthropic|Claude Mythos 5|model</guid>
+      <category>Anthropic</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Anthropic] Frontier Mythos-class model on the Claude Developer Platform alongside Fable 5; also suspended June 12 under the same export directive.</description>
+    </item>
+    <item>
+      <title>Claude Fable 5 — Anthropic releases Claude Fable 5 (then suspends it)</title>
+      <link>https://www.infoq.com/news/2026/06/claude-5-release/</link>
+      <guid isPermaLink="false">Anthropic|Claude Fable 5|model</guid>
+      <category>Anthropic</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Anthropic] A Mythos-class model with a 1M-token context, 128k max output, and always-on adaptive thinking — made generally available June 9, then suspended June 12 under a US export-control directive.</description>
+    </item>
+    <item>
+      <title>Eleven v3 — ElevenLabs&apos; Eleven v3 expressive voice model</title>
+      <link>https://elevenlabs.io/docs/changelog/2026/6/8</link>
+      <guid isPermaLink="false">ElevenLabs|Eleven v3|model</guid>
+      <category>ElevenLabs</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[ElevenLabs] Eleven v3 is now the default text-to-speech model — lifelike speech with high emotional range and inline audio-direction tags like [whispers] or [surprised]. ElevenLabs has expanded into music, transcription, and conversational voice agents.</description>
+    </item>
+    <item>
+      <title>GPT-5.5 — OpenAI introduces GPT-5.5</title>
+      <link>https://openai.com/index/gpt-5-5-instant/</link>
+      <guid isPermaLink="false">OpenAI|GPT-5.5|model</guid>
+      <category>OpenAI</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] Described as their smartest model yet — faster and built for complex coding, research, and data analysis across tools.</description>
+    </item>
+    <item>
+      <title>GPT-5.3-Codex — GPT-5.3-Codex: most capable agentic coding model</title>
+      <link>https://help.openai.com/en/articles/9624314-model-release-notes</link>
+      <guid isPermaLink="false">OpenAI|GPT-5.3-Codex|model</guid>
+      <category>OpenAI</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] Combines the Codex + GPT-5 training stacks into one unified model for code generation, reasoning, and general intelligence.</description>
+    </item>
+    <item>
+      <title>Windows Agent Runtime — Windows Agent Runtime + Copilot Platform</title>
+      <link>https://windowsnews.ai/article/build-2026-microsoft-turns-windows-copilot-and-azure-into-an-ai-agent-platform.421835</link>
+      <guid isPermaLink="false">Microsoft|Windows Agent Runtime|platform</guid>
+      <category>Microsoft</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Microsoft] Turns Windows into an AI-agent platform; rolling out in preview, with general availability slated for November 2026.</description>
+    </item>
+    <item>
+      <title>MAI models (Thinking-1, Code-1) — Seven new in-house MAI models</title>
+      <link>https://www.tomsguide.com/news/live/microsoft-build-2026</link>
+      <guid isPermaLink="false">Microsoft|MAI models (Thinking-1, Code-1)|model</guid>
+      <category>Microsoft</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Microsoft] Includes MAI-Thinking-1 (reasoning) and MAI-Code-1, tuned specifically for GitHub and VS Code.</description>
+    </item>
+    <item>
+      <title>Azure AI Foundry — Azure AI Foundry headlines Build 2026</title>
+      <link>https://www.tomsguide.com/news/live/microsoft-build-2026</link>
+      <guid isPermaLink="false">Microsoft|Azure AI Foundry|platform</guid>
+      <category>Microsoft</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Microsoft] A central model-routing layer that picks the right model per task so teams aren&apos;t locked in — a core theme of Build 2026.</description>
+    </item>
+    <item>
+      <title>Figma AI agent — Figma ships a native AI design agent</title>
+      <link>https://www.figma.com/release-notes/</link>
+      <guid isPermaLink="false">Figma|Figma AI agent|feature</guid>
+      <category>Figma</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <description>[Figma] From May 20, 2026, an AI agent became the new entry point for First Draft — exploring, iterating, and refining designs natively in Figma. Figma Make added direct editing, annotations, chat, and PR creation; the Figma MCP server gained Slides support and asset export.</description>
+    </item>
+    <item>
+      <title>Gemini 3 Deep Think — Gemini 3 Deep Think for AI Ultra subscribers</title>
+      <link>https://blog.mean.ceo/google-gemini-news-june-2026/</link>
+      <guid isPermaLink="false">Google|Gemini 3 Deep Think|feature</guid>
+      <category>Google</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <description>[Google] Google&apos;s top reasoning mode for math, science, logic, and hard multi-step problems.</description>
+    </item>
+    <item>
+      <title>Gemini Spark + Daily Brief — Gemini app gains a personal agent and Daily Brief</title>
+      <link>https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/</link>
+      <guid isPermaLink="false">Google|Gemini Spark + Daily Brief|feature</guid>
+      <category>Google</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <description>[Google] The Gemini app added &apos;Spark&apos; (a personal AI agent), a &apos;Daily Brief&apos; feature, and a redesigned interface.</description>
+    </item>
+    <item>
+      <title>Gemini Omni — Gemini Omni — native video creation</title>
+      <link>https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/</link>
+      <guid isPermaLink="false">Google|Gemini Omni|model</guid>
+      <category>Google</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <description>[Google] A new AI video model that combines text, images, audio, and video as inputs, unveiled at I/O 2026.</description>
+    </item>
+    <item>
+      <title>Gemini 3.5 Flash — Gemini 3.5 Flash goes generally available</title>
+      <link>https://ai.google.dev/gemini-api/docs/changelog</link>
+      <guid isPermaLink="false">Google|Gemini 3.5 Flash|model</guid>
+      <category>Google</category>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <description>[Google] Released May 19; now GA across Global, US, and EU regions with Gemini Enterprise.</description>
+    </item>
+    <item>
+      <title>Raycast 2.0 — Raycast 2.0 — Windows support + system-wide AI</title>
+      <link>https://www.raycast.com/new</link>
+      <guid isPermaLink="false">Raycast|Raycast 2.0|feature</guid>
+      <category>Raycast</category>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <description>[Raycast] A major rebuild (public beta, May 2026): macOS + Windows, a Liquid Glass UI, system-wide AI dictation, Quick AI (one-off questions) and AI Chat with persistent memory, plus reusable &apos;Agents&apos; (formerly Presets).</description>
+    </item>
+    <item>
+      <title>Notion Developer Platform — Notion turns its workspace into an AI-agent hub</title>
+      <link>https://www.notion.com/releases</link>
+      <guid isPermaLink="false">Notion|Notion Developer Platform|platform</guid>
+      <category>Notion</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+      <description>[Notion] A new developer platform (May 13, 2026) lets teams connect AI agents, external data, and custom code into Notion via Workers + an External Agents API. April updates added agent code execution, voice dictation, and a 50-page context window.</description>
+    </item>
+    <item>
+      <title>Leo (agentic browsing) — Brave&apos;s Leo gains agentic browsing + Automatic mode</title>
+      <link>https://brave.com/blog/ai-browsing/</link>
+      <guid isPermaLink="false">Brave|Leo (agentic browsing)|feature</guid>
+      <category>Brave</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <description>[Brave] Brave&apos;s privacy-first, browser-native AI assistant added agentic browsing (May 2026) — automating tasks across your tabs without storing page content on external servers — plus an Automatic mode that picks the best model per task.</description>
+    </item>
+    <item>
+      <title>Microsoft Agent 365 — Microsoft Agent 365 reaches general availability</title>
+      <link>https://www.tomsguide.com/news/live/microsoft-build-2026</link>
+      <guid isPermaLink="false">Microsoft|Microsoft Agent 365|platform</guid>
+      <category>Microsoft</category>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <description>[Microsoft] An enterprise control plane for managing AI agents; GA since May 1, expanded at Build 2026.</description>
+    </item>
+    <item>
+      <title>Zed 1.0 + Parallel Agents — Zed 1.0 ships with native Parallel Agents</title>
+      <link>https://zed.dev/ai</link>
+      <guid isPermaLink="false">Zed|Zed 1.0 + Parallel Agents|feature</guid>
+      <category>Zed</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <description>[Zed] The Rust-built, GPU-accelerated editor hit 1.0 (Apr 29, 2026). Its Parallel Agents feature (Apr 22) runs multiple AI agents at once in one window, each on a different part of the codebase — plus external agents (Claude Code, Codex, Gemini CLI). Open source.</description>
+    </item>
+    <item>
+      <title>DeepSeek V4 — DeepSeek V4 — largest open-weight model to date</title>
+      <link>https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/</link>
+      <guid isPermaLink="false">DeepSeek|DeepSeek V4|model</guid>
+      <category>DeepSeek</category>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <description>[DeepSeek] A preview of DeepSeek&apos;s new flagship: V4-Pro (1.6T params, deployable on a single B200 node) and the smaller V4-Flash (284B), both MIT-licensed. Rivals GPT-5.5 / Claude Opus on agentic benchmarks at ~$3.48 per million output tokens.</description>
+    </item>
+    <item>
+      <title>Canva AI 2.0 — Canva AI 2.0 + the Canva Design Model</title>
+      <link>https://www.canva.com/newsroom/</link>
+      <guid isPermaLink="false">Canva|Canva AI 2.0|model</guid>
+      <category>Canva</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <description>[Canva] Announced at Canva Create (Apr 15, 2026): a conversational design interface where you describe a design in text/voice and get fully editable objects (not flat images), powered by the world&apos;s first design-specific foundation model — plus persistent memory and an AI-supercharged Magic Switch.</description>
+    </item>
+    <item>
+      <title>Gemma 4 — Google releases Gemma 4 open-weight models</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/</link>
+      <guid isPermaLink="false">Google|Gemma 4|model</guid>
+      <category>Google</category>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <description>[Google] Google&apos;s open-weight family (sizes ~2B to a dense 31B + a 26B MoE), now under Apache 2.0. Multimodal, 256K context, 140+ languages — the most capable open Gemma yet.</description>
+    </item>
+    <item>
+      <title>Comet — Perplexity&apos;s Comet AI browser expands (iOS + Enterprise)</title>
+      <link>https://www.perplexity.ai/changelog/what-we-shipped--march-27-2026</link>
+      <guid isPermaLink="false">Perplexity|Comet|feature</guid>
+      <category>Perplexity</category>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[Perplexity] Perplexity&apos;s AI-native browser — summarize any page, ask follow-ups, and have it run autonomous in-browser tasks (booking, email, forms). Launched on iOS in March 2026 (hit #3 on the US App Store) and is now available for Enterprise with silent MDM deployment.</description>
+    </item>
+    <item>
+      <title>OpenClaw — OpenClaw — viral open-source local AI agent</title>
+      <link>https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026</link>
+      <guid isPermaLink="false">OpenClaw|OpenClaw|platform</guid>
+      <category>OpenClaw</category>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[OpenClaw] A free, open-source AI agent that runs locally and connects any LLM to your machine — reading/writing files, running shell commands, browsing, email, and messaging (WhatsApp/Telegram/Slack). 100+ skills, bring-your-own-API-key; passed 100k GitHub stars in Feb 2026 (formerly Clawdbot/Moltbot).</description>
+    </item>
+    <item>
+      <title>n8n AI Agents — n8n becomes an AI agent orchestration platform</title>
+      <link>https://blog.n8n.io/we-need-re-learn-what-ai-agent-development-tools-are-in-2026/</link>
+      <guid isPermaLink="false">n8n|n8n AI Agents|feature</guid>
+      <category>n8n</category>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <description>[n8n] The automation tool now has a built-in AI Agent builder (memory, tools, guardrails) plus human-in-the-loop approval for AI tool calls. Supports OpenAI, Anthropic, Google, Mistral, and local Ollama models on the same workflow canvas. Self-hostable.</description>
+    </item>
+    <item>
+      <title>Obsidian + AI plugins — Obsidian&apos;s AI plugin ecosystem matures</title>
+      <link>https://obsidian.md/plugins?search=ai</link>
+      <guid isPermaLink="false">Obsidian|Obsidian + AI plugins|feature</guid>
+      <category>Obsidian</category>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <description>[Obsidian] Obsidian ships no built-in AI, but its open plugin ecosystem now rivals Notion AI: Smart Connections (semantic search + RAG chat), Copilot, Text Generator, and Ollama Chat (local models). Core 2026 updates added the Bases plugin and Siri/Shortcuts quick capture.</description>
+    </item>
+    <item>
+      <title>gpt-oss (120b / 20b) — OpenAI&apos;s gpt-oss open-weight reasoning models</title>
+      <link>https://openai.com/index/gpt-oss-model-card/</link>
+      <guid isPermaLink="false">OpenAI|gpt-oss (120b / 20b)|model</guid>
+      <category>OpenAI</category>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <description>[OpenAI] OpenAI&apos;s open-weight models under Apache 2.0: gpt-oss-120b (near o4-mini, runs on one 80GB GPU) and gpt-oss-20b (near o3-mini, runs on a 16GB device). Weights on Hugging Face — not served via the OpenAI API.</description>
+    </item>
+    <item>
+      <title>Llama 4 — Meta Llama 4 — natively multimodal, MoE</title>
+      <link>https://ai.meta.com/blog/llama-4-multimodal-intelligence/</link>
+      <guid isPermaLink="false">Meta|Llama 4|model</guid>
+      <category>Meta</category>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+      <description>[Meta] Meta&apos;s current open generation: Scout (17B active / 109B, a 10M-token context — the largest of any open model) and Maverick (17B active / 400B, 1M context). First Llama with Mixture-of-Experts + native multimodal training.</description>
+    </item>
+  </channel>
+</rss>
