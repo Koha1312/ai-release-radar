@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Release Radar — every big-lab AI release, in one place</title>
+  <meta name="description" content="A structured, source-cited tracker of AI model & API releases from Anthropic, OpenAI, Google, Microsoft and more." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>🛰️ AI Release&nbsp;Radar</h1>
+      <p class="tagline">Every new release from the big AI labs — structured, deduplicated, and source-cited. No hype.</p>
+      <p class="meta" id="meta">Loading…</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="search" type="search" placeholder="🔍 Search releases…" autocomplete="off" />
+      <div class="filter-row" id="company-filters"></div>
+      <div class="filter-row" id="type-filters"></div>
+    </section>
+
+    <section id="feed" class="feed"></section>
+    <p id="empty" class="empty" hidden>No releases match your filters.</p>
+  </main>
+
+  <footer>
+    <p>Built by <b>Khoa Nguyen</b>, paired with Claude 💙 · data updates via the radar pipeline</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
