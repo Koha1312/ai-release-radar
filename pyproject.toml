@@ -1,0 +1,9 @@
+[project]
+name = "ai-release-radar"
+version = "0.1.0"
+description = "A structured, source-cited tracker of AI model & API releases from the big labs."
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+    "feedparser>=6.0",
+]
