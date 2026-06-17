@@ -12,12 +12,16 @@ const COMPANY_COLORS = {
   "DeepSeek": "#4d6bfe",
   "Moonshot AI": "#16b1a6",
   "Meta": "#0668e1",
+  "Perplexity": "#20b8cd",
+  "Cursor": "#6366f1",
+  "Obsidian": "#9d6bf0",
 };
 
 // Short monogram per company for the branded thumbnail tile.
 const COMPANY_CODES = {
   "Anthropic": "A", "OpenAI": "O", "Google": "G", "Microsoft": "MS",
   "Z.ai": "Z", "DeepSeek": "DS", "Moonshot AI": "Mo", "Meta": "M", "Hugging Face": "HF",
+  "Perplexity": "P", "Cursor": "C", "Obsidian": "Ob",
 };
 const monogram = (c) => COMPANY_CODES[c] || (c[0] || "?").toUpperCase();
 
