@@ -8,6 +8,7 @@ const COMPANY_COLORS = {
   "Google DeepMind": "#4285f4",
   "Microsoft": "#0078d4",
   "Hugging Face": "#ff9d00",
+  "Z.ai": "#e0457b",
 };
 
 const state = { all: [], company: "All", type: "All", q: "" };
