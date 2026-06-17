@@ -1,10 +1,13 @@
 {
-  "generated_at": "2026-06-17 18:52 UTC",
-  "count": 17,
+  "generated_at": "2026-06-17 19:01 UTC",
+  "count": 22,
   "companies": [
     "Anthropic",
+    "DeepSeek",
     "Google",
+    "Meta",
     "Microsoft",
+    "Moonshot AI",
     "OpenAI",
     "Z.ai"
   ],
@@ -26,7 +29,8 @@
       "tags": [
         "retirement",
         "scheduled"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Z.ai",
@@ -42,7 +46,24 @@
         "coding",
         "MoE",
         "744B"
-      ]
+      ],
+      "open_source": true
+    },
+    {
+      "company": "Moonshot AI",
+      "product": "Kimi K2.7 Code",
+      "title": "Moonshot AI releases Kimi K2.7 Code",
+      "summary": "A coding-focused upgrade on the 1T-parameter MoE Kimi K2.6 foundation, on Hugging Face under a modified-MIT license. +21.8% on Kimi Code Bench v2 and ~30% fewer reasoning tokens vs K2.6.",
+      "date": "2026-06-12",
+      "type": "model",
+      "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+      "tags": [
+        "open weights",
+        "coding",
+        "1T MoE",
+        "agentic"
+      ],
+      "open_source": true
     },
     {
       "company": "OpenAI",
@@ -54,7 +75,8 @@
       "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
       "tags": [
         "retirement"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Anthropic",
@@ -68,7 +90,8 @@
         "MCP",
         "legal",
         "connectors"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Anthropic",
@@ -82,7 +105,8 @@
         "coding",
         "agentic",
         "flagship"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Anthropic",
@@ -95,7 +119,8 @@
       "tags": [
         "frontier",
         "suspended"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Anthropic",
@@ -109,7 +134,8 @@
         "1M context",
         "long-horizon",
         "suspended"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "OpenAI",
@@ -122,7 +148,8 @@
       "tags": [
         "flagship",
         "reasoning"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "OpenAI",
@@ -135,7 +162,8 @@
       "tags": [
         "coding",
         "agentic"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Microsoft",
@@ -149,7 +177,8 @@
         "Windows",
         "agents",
         "preview"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Microsoft",
@@ -163,7 +192,8 @@
         "MAI",
         "coding",
         "Build 2026"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Microsoft",
@@ -177,7 +207,8 @@
         "Azure",
         "routing",
         "Build 2026"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Google",
@@ -189,7 +220,8 @@
       "url": "https://blog.mean.ceo/google-gemini-news-june-2026/",
       "tags": [
         "reasoning"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Google",
@@ -202,7 +234,8 @@
       "tags": [
         "agent",
         "app"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Google",
@@ -215,7 +248,8 @@
       "tags": [
         "video",
         "multimodal"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Google",
@@ -229,7 +263,8 @@
         "fast",
         "GA",
         "enterprise"
-      ]
+      ],
+      "open_source": false
     },
     {
       "company": "Microsoft",
@@ -243,7 +278,72 @@
         "enterprise",
         "agents",
         "governance"
-      ]
+      ],
+      "open_source": false
+    },
+    {
+      "company": "DeepSeek",
+      "product": "DeepSeek V4",
+      "title": "DeepSeek V4 — largest open-weight model to date",
+      "summary": "A preview of DeepSeek's new flagship: V4-Pro (1.6T params, deployable on a single B200 node) and the smaller V4-Flash (284B), both MIT-licensed. Rivals GPT-5.5 / Claude Opus on agentic benchmarks at ~$3.48 per million output tokens.",
+      "date": "2026-04-24",
+      "type": "model",
+      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "tags": [
+        "open weights (MIT)",
+        "1.6T",
+        "MoE",
+        "cheap",
+        "China"
+      ],
+      "open_source": true
+    },
+    {
+      "company": "Google",
+      "product": "Gemma 4",
+      "title": "Google releases Gemma 4 open-weight models",
+      "summary": "Google's open-weight family (sizes ~2B to a dense 31B + a 26B MoE), now under Apache 2.0. Multimodal, 256K context, 140+ languages — the most capable open Gemma yet.",
+      "date": "2026-04-02",
+      "type": "model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "tags": [
+        "open weights (Apache-2.0)",
+        "multimodal",
+        "256K",
+        "runs local"
+      ],
+      "open_source": true
+    },
+    {
+      "company": "OpenAI",
+      "product": "gpt-oss (120b / 20b)",
+      "title": "OpenAI's gpt-oss open-weight reasoning models",
+      "summary": "OpenAI's open-weight models under Apache 2.0: gpt-oss-120b (near o4-mini, runs on one 80GB GPU) and gpt-oss-20b (near o3-mini, runs on a 16GB device). Weights on Hugging Face — not served via the OpenAI API.",
+      "date": "2025-08-05",
+      "type": "model",
+      "url": "https://openai.com/index/gpt-oss-model-card/",
+      "tags": [
+        "open weights (Apache-2.0)",
+        "reasoning",
+        "runs local"
+      ],
+      "open_source": true
+    },
+    {
+      "company": "Meta",
+      "product": "Llama 4",
+      "title": "Meta Llama 4 — natively multimodal, MoE",
+      "summary": "Meta's current open generation: Scout (17B active / 109B, a 10M-token context — the largest of any open model) and Maverick (17B active / 400B, 1M context). First Llama with Mixture-of-Experts + native multimodal training.",
+      "date": "2025-04-05",
+      "type": "model",
+      "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "tags": [
+        "open weights",
+        "MoE",
+        "multimodal",
+        "10M context"
+      ],
+      "open_source": true
     }
   ]
 }
