@@ -192,4 +192,30 @@ SEED: list[Release] = [
         tags=["open weights", "MoE", "multimodal", "10M context"],
         open_source=True,
     ),
+
+    # ---------- AI tools & apps we follow ----------
+    Release(
+        company="Perplexity", product="Comet",
+        title="Perplexity's Comet AI browser expands (iOS + Enterprise)",
+        summary="Perplexity's AI-native browser — summarize any page, ask follow-ups, and have it run autonomous in-browser tasks (booking, email, forms). Launched on iOS in March 2026 (hit #3 on the US App Store) and is now available for Enterprise with silent MDM deployment.",
+        date="2026-03-27", type=ReleaseType.FEATURE,
+        url="https://www.perplexity.ai/changelog/what-we-shipped--march-27-2026",
+        tags=["AI browser", "agentic", "search"],
+    ),
+    Release(
+        company="Cursor", product="Composer 2.5",
+        title="Cursor's Composer in-house coding model",
+        summary="Anysphere's frontier agentic coding model — ~4x faster than similar models, finishing most turns in under 30s. Composer 2 launched Mar 19; Composer 2.5 now powers Cursor's Bugbot (review time down to ~90s) and the Cursor 3.7 editor (Design Mode).",
+        date="2026-06-10", type=ReleaseType.MODEL,
+        url="https://cursor.com/changelog",
+        tags=["coding", "agentic", "in-house model", "fast"],
+    ),
+    Release(
+        company="Obsidian", product="Obsidian + AI plugins",
+        title="Obsidian's AI plugin ecosystem matures",
+        summary="Obsidian ships no built-in AI, but its open plugin ecosystem now rivals Notion AI: Smart Connections (semantic search + RAG chat), Copilot, Text Generator, and Ollama Chat (local models). Core 2026 updates added the Bases plugin and Siri/Shortcuts quick capture.",
+        date="2026-01-15", type=ReleaseType.FEATURE,
+        url="https://obsidian.md/plugins?search=ai",
+        tags=["notes", "plugins", "local LLM", "RAG"],
+    ),
 ]

@@ -1,8 +1,9 @@
 # 🛰️ AI Release Radar
 
-A structured, source-cited tracker of **AI model & API releases** from the big
-labs (Anthropic, OpenAI, Google, Microsoft, and more). Not another news blog —
-a *deduplicated database* of real releases you can filter and trust.
+A structured, source-cited tracker of **AI releases worth knowing** — from the
+big labs (Anthropic, OpenAI, Google, Microsoft, Meta…) to the AI tools & apps we
+actually use (Perplexity, Cursor…). Not another news blog — a *curated,
+deduplicated database* of real releases you can filter and trust.
 
 ## Why it's built as a pipeline (not just a page)
 
