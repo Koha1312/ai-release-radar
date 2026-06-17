@@ -29,6 +29,7 @@ class Release(BaseModel):
     url: str = Field(default="", description="Source link")
     tags: list[str] = Field(default_factory=list)
     open_source: bool = Field(default=False, description="True if open-weights / downloadable")
+    image: str = Field(default="", description="Optional per-release image URL; blank = use company logo")
 
     def dedup_key(self) -> str:
         """Stable identity of a release EVENT: company + product + type.

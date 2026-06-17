@@ -14,6 +14,13 @@ const COMPANY_COLORS = {
   "Meta": "#0668e1",
 };
 
+// Short monogram per company for the branded thumbnail tile.
+const COMPANY_CODES = {
+  "Anthropic": "A", "OpenAI": "O", "Google": "G", "Microsoft": "MS",
+  "Z.ai": "Z", "DeepSeek": "DS", "Moonshot AI": "Mo", "Meta": "M", "Hugging Face": "HF",
+};
+const monogram = (c) => COMPANY_CODES[c] || (c[0] || "?").toUpperCase();
+
 const state = { all: [], company: "All", type: "All", access: "All", q: "" };
 
 async function load() {
@@ -95,20 +102,27 @@ function render() {
 
   for (const r of items) {
     const color = COMPANY_COLORS[r.company] || "#7c5cff";
+    // Thumbnail: branded monogram tile, with an optional real image layered on top.
+    const img = r.image
+      ? `<img src="${esc(r.image)}" alt="${esc(r.company)}" loading="lazy" onerror="this.remove()">`
+      : "";
     const card = document.createElement("article");
     card.className = "card";
     card.innerHTML = `
-      <div class="card-top">
-        <span class="badge" style="background:${color}">${esc(r.company)}</span>
-        <span class="type-pill type-${esc(r.type)}">${esc(r.type)}</span>
-        ${r.open_source ? `<span class="type-pill os-pill">🔓 open</span>` : ""}
-        <span class="date">${esc(r.date)}</span>
-      </div>
-      <h3>${esc(r.product)} — ${esc(r.title)}</h3>
-      <p>${esc(r.summary)}</p>
-      <div class="tags">
-        ${(r.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}
-        ${r.url ? `<a class="source" href="${esc(r.url)}" target="_blank" rel="noopener">source ↗</a>` : ""}
+      <div class="thumb" style="--c:${color}"><span class="mono">${esc(monogram(r.company))}</span>${img}</div>
+      <div class="card-body">
+        <div class="card-top">
+          <span class="badge" style="background:${color}">${esc(r.company)}</span>
+          <span class="type-pill type-${esc(r.type)}">${esc(r.type)}</span>
+          ${r.open_source ? `<span class="type-pill os-pill">🔓 open</span>` : ""}
+          <span class="date">${esc(r.date)}</span>
+        </div>
+        <h3>${esc(r.product)} — ${esc(r.title)}</h3>
+        <p>${esc(r.summary)}</p>
+        <div class="tags">
+          ${(r.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}
+          ${r.url ? `<a class="source" href="${esc(r.url)}" target="_blank" rel="noopener">source ↗</a>` : ""}
+        </div>
       </div>`;
     feed.appendChild(card);
   }

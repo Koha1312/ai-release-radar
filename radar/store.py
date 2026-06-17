@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS releases (
     url        TEXT,
     tags       TEXT,
     open_source INTEGER NOT NULL DEFAULT 0,
+    image      TEXT DEFAULT '',
     created_at TEXT DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX IF NOT EXISTS idx_releases_date ON releases(date);
@@ -44,16 +45,17 @@ def connect() -> sqlite3.Connection:
 def upsert(conn: sqlite3.Connection, r: Release) -> None:
     conn.execute(
         """
-        INSERT INTO releases (dedup_key, company, product, title, summary, date, type, url, tags, open_source)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO releases (dedup_key, company, product, title, summary, date, type, url, tags, open_source, image)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(dedup_key) DO UPDATE SET
             company=excluded.company, product=excluded.product, title=excluded.title,
             summary=excluded.summary, date=excluded.date, type=excluded.type,
-            url=excluded.url, tags=excluded.tags, open_source=excluded.open_source
+            url=excluded.url, tags=excluded.tags, open_source=excluded.open_source,
+            image=excluded.image
         """,
         (
             r.dedup_key(), r.company, r.product, r.title, r.summary,
-            r.date, r.type.value, r.url, json.dumps(r.tags), int(r.open_source),
+            r.date, r.type.value, r.url, json.dumps(r.tags), int(r.open_source), r.image,
         ),
     )
     conn.commit()
@@ -68,7 +70,7 @@ def upsert_many(conn: sqlite3.Connection, releases: list[Release]) -> int:
 def load_all(conn: sqlite3.Connection) -> list[dict]:
     """All releases, newest first, as plain dicts ready for JSON."""
     rows = conn.execute(
-        "SELECT company, product, title, summary, date, type, url, tags, open_source "
+        "SELECT company, product, title, summary, date, type, url, tags, open_source, image "
         "FROM releases ORDER BY date DESC, id DESC"
     ).fetchall()
     out = []

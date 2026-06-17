@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17 19:01 UTC",
+  "generated_at": "2026-06-17 23:11 UTC",
   "count": 22,
   "companies": [
     "Anthropic",
@@ -30,7 +30,8 @@
         "retirement",
         "scheduled"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Z.ai",
@@ -47,7 +48,8 @@
         "MoE",
         "744B"
       ],
-      "open_source": true
+      "open_source": true,
+      "image": ""
     },
     {
       "company": "Moonshot AI",
@@ -63,7 +65,8 @@
         "1T MoE",
         "agentic"
       ],
-      "open_source": true
+      "open_source": true,
+      "image": ""
     },
     {
       "company": "OpenAI",
@@ -76,7 +79,8 @@
       "tags": [
         "retirement"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Anthropic",
@@ -91,7 +95,8 @@
         "legal",
         "connectors"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Anthropic",
@@ -106,7 +111,8 @@
         "agentic",
         "flagship"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Anthropic",
@@ -120,7 +126,8 @@
         "frontier",
         "suspended"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Anthropic",
@@ -135,7 +142,8 @@
         "long-horizon",
         "suspended"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "OpenAI",
@@ -149,7 +157,8 @@
         "flagship",
         "reasoning"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "OpenAI",
@@ -163,7 +172,8 @@
         "coding",
         "agentic"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Microsoft",
@@ -178,7 +188,8 @@
         "agents",
         "preview"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Microsoft",
@@ -193,7 +204,8 @@
         "coding",
         "Build 2026"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Microsoft",
@@ -208,7 +220,8 @@
         "routing",
         "Build 2026"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Google",
@@ -221,7 +234,8 @@
       "tags": [
         "reasoning"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Google",
@@ -235,7 +249,8 @@
         "agent",
         "app"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Google",
@@ -249,7 +264,8 @@
         "video",
         "multimodal"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Google",
@@ -264,7 +280,8 @@
         "GA",
         "enterprise"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "Microsoft",
@@ -279,7 +296,8 @@
         "agents",
         "governance"
       ],
-      "open_source": false
+      "open_source": false,
+      "image": ""
     },
     {
       "company": "DeepSeek",
@@ -296,7 +314,8 @@
         "cheap",
         "China"
       ],
-      "open_source": true
+      "open_source": true,
+      "image": ""
     },
     {
       "company": "Google",
@@ -312,7 +331,8 @@
         "256K",
         "runs local"
       ],
-      "open_source": true
+      "open_source": true,
+      "image": ""
     },
     {
       "company": "OpenAI",
@@ -327,7 +347,8 @@
         "reasoning",
         "runs local"
       ],
-      "open_source": true
+      "open_source": true,
+      "image": ""
     },
     {
       "company": "Meta",
@@ -343,7 +364,8 @@
         "multimodal",
         "10M context"
       ],
-      "open_source": true
+      "open_source": true,
+      "image": ""
     }
   ]
 }
