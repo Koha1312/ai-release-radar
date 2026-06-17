@@ -9,17 +9,21 @@ const COMPANY_COLORS = {
   "Microsoft": "#0078d4",
   "Hugging Face": "#ff9d00",
   "Z.ai": "#e0457b",
+  "DeepSeek": "#4d6bfe",
+  "Moonshot AI": "#16b1a6",
+  "Meta": "#0668e1",
 };
 
-const state = { all: [], company: "All", type: "All", q: "" };
+const state = { all: [], company: "All", type: "All", access: "All", q: "" };
 
 async function load() {
   try {
     const res = await fetch("releases.json", { cache: "no-store" });
     const data = await res.json();
     state.all = data.releases || [];
+    const openCount = state.all.filter((r) => r.open_source).length;
     document.getElementById("meta").textContent =
-      `${data.count} releases · ${data.companies.length} companies · updated ${data.generated_at}`;
+      `${data.count} releases · ${openCount} open-source · ${data.companies.length} companies · updated ${data.generated_at}`;
     buildFilters(data.companies, data.types);
     render();
   } catch (err) {
@@ -31,6 +35,26 @@ async function load() {
 function buildFilters(companies, types) {
   renderChips("company-filters", ["All", ...companies], "company");
   renderChips("type-filters", ["All", ...types], "type");
+  renderAccessChips();
+}
+
+// Access (open-source) filter — labels differ from values, so render it directly.
+function renderAccessChips() {
+  const el = document.getElementById("access-filters");
+  el.innerHTML = "";
+  const opts = [["All", "All"], ["open", "🔓 Open source"], ["proprietary", "🔒 Proprietary"]];
+  for (const [val, label] of opts) {
+    const chip = document.createElement("button");
+    chip.className = "chip" + (state.access === val ? " active" : "");
+    chip.textContent = label;
+    chip.onclick = () => {
+      state.access = val;
+      [...el.children].forEach((c) => c.classList.remove("active"));
+      chip.classList.add("active");
+      render();
+    };
+    el.appendChild(chip);
+  }
 }
 
 function renderChips(containerId, values, key) {
@@ -53,6 +77,8 @@ function renderChips(containerId, values, key) {
 function matches(r) {
   if (state.company !== "All" && r.company !== state.company) return false;
   if (state.type !== "All" && r.type !== state.type) return false;
+  if (state.access === "open" && !r.open_source) return false;
+  if (state.access === "proprietary" && r.open_source) return false;
   if (state.q) {
     const hay = `${r.company} ${r.product} ${r.title} ${r.summary} ${(r.tags || []).join(" ")}`.toLowerCase();
     if (!hay.includes(state.q)) return false;
@@ -75,6 +101,7 @@ function render() {
       <div class="card-top">
         <span class="badge" style="background:${color}">${esc(r.company)}</span>
         <span class="type-pill type-${esc(r.type)}">${esc(r.type)}</span>
+        ${r.open_source ? `<span class="type-pill os-pill">🔓 open</span>` : ""}
         <span class="date">${esc(r.date)}</span>
       </div>
       <h3>${esc(r.product)} — ${esc(r.title)}</h3>

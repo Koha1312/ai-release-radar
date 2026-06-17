@@ -99,6 +99,7 @@ main { max-width: 880px; margin: 0 auto; padding: 26px 20px 60px; }
 }
 .type-deprecation { color: #ff8f8f; border-color: rgba(255, 143, 143, 0.4); }
 .type-model { color: var(--accent-2); border-color: rgba(34, 211, 238, 0.4); }
+.os-pill { color: #5ee6a8; border-color: rgba(94, 230, 168, 0.45); background: rgba(94, 230, 168, 0.08); }
 .date { margin-left: auto; color: var(--muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
 
 .card h3 { margin: 2px 0 6px; font-size: 1.06rem; }
