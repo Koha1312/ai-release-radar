@@ -45,6 +45,7 @@ def _build_rss(releases: list[dict], generated_at: str) -> None:
         )
     rss = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<?xml-stylesheet type="text/xsl" href="rss.xsl"?>\n'
         '<rss version="2.0">\n  <channel>\n'
         "    <title>AI Release Radar</title>\n"
         f"    <link>{SITE_URL}</link>\n"
