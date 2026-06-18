@@ -4,8 +4,43 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 from . import store
+
+# A release is "official" when its source URL is the company's own domain
+# (a primary announcement) rather than a secondary news site (reported).
+_OFFICIAL_DOMAINS = {
+    "Anthropic": ["anthropic.com"],
+    "OpenAI": ["openai.com"],
+    "Google": ["google.com", "blog.google", "deepmind.google", "ai.google.dev", "googleblog.com"],
+    "Google DeepMind": ["deepmind.google", "blog.google", "google.com"],
+    "Microsoft": ["microsoft.com"],
+    "Meta": ["meta.com", "fb.com", "facebook.com"],
+    "Z.ai": ["z.ai", "zhipuai.cn", "bigmodel.cn"],
+    "DeepSeek": ["deepseek.com"],
+    "Moonshot AI": ["moonshot.ai", "moonshot.cn", "moonshotai.github.io", "github.com"],
+    "ElevenLabs": ["elevenlabs.io"],
+    "GitHub": ["github.com", "github.blog"],
+    "Apple": ["apple.com"],
+    "OpenClaw": ["getopenclaw.ai", "openclaw.ai", "github.com"],
+    "n8n": ["n8n.io"],
+    "Notion": ["notion.com", "notion.so"],
+    "Raycast": ["raycast.com"],
+    "Zed": ["zed.dev"],
+    "Canva": ["canva.com"],
+    "Figma": ["figma.com"],
+    "Brave": ["brave.com"],
+    "Perplexity": ["perplexity.ai"],
+    "Cursor": ["cursor.com", "cursor.sh"],
+    "Obsidian": ["obsidian.md"],
+    "xAI": ["x.ai"],
+}
+
+
+def _is_official(company: str, url: str) -> bool:
+    host = (urlparse(url).hostname or "").lower().removeprefix("www.")
+    return any(host == d or host.endswith("." + d) for d in _OFFICIAL_DOMAINS.get(company, []))
 
 SITE_DIR = Path(__file__).resolve().parent.parent / "site"
 SITE_JSON = SITE_DIR / "releases.json"
@@ -84,6 +119,8 @@ def load_existing(conn) -> int:
 def build() -> int:
     conn = store.connect()
     releases = store.load_all(conn)
+    for r in releases:
+        r["official"] = _is_official(r["company"], r.get("url", ""))
     companies = sorted({r["company"] for r in releases})
     types = sorted({r["type"] for r in releases})
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")

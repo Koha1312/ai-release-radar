@@ -167,6 +167,7 @@ function render() {
         <p>${esc(r.summary)}</p>
         <div class="tags">
           ${(r.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}
+          ${r.url ? `<span class="trust ${r.official ? "official" : "reported"}" title="${r.official ? "Primary source — the company's own announcement" : "Secondary source — reported by a news site"}">${r.official ? "✓ official" : "↗ reported"}</span>` : ""}
           ${r.url ? `<a class="source" href="${esc(r.url)}" target="_blank" rel="noopener">source ↗</a>` : ""}
         </div>
       </div>`;

@@ -5,6 +5,7 @@ to this, so the frontend never has to guess.
 """
 from __future__ import annotations
 
+import re
 from enum import Enum
 
 from pydantic import BaseModel, Field
@@ -36,8 +37,11 @@ class Release(BaseModel):
 
         Not the URL — several distinct releases are often announced in one
         article (so they'd share a URL), while the same release from different
-        sources has different URLs. (company, product, type) collapses re-ingests
-        of the same event without merging genuinely different ones. Cross-source
-        name-variant matching ("GPT-5.5" vs "GPT 5.5") is a future entity-resolution step.
+        sources has different URLs. (company, normalized-product, type) collapses
+        re-ingests of the same event without merging genuinely different ones.
+
+        Cross-source entity resolution: the product is normalized to alphanumerics
+        only, so "GLM-5.2", "GLM 5.2" and "glm5.2" all map to one release.
         """
-        return f"{self.company}|{self.product}|{self.type.value}".strip().lower()
+        product = re.sub(r"[^a-z0-9]+", "", self.product.lower())
+        return f"{self.company.strip().lower()}|{product}|{self.type.value}"
