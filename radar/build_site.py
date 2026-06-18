@@ -57,6 +57,30 @@ def _build_rss(releases: list[dict], generated_at: str) -> None:
     SITE_RSS.write_text(rss, encoding="utf-8")
 
 
+_PERSIST_KEYS = ("company", "product", "title", "summary", "date", "type", "url", "tags", "open_source", "image")
+
+
+def load_existing(conn) -> int:
+    """Upsert releases from a previously-built releases.json into the DB.
+
+    The DB is ephemeral in CI, but releases.json is committed — so loading it
+    back makes past auto-discovered releases persist across runs.
+    """
+    from .schema import Release  # local import avoids a cycle at module load
+
+    if not SITE_JSON.exists():
+        return 0
+    data = json.loads(SITE_JSON.read_text(encoding="utf-8"))
+    n = 0
+    for d in data.get("releases", []):
+        try:
+            store.upsert(conn, Release(**{k: d[k] for k in _PERSIST_KEYS if k in d}))
+            n += 1
+        except Exception:  # noqa: BLE001 — skip a malformed record, keep the rest
+            continue
+    return n
+
+
 def build() -> int:
     conn = store.connect()
     releases = store.load_all(conn)

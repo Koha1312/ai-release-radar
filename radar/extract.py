@@ -16,9 +16,13 @@ from .schema import Release
 
 _PROMPT = """You normalize tech-news items into a strict JSON schema for an AI-release tracker.
 
-Decide if this item is a concrete AI RELEASE worth tracking: a new model, API, feature,
-platform, research artifact, or a deprecation/retirement. Marketing, hiring, opinion,
-or event recaps with no concrete release => not a release.
+Decide if this item announces a concrete AI RELEASE BY THIS COMPANY worth tracking:
+a NAMED new model, API, developer feature, platform/tool, or a deprecation/retirement.
+
+Set is_release=FALSE for: customer/case studies ("how <someone> uses AI"), acquisitions,
+partnerships, funding, hiring, policy/safety/opinion essays, event recaps, and research
+write-ups with no named shipped artifact. The "product" must be the company's OWN named
+model/product — never a customer's name. When in doubt, choose false.
 
 Return ONLY JSON:
 {{"is_release": true/false,
@@ -37,13 +41,13 @@ Body: {summary}
 
 
 def extract_release(item: dict) -> Release | None:
-    raw = generate_json(_PROMPT.format(
-        company=item["company"], published=item.get("published", ""),
-        title=item["title"], summary=item.get("summary", ""),
-    ))
     try:
+        raw = generate_json(_PROMPT.format(
+            company=item["company"], published=item.get("published", ""),
+            title=item["title"], summary=item.get("summary", ""),
+        ))
         data = json.loads(raw)
-    except json.JSONDecodeError:
+    except Exception:  # noqa: BLE001 — network/LLM/JSON error: skip this item, keep going
         return None
     if not data.get("is_release"):
         return None

@@ -36,8 +36,19 @@ def cmd_build(_args) -> None:
 
 
 def cmd_refresh(args) -> None:
+    """Daily job: curated baseline + past discoveries + fresh RSS, then rebuild.
+
+    Order matters so nothing is ever lost: seed the 108 curated releases first,
+    re-load past auto-discoveries from releases.json, THEN ingest new RSS items.
+    Even if ingestion fails entirely, the site still rebuilds from the baseline.
+    """
+    conn = store.connect()
+    store.upsert_many(conn, seed_mod.all_seed())
+    kept = build_site.load_existing(conn)
+    print(f"Baseline ready: curated seed + {kept} existing releases.")
     cmd_ingest(args)
-    cmd_build(args)
+    n = build_site.build()
+    print(f"Refreshed: {n} releases total.")
 
 
 def main() -> None:

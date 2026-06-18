@@ -1,0 +1,53 @@
+name: Daily radar refresh
+
+# Runs every morning (and on-demand) to pull fresh releases and redeploy.
+on:
+  schedule:
+    - cron: "0 13 * * *"   # ~06:00 America/Los_Angeles
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit refreshed data + push gh-pages
+  models: read      # free GitHub Models access via GITHUB_TOKEN (no API key needed)
+
+concurrency:
+  group: radar-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Refresh data (RSS -> GitHub Models -> build)
+        env:
+          # Point the extractor at GitHub's free hosted models (no secret to set).
+          RADAR_LLM_BASE_URL: https://models.github.ai/inference
+          RADAR_LLM_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+          RADAR_LLM_MODEL: openai/gpt-4o-mini
+        run: uv run python -m radar.cli refresh
+
+      - name: Commit + deploy if changed
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/releases.json site/rss.xml
+          if git diff --cached --quiet; then
+            echo "No new releases today."
+          else
+            git commit -m "chore: daily radar refresh [skip ci]"
+            git push origin HEAD:master
+            git subtree split --prefix site -b _ghp
+            git push -f origin _ghp:gh-pages
+            echo "Refreshed and redeployed."
+          fi
