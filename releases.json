@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18 19:01 UTC",
-  "count": 108,
+  "generated_at": "2026-06-18 19:04 UTC",
+  "count": 109,
   "companies": [
     "Anthropic",
     "Apple",
@@ -45,6 +45,22 @@
       "tags": [
         "retirement",
         "scheduled"
+      ],
+      "open_source": false,
+      "image": ""
+    },
+    {
+      "company": "OpenAI",
+      "product": "GPT-5.5 Instant",
+      "title": "Improving health intelligence in ChatGPT",
+      "summary": "OpenAI announces GPT-5.5 Instant, which enhances ChatGPT’s health and wellness responses through improved reasoning and clearer communication.",
+      "date": "2026-06-18",
+      "type": "model",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "tags": [
+        "AI",
+        "health",
+        "ChatGPT"
       ],
       "open_source": false,
       "image": ""
