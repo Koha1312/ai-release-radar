@@ -14,7 +14,7 @@ from . import build_site, seed as seed_mod, store
 
 def cmd_seed(_args) -> None:
     conn = store.connect()
-    n = store.upsert_many(conn, seed_mod.SEED)
+    n = store.upsert_many(conn, seed_mod.all_seed())
     print(f"Seeded {n} curated releases.")
 
 

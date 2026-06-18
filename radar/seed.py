@@ -5,7 +5,13 @@ This gives the site real content out of the box. The live pipeline
 """
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 from .schema import Release, ReleaseType
+
+# Extra releases researched by the agent team land here (gitignored-friendly JSON).
+_EXTRA_PATH = Path(__file__).resolve().parent / "extra_releases.json"
 
 SEED: list[Release] = [
     Release(
@@ -317,3 +323,15 @@ SEED: list[Release] = [
         tags=["Apple Intelligence", "Siri", "on-device"],
     ),
 ]
+
+
+def all_seed() -> list[Release]:
+    """Curated SEED plus any agent-researched releases in extra_releases.json."""
+    items = list(SEED)
+    if _EXTRA_PATH.exists():
+        for d in json.loads(_EXTRA_PATH.read_text(encoding="utf-8")):
+            try:
+                items.append(Release(**d))
+            except Exception:  # noqa: BLE001 — skip any malformed record, keep the rest
+                continue
+    return items

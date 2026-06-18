@@ -5,7 +5,7 @@
     <title>AI Release Radar</title>
     <link>https://koha1312.github.io/ai-release-radar/</link>
     <description>Every AI release worth knowing — from the big labs to the tools we use.</description>
-    <lastBuildDate>Thu, 18 Jun 2026 00:08:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 18:21:05 +0000</lastBuildDate>
     <item>
       <title>GPT-4.5 — GPT-4.5 sunsetting June 27</title>
       <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes</link>
@@ -103,12 +103,28 @@
       <description>[Anthropic] A Mythos-class model with a 1M-token context, 128k max output, and always-on adaptive thinking — made generally available June 9, then suspended June 12 under a US export-control directive.</description>
     </item>
     <item>
+      <title>AFM 3 (Apple Foundation Models 3rd Generation) — Apple Launches AFM 3: A Family of Five On-Device and Cloud AI Models</title>
+      <link>https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models</link>
+      <guid isPermaLink="false">Apple|AFM 3 (Apple Foundation Models 3rd Generation)|model</guid>
+      <category>Apple</category>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Apple] Announced at WWDC26 on June 8, 2026, Apple&apos;s third-generation foundation model family includes AFM 3 Core (3B), AFM 3 Core Advanced (20B sparse on-device), AFM 3 Cloud, AFM 3 Cloud (Image), and AFM 3 Cloud Pro — the latter running on NVIDIA GPUs in Google Cloud and refined with Gemini outputs. The family adds multimodal image input, agentic tool use, and a zero-cost developer tier for small app builders.</description>
+    </item>
+    <item>
       <title>Eleven v3 — ElevenLabs&apos; Eleven v3 expressive voice model</title>
       <link>https://elevenlabs.io/docs/changelog/2026/6/8</link>
       <guid isPermaLink="false">ElevenLabs|Eleven v3|model</guid>
       <category>ElevenLabs</category>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
       <description>[ElevenLabs] Eleven v3 is now the default text-to-speech model — lifelike speech with high emotional range and inline audio-direction tags like [whispers] or [surprised]. ElevenLabs has expanded into music, transcription, and conversational voice agents.</description>
+    </item>
+    <item>
+      <title>OpenClaw 2026.6.x (June beta series) — June 2026 beta series adds MCP coercion, parallel web search, and tighter security boundaries</title>
+      <link>https://github.com/openclaw/openclaw/releases/tag/v2026.6.1</link>
+      <guid isPermaLink="false">OpenClaw|OpenClaw 2026.6.x (June beta series)|feature</guid>
+      <category>OpenClaw</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenClaw] The June 2026 beta releases (2026.6.5–2026.6.8) added MCP tool result coercion, parallel web search, SQLite-backed auth profile migration, richer Telegram/WhatsApp delivery with structured text support, and hardened security approval paths across transcript, sandbox, MCP, browser, and exec flows.</description>
     </item>
     <item>
       <title>GPT-5.5 — OpenAI introduces GPT-5.5</title>
@@ -149,6 +165,14 @@
       <category>Microsoft</category>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
       <description>[Microsoft] A central model-routing layer that picks the right model per task so teams aren&apos;t locked in — a core theme of Build 2026.</description>
+    </item>
+    <item>
+      <title>Music v2 — ElevenLabs launches Music v2 with mid-track genre switching and inpainting</title>
+      <link>https://elevenlabs.io/blog/introducing-music-v2</link>
+      <guid isPermaLink="false">ElevenLabs|Music v2|model</guid>
+      <category>ElevenLabs</category>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <description>[ElevenLabs] ElevenLabs released Music v2, a major upgrade to its AI music model that can switch genres mid-track (e.g., opera to heavy metal), sustain fast rap, and embed non-musical sound effects within generated audio. It adds an Inpainting API for editing specific track sections and cut Music API pricing by up to 50%.</description>
     </item>
     <item>
       <title>Figma AI agent — Figma ships a native AI design agent</title>
@@ -215,6 +239,22 @@
       <description>[Brave] Brave&apos;s privacy-first, browser-native AI assistant added agentic browsing (May 2026) — automating tasks across your tabs without storing page content on external servers — plus an Automatic mode that picks the best model per task.</description>
     </item>
     <item>
+      <title>Grok 4.3 — xAI releases Grok 4.3 with 1M token context and lowest hallucination rate</title>
+      <link>https://artificialanalysis.ai/articles/xai-launches-grok-4-3-with-improved-agentic-performance-and-lower-pricing</link>
+      <guid isPermaLink="false">xAI|Grok 4.3|model</guid>
+      <category>xAI</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <description>[xAI] xAI launched Grok 4.3, featuring a 1-million-token context window, configurable reasoning effort levels, and the lowest hallucination rate among frontier models at the time. The model was released on the xAI API and made available on Amazon Bedrock for enterprise customers.</description>
+    </item>
+    <item>
+      <title>Microsoft Agent 365 Trigger — n8n Agents Can Now Appear as Native Members Inside Microsoft 365 Apps</title>
+      <link>https://blog.n8n.io/n8n-expands-whats-possible-in-enterprise-automation-with-microsoft-agent-365/</link>
+      <guid isPermaLink="false">n8n|Microsoft Agent 365 Trigger|feature</guid>
+      <category>n8n</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <description>[n8n] n8n shipped the Microsoft Agent 365 Trigger node on May 5, 2026 — four days after Microsoft Agent 365 went GA — enabling n8n workflows to act as the backend for Agent 365 agents that surface natively in Teams, Outlook, and SharePoint, handling OAuth, message deserialization, and response formatting out of the box.</description>
+    </item>
+    <item>
       <title>Microsoft Agent 365 — Microsoft Agent 365 reaches general availability</title>
       <link>https://www.tomsguide.com/news/live/microsoft-build-2026</link>
       <guid isPermaLink="false">Microsoft|Microsoft Agent 365|platform</guid>
@@ -239,12 +279,44 @@
       <description>[DeepSeek] A preview of DeepSeek&apos;s new flagship: V4-Pro (1.6T params, deployable on a single B200 node) and the smaller V4-Flash (284B), both MIT-licensed. Rivals GPT-5.5 / Claude Opus on agentic benchmarks at ~$3.48 per million output tokens.</description>
     </item>
     <item>
+      <title>Kimi K2.6 — Kimi K2.6: Long-Horizon Coding with 300-Agent Swarms and 256K Context</title>
+      <link>https://www.marktechpost.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-with-long-horizon-coding-agent-swarm-scaling-to-300-sub-agents-and-4000-coordinated-steps/</link>
+      <guid isPermaLink="false">Moonshot AI|Kimi K2.6|model</guid>
+      <category>Moonshot AI</category>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <description>[Moonshot AI] Moonshot AI released Kimi K2.6, an open-weight 1T MoE model with a 262K context window scaling Agent Swarm to 300 sub-agents and 4,000 coordinated steps, achieving top scores on SWE-Bench Pro ahead of GPT-5.4 and Claude Opus 4.6.</description>
+    </item>
+    <item>
       <title>Canva AI 2.0 — Canva AI 2.0 + the Canva Design Model</title>
       <link>https://www.canva.com/newsroom/</link>
       <guid isPermaLink="false">Canva|Canva AI 2.0|model</guid>
       <category>Canva</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
       <description>[Canva] Announced at Canva Create (Apr 15, 2026): a conversational design interface where you describe a design in text/voice and get fully editable objects (not flat images), powered by the world&apos;s first design-specific foundation model — plus persistent memory and an AI-supercharged Magic Switch.</description>
+    </item>
+    <item>
+      <title>Figma Dev Mode MCP Server — Figma Dev Mode MCP Server Brings Design Context to AI Coding Tools</title>
+      <link>https://www.figma.com/blog/introducing-figma-mcp-server/</link>
+      <guid isPermaLink="false">Figma|Figma Dev Mode MCP Server|api</guid>
+      <category>Figma</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <description>[Figma] Figma launched a beta Model Context Protocol (MCP) server for Dev Mode, allowing AI coding tools like Claude Code, Cursor, Copilot, and Codex to access structured Figma design context — components, tokens, and layout — directly from the IDE to generate design-accurate code.</description>
+    </item>
+    <item>
+      <title>Muse Spark — Meta unveils Muse Spark, first model from Meta Superintelligence Labs</title>
+      <link>https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/</link>
+      <guid isPermaLink="false">Meta|Muse Spark|model</guid>
+      <category>Meta</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <description>[Meta] Muse Spark is a natively multimodal reasoning model with tool-use, visual chain-of-thought, and multi-agent orchestration, built by Meta Superintelligence Labs from the ground up and powering the updated Meta AI assistant across WhatsApp, Instagram, and Facebook.</description>
+    </item>
+    <item>
+      <title>GLM-5.1 — Z.ai Releases GLM-5.1 for Long-Horizon Agentic Tasks</title>
+      <link>https://docs.z.ai/guides/llm/glm-5.1</link>
+      <guid isPermaLink="false">Z.ai|GLM-5.1|model</guid>
+      <category>Z.ai</category>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <description>[Z.ai] Z.ai launched GLM-5.1, an agentic model capable of running independently for up to 8 hours in a single task run, covering the full loop from planning and execution to iterative refinement and final delivery. It was specifically designed for complex, long-horizon engineering workflows.</description>
     </item>
     <item>
       <title>Gemma 4 — Google releases Gemma 4 open-weight models</title>
@@ -263,12 +335,92 @@
       <description>[Perplexity] Perplexity&apos;s AI-native browser — summarize any page, ask follow-ups, and have it run autonomous in-browser tasks (booking, email, forms). Launched on iOS in March 2026 (hit #3 on the US App Store) and is now available for Enterprise with silent MDM deployment.</description>
     </item>
     <item>
+      <title>Zeta2 — Zeta2: rebuilt edit prediction model with 30% higher acceptance rate</title>
+      <link>https://zed.dev/blog/zeta2</link>
+      <guid isPermaLink="false">Zed|Zeta2|model</guid>
+      <category>Zed</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[Zed] Zed released Zeta2, a fully retrained open-weight successor to Zeta trained on ~100,000 opt-in user examples from open-source repos. Its acceptance rate is 30% better than Zeta1 and it became the default edit prediction model for all Zed users.</description>
+    </item>
+    <item>
+      <title>OpenClaw v2026.3.22 — Major release: ClawHub marketplace, GPT-5.4 default, 48-hour agent timeout</title>
+      <link>https://github.com/openclaw/openclaw/releases</link>
+      <guid isPermaLink="false">OpenClaw|OpenClaw v2026.3.22|feature</guid>
+      <category>OpenClaw</category>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[OpenClaw] OpenClaw v2026.3.22 shipped on March 23, 2026 with 45+ new features including the ClawHub Skills Marketplace (4,000+ community skills), a new Plugin SDK, pluggable sandbox backends (SSH/OpenShell), GPT-5.4 as the default model, and extended agent timeout from 10 minutes to 48 hours.</description>
+    </item>
+    <item>
+      <title>Composer 2 — Composer 2: Frontier-Level Coding Model at Low Cost</title>
+      <link>https://cursor.com/blog/composer-2</link>
+      <guid isPermaLink="false">Cursor|Composer 2|model</guid>
+      <category>Cursor</category>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[Cursor] Cursor launched Composer 2 on March 19, 2026, delivering large benchmark improvements on Terminal-Bench 2.0 and SWE-bench Multilingual, priced aggressively at $0.50/M input and $2.50/M output tokens.</description>
+    </item>
+    <item>
+      <title>NemoClaw by NVIDIA — NVIDIA launches NemoClaw — enterprise-grade security layer for OpenClaw</title>
+      <link>https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw</link>
+      <guid isPermaLink="false">OpenClaw|NemoClaw by NVIDIA|platform</guid>
+      <category>OpenClaw</category>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <description>[OpenClaw] NVIDIA announced NemoClaw at GTC 2026 (March 16, 2026), an enterprise distribution of OpenClaw that adds privacy controls, advanced security scanning via SkillSpector, and one-command install of the NVIDIA OpenShell runtime for organizations running autonomous AI agents on their own hardware.</description>
+    </item>
+    <item>
+      <title>Obsidian CLI 1.12 — Official Command-Line Interface for Obsidian Desktop</title>
+      <link>https://obsidian.md/changelog/2026-02-27-desktop-v1.12.4/</link>
+      <guid isPermaLink="false">Obsidian|Obsidian CLI 1.12|feature</guid>
+      <category>Obsidian</category>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Obsidian] Obsidian 1.12 introduced a first-party CLI that lets users control Obsidian from any terminal for scripting, automation, and integration with external tools; early access launched February 10, 2026 and the public release shipped February 27, 2026.</description>
+    </item>
+    <item>
+      <title>Perplexity Computer — Perplexity Launches &apos;Computer&apos; Multi-Model AI Agent</title>
+      <link>https://venturebeat.com/technology/perplexity-launches-computer-ai-agent-that-coordinates-19-models-priced-at</link>
+      <guid isPermaLink="false">Perplexity|Perplexity Computer|platform</guid>
+      <category>Perplexity</category>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Perplexity] Launched February 25, 2026, Perplexity Computer is a cloud-based agentic system that orchestrates 19 AI models (Claude, Gemini, GPT-4, Grok, and others) to autonomously complete complex multi-step tasks. It is available exclusively to Perplexity Max subscribers.</description>
+    </item>
+    <item>
+      <title>Notion Custom Agents (3.3) — Notion 3.3: Custom Agents — Scheduled &amp; Triggered Automation</title>
+      <link>https://www.notion.com/releases/2026-02-24</link>
+      <guid isPermaLink="false">Notion|Notion Custom Agents (3.3)|feature</guid>
+      <category>Notion</category>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Notion] Notion 3.3 introduced Custom Agents that run autonomously on a schedule or event trigger, letting teams build and share specialized agents for task triage, daily standups, inbox management, and Q&amp;A — integrated with Slack, Figma, and other tools.</description>
+    </item>
+    <item>
+      <title>Brave Search LLM Context API — Brave Launches LLM Context API for AI App Developers</title>
+      <link>https://brave.com/blog/most-powerful-search-api-for-ai/</link>
+      <guid isPermaLink="false">Brave|Brave Search LLM Context API|api</guid>
+      <category>Brave</category>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Brave] Brave launched a revamped Search API on February 12, 2026, featuring the new LLM Context API that delivers web content in a compact, chunk-ranked format optimized for LLM consumption. The API already powers over 22 million AI answers per day internally and is priced at $5 per 1,000 requests alongside other search types.</description>
+    </item>
+    <item>
+      <title>GLM-5 — Z.ai Launches GLM-5: 744B MoE Frontier Model Trained on Huawei Ascend</title>
+      <link>https://medium.com/@mlabonne/glm-5-chinas-first-public-ai-company-ships-a-frontier-model-a068cecb74e3</link>
+      <guid isPermaLink="false">Z.ai|GLM-5|model</guid>
+      <category>Z.ai</category>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <description>[Z.ai] Z.ai released GLM-5, a 744B-parameter Mixture-of-Experts open-weight model with 40B active parameters per token, a 200K-token context window, and MIT licensing. Trained entirely on Huawei Ascend chips, it reached #1 among open-weight models on Artificial Analysis and scored 77.8% on SWE-bench Verified.</description>
+    </item>
+    <item>
       <title>OpenClaw — OpenClaw — viral open-source local AI agent</title>
       <link>https://www.kdnuggets.com/openclaw-explained-the-free-ai-agent-tool-going-viral-already-in-2026</link>
       <guid isPermaLink="false">OpenClaw|OpenClaw|platform</guid>
       <category>OpenClaw</category>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <description>[OpenClaw] A free, open-source AI agent that runs locally and connects any LLM to your machine — reading/writing files, running shell commands, browsing, email, and messaging (WhatsApp/Telegram/Slack). 100+ skills, bring-your-own-API-key; passed 100k GitHub stars in Feb 2026 (formerly Clawdbot/Moltbot).</description>
+    </item>
+    <item>
+      <title>Kimi K2.5 — Kimi K2.5: Open-Source Native Multimodal Agentic Model with 100-Agent Swarm</title>
+      <link>https://techcrunch.com/2026/01/27/chinas-moonshot-releases-a-new-open-source-model-kimi-k2-5-and-a-coding-agent/</link>
+      <guid isPermaLink="false">Moonshot AI|Kimi K2.5|model</guid>
+      <category>Moonshot AI</category>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <description>[Moonshot AI] Moonshot AI released Kimi K2.5 as an open-source 1T-parameter native multimodal model built on continual pretraining over ~15T visual and text tokens, featuring an Agent Swarm coordinating up to 100 specialized sub-agents and strong video/coding benchmarks.</description>
     </item>
     <item>
       <title>n8n AI Agents — n8n becomes an AI agent orchestration platform</title>
@@ -287,6 +439,214 @@
       <description>[Obsidian] Obsidian ships no built-in AI, but its open plugin ecosystem now rivals Notion AI: Smart Connections (semantic search + RAG chat), Copilot, Text Generator, and Ollama Chat (local models). Core 2026 updates added the Bases plugin and Siri/Shortcuts quick capture.</description>
     </item>
     <item>
+      <title>GLM-Image — Z.ai Releases GLM-Image: Open-Source Hybrid Image Generation Model</title>
+      <link>https://gigazine.net/gsc_news/en/20260115-z-ai-glm-image/</link>
+      <guid isPermaLink="false">Z.ai|GLM-Image|model</guid>
+      <category>Z.ai</category>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+      <description>[Z.ai] Z.ai launched GLM-Image, a 16B open-source image generation model using a hybrid autoregressive-plus-diffusion architecture trained on domestic chips. It achieved state-of-the-art text rendering accuracy (91.16% on CVTG-2K), outperforming FLUX.1 Dev and GPT Image 1.</description>
+    </item>
+    <item>
+      <title>GLM-4.7 — Z.ai Open-Sources GLM-4.7 Coding-Focused Foundation Model</title>
+      <link>https://www.businesswire.com/news/home/20251223393714/en/Z.ai-Open-Sources-GLM-4.7-a-New-Generation-Large-Language-Model-Built-for-Real-Development-Workflows</link>
+      <guid isPermaLink="false">Z.ai|GLM-4.7|model</guid>
+      <category>Z.ai</category>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <description>[Z.ai] Z.ai released GLM-4.7 as an open-source 358B-parameter large language model under the MIT license, targeting real-world development workflows with strong coding, tool use, and long-context capabilities. It ranked first among open-source models on Code Arena with over one million participants.</description>
+    </item>
+    <item>
+      <title>Figma AI Image Editing — Figma Launches AI-Powered Object Removal and Image Expansion Tools</title>
+      <link>https://www.figma.com/blog/introducing-three-new-tools-for-precise-image-editing-in-figma/</link>
+      <guid isPermaLink="false">Figma|Figma AI Image Editing|feature</guid>
+      <category>Figma</category>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+      <description>[Figma] Figma introduced three AI image-editing tools directly in the design canvas: Erase Object, Isolate Object, and Expand Image. These eliminate the need to export to Photoshop or Canva for common image edits and are available to full-seat users on paid plans with AI enabled.</description>
+    </item>
+    <item>
+      <title>n8n 2.0 — n8n 2.0: Enterprise-Hardened Platform with Secure-by-Default Execution</title>
+      <link>https://blog.n8n.io/introducing-n8n-2-0/</link>
+      <guid isPermaLink="false">n8n|n8n 2.0|platform</guid>
+      <category>n8n</category>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      <description>[n8n] n8n 2.0 is a major &apos;hardening&apos; release that enables task runners by default (isolating Code node executions), blocks environment variable access from Code nodes, ships a high-performance SQLite pooling driver, and removes legacy options that caused edge-case bugs. It marks the first breaking-change major release since 1.0 in July 2023.</description>
+    </item>
+    <item>
+      <title>Leo Skills — Brave Announces Leo Skills: Custom AI Prompt Shortcuts</title>
+      <link>https://brave.com/blog/leo-skills/</link>
+      <guid isPermaLink="false">Brave|Leo Skills|feature</guid>
+      <category>Brave</category>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+      <description>[Brave] On December 3, 2025, Brave introduced Skills for its built-in Leo AI assistant, allowing users to create and trigger custom prompt-based shortcuts via keyboard shortcuts. The feature is available to all Leo users on desktop and Android running Brave 1.85 and higher.</description>
+    </item>
+    <item>
+      <title>DeepSeek-V3.2 — DeepSeek-V3.2: Agentic Open-Source LLM with 160K Context</title>
+      <link>https://api-docs.deepseek.com/news/news251201</link>
+      <guid isPermaLink="false">DeepSeek|DeepSeek-V3.2|model</guid>
+      <category>DeepSeek</category>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <description>[DeepSeek] Released December 1, 2025, DeepSeek-V3.2 is an open-weight model with a 160K-token context window, scalable RL training, native tool-use thinking, and support for 1,800+ agentic environments. A companion variant, V3.2-Speciale, was released simultaneously for API-only access through December 15.</description>
+    </item>
+    <item>
+      <title>Raycast for Windows – Public Beta — Raycast launches public beta on Windows with native search and extensions</title>
+      <link>https://www.raycast.com/blog/raycast-for-windows</link>
+      <guid isPermaLink="false">Raycast|Raycast for Windows – Public Beta|platform</guid>
+      <category>Raycast</category>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <description>[Raycast] Raycast released a native Windows public beta on November 20, 2025, bringing its launcher, Clipboard History, Snippets, Quicklinks, file search, and extension support to Windows for the first time, with Quick AI free during the beta period.</description>
+    </item>
+    <item>
+      <title>SAM 3 (Segment Anything Model 3) — Meta launches SAM 3 with text-prompt object segmentation and video tracking</title>
+      <link>https://about.fb.com/news/2025/11/new-sam-models-detect-objects-create-3d-reconstructions/</link>
+      <guid isPermaLink="false">Meta|SAM 3 (Segment Anything Model 3)|model</guid>
+      <category>Meta</category>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <description>[Meta] SAM 3 extends the Segment Anything family with text, exemplar, and click prompts that can segment and track objects across video frames, releasing alongside 3D reconstruction models and an open-source inference codebase.</description>
+    </item>
+    <item>
+      <title>Notion 3.1 — Notion 3.1: Meetings Tab, Map View &amp; Expanded AI Connectors</title>
+      <link>https://www.notion.com/releases/2025-11-17</link>
+      <guid isPermaLink="false">Notion|Notion 3.1|feature</guid>
+      <category>Notion</category>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <description>[Notion] Notion 3.1 added a dedicated Meetings sidebar section for AI Meeting Notes, a Map View database type, and expanded AI Connectors including Slack private channels and Google Calendar, enabling agents to query schedules and summarize discussions.</description>
+    </item>
+    <item>
+      <title>Scribe v2 Realtime — ElevenLabs releases Scribe v2 Realtime with 150ms ultra-low latency</title>
+      <link>https://elevenlabs.io/blog/introducing-scribe-v2-realtime</link>
+      <guid isPermaLink="false">ElevenLabs|Scribe v2 Realtime|model</guid>
+      <category>ElevenLabs</category>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <description>[ElevenLabs] ElevenLabs launched Scribe v2 Realtime, a real-time speech-to-text model achieving ~150ms latency with 93.5% accuracy on the FLEURS benchmark across 30 languages. It features &apos;negative latency&apos; prediction and is designed for live voice agents, meeting assistants, and real-time captioning.</description>
+    </item>
+    <item>
+      <title>Affinity (free forever) — Canva Makes Professional Affinity Design Suite Free Forever</title>
+      <link>https://www.canva.com/newsroom/news/all-new-affinity/</link>
+      <guid isPermaLink="false">Canva|Affinity (free forever)|platform</guid>
+      <category>Canva</category>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <description>[Canva] Canva merged Affinity Photo, Designer, and Publisher into a unified all-in-one app and made it permanently free with no stripped-down features, directly challenging Adobe&apos;s subscription model. The desktop app works offline and includes future updates free of charge; AI features like Generative Fill require a paid Canva subscription.</description>
+    </item>
+    <item>
+      <title>Creative Operating System — Canva Launches Creative Operating System Unifying Design, AI, and Publishing</title>
+      <link>https://www.canva.com/newsroom/news/creative-operating-system/</link>
+      <guid isPermaLink="false">Canva|Creative Operating System|platform</guid>
+      <category>Canva</category>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <description>[Canva] Canva introduced its Creative Operating System on October 30, 2025 — a fully connected AI-powered platform integrating the Visual Suite, Canva AI, and a platform layer for brand systems and marketing (Canva Grow). It also included Video 2.0, Email Design, and made the professional Affinity suite free forever as part of the rollout.</description>
+    </item>
+    <item>
+      <title>Canva Design Model — Canva Launches Proprietary AI Design Model Understanding Layers and Layout</title>
+      <link>https://techcrunch.com/2025/10/30/canva-launches-its-own-design-model-adds-new-ai-features-to-the-platform/</link>
+      <guid isPermaLink="false">Canva|Canva Design Model|model</guid>
+      <category>Canva</category>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <description>[Canva] Canva unveiled its own first-party AI model trained on design elements that generates fully editable, layered designs (not flat images), understanding layout hierarchy, branding logic, and format context. It was launched as the core of the new Creative Operating System, marking Canva&apos;s shift from third-party AI to proprietary model infrastructure.</description>
+    </item>
+    <item>
+      <title>Cursor 2.0 / Composer (v1) — Cursor 2.0 Launches Proprietary Composer Model and Multi-Agent Interface</title>
+      <link>https://cursor.com/blog/2-0</link>
+      <guid isPermaLink="false">Cursor|Cursor 2.0 / Composer (v1)|model</guid>
+      <category>Cursor</category>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <description>[Cursor] Cursor 2.0 introduced Composer, the company&apos;s first proprietary coding model (4x faster than comparable-intelligence models), alongside a redesigned multi-agent interface supporting up to 8 parallel AI agents each with isolated git worktrees.</description>
+    </item>
+    <item>
+      <title>Zed for Windows — Zed officially launches on Windows</title>
+      <link>https://zed.dev/blog/zed-for-windows-is-here</link>
+      <guid isPermaLink="false">Zed|Zed for Windows|platform</guid>
+      <category>Zed</category>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <description>[Zed] Zed shipped stable Windows support after a September 2025 public beta, making it available on all three major platforms (macOS, Linux, Windows) with full WSL integration and weekly update cadence.</description>
+    </item>
+    <item>
+      <title>n8n AI Workflow Builder — AI Workflow Builder (Beta) Turns Prompts into Working Automations</title>
+      <link>https://community.n8n.io/t/introducing-ai-workflow-builder-beta/204919</link>
+      <guid isPermaLink="false">n8n|n8n AI Workflow Builder|feature</guid>
+      <category>n8n</category>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <description>[n8n] n8n launched an AI Workflow Builder in beta that generates draft workflows from natural language prompts, automatically adding, configuring, and connecting nodes. Initially available to n8n Cloud users on Trial, Starter, and Pro plans with 20–150 monthly credits.</description>
+    </item>
+    <item>
+      <title>Obsidian 1.10.0 — Bases API, Group By, List View, and Maps Plugin</title>
+      <link>https://obsidian.md/changelog/2025-10-01-desktop-v1.10.0/</link>
+      <guid isPermaLink="false">Obsidian|Obsidian 1.10.0|feature</guid>
+      <category>Obsidian</category>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <description>[Obsidian] Obsidian 1.10.0 shipped the initial Bases API for plugin developers, added Group By, table summaries, and a new List view to Bases, and introduced an official Maps plugin letting users visualize base entries geographically.</description>
+    </item>
+    <item>
+      <title>Ray-Ban Meta Display — Meta launches Ray-Ban Display AI glasses with full-color HUD and neural wristband</title>
+      <link>https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/</link>
+      <guid isPermaLink="false">Meta|Ray-Ban Meta Display|platform</guid>
+      <category>Meta</category>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <description>[Meta] Ray-Ban Meta Display adds a full-color heads-up display and an EMG neural wristband for gesture control, bringing live AI visual answers, real-time translation captions, and private message overlays to the glasses form factor, starting at $799.</description>
+    </item>
+    <item>
+      <title>Ask Brave — Brave Launches Ask Brave: Unified AI Search and Chat Interface</title>
+      <link>https://brave.com/blog/ask-brave/</link>
+      <guid isPermaLink="false">Brave|Ask Brave|feature</guid>
+      <category>Brave</category>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+      <description>[Brave] Brave launched Ask Brave on September 29, 2025, combining traditional web search with AI chat into a single interface available free on any browser or platform. It integrates Brave Search results with AI-generated answers without requiring account creation or payment.</description>
+    </item>
+    <item>
+      <title>GitHub Copilot Coding Agent — GitHub Copilot Coding Agent becomes generally available</title>
+      <link>https://github.blog/changelog/2025-09-25-copilot-coding-agent-is-now-generally-available/</link>
+      <guid isPermaLink="false">GitHub|GitHub Copilot Coding Agent|feature</guid>
+      <category>GitHub</category>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <description>[GitHub] GitHub&apos;s autonomous coding agent — which can be assigned tasks from GitHub issues and opens pull requests independently — reached general availability on September 25, 2025 for all paid Copilot subscribers after launching in public preview at Microsoft Build in May 2025.</description>
+    </item>
+    <item>
+      <title>n8n Data Tables — Native Data Storage Lands in n8n with Data Tables (Beta)</title>
+      <link>https://community.n8n.io/t/data-tables-are-here/192256</link>
+      <guid isPermaLink="false">n8n|n8n Data Tables|feature</guid>
+      <category>n8n</category>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <description>[n8n] n8n v1.113 introduced built-in data tables (beta), allowing users to store and query structured data — strings, numbers, datetimes — directly inside the platform without external databases. Available on all plans, it supports insert, update, delete, and filter operations.</description>
+    </item>
+    <item>
+      <title>Notion 3.0 Agents — Notion 3.0 Launches Autonomous AI Agents</title>
+      <link>https://www.notion.com/releases/2025-09-18</link>
+      <guid isPermaLink="false">Notion|Notion 3.0 Agents|feature</guid>
+      <category>Notion</category>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <description>[Notion] Notion rebuilt its AI from the ground up as autonomous Agents capable of up to 20 minutes of continuous, multi-step work across hundreds of pages — creating and updating pages, databases, and running research or analysis tasks without manual prompting.</description>
+    </item>
+    <item>
+      <title>Agent Client Protocol (ACP) — Zed introduces Agent Client Protocol — an open standard for AI coding agents</title>
+      <link>https://zed.dev/acp</link>
+      <guid isPermaLink="false">Zed|Agent Client Protocol (ACP)|api</guid>
+      <category>Zed</category>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <description>[Zed] Zed launched ACP, an open JSON-RPC 2.0 protocol that lets any AI coding agent (Claude Code, Codex CLI, Gemini CLI, GitHub Copilot CLI, etc.) integrate natively with any compatible editor. JetBrains co-launched an ACP Agent Registry alongside Zed.</description>
+    </item>
+    <item>
+      <title>Grok 2.5 — xAI open-sources Grok 2.5 model weights on Hugging Face</title>
+      <link>https://betanews.com/2025/08/24/xai-makes-grok-2-5-open-source-and-plans-the-same-for-grok-3/</link>
+      <guid isPermaLink="false">xAI|Grok 2.5|model</guid>
+      <category>xAI</category>
+      <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
+      <description>[xAI] xAI released the weights of Grok 2.5 (~500 GB, 42 files) on Hugging Face under a custom source-available license. The release prohibits using the weights to train competing models, but marks xAI&apos;s first substantive open-weight release since Grok-1 in March 2024.</description>
+    </item>
+    <item>
+      <title>Brave Search AI Grounding API — Brave Launches AI Grounding API to Reduce Hallucinations</title>
+      <link>https://brave.com/blog/ai-grounding/</link>
+      <guid isPermaLink="false">Brave|Brave Search AI Grounding API|api</guid>
+      <category>Brave</category>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <description>[Brave] On August 5, 2025, Brave launched the AI Grounding API for the Brave Search platform, anchoring LLM responses to verifiable web sources to reduce hallucinations. It achieved state-of-the-art performance on the SimpleQA benchmark with an F1-score of 94.1%, with plans starting at a free tier.</description>
+    </item>
+    <item>
+      <title>Eleven Music — ElevenLabs launches Eleven Music, a commercially licensed AI music generator</title>
+      <link>https://elevenlabs.io/blog/eleven-music-is-here</link>
+      <guid isPermaLink="false">ElevenLabs|Eleven Music|platform</guid>
+      <category>ElevenLabs</category>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <description>[ElevenLabs] ElevenLabs launched Eleven Music, an AI music generation platform built with licensed data from major labels, publishers, and artists — cleared for commercial use in film, TV, podcasts, ads, and gaming. Users can generate studio-quality tracks from natural language prompts, controlling genre, style, and vocals.</description>
+    </item>
+    <item>
       <title>gpt-oss (120b / 20b) — OpenAI&apos;s gpt-oss open-weight reasoning models</title>
       <link>https://openai.com/index/gpt-oss-model-card/</link>
       <guid isPermaLink="false">OpenAI|gpt-oss (120b / 20b)|model</guid>
@@ -295,12 +655,220 @@
       <description>[OpenAI] OpenAI&apos;s open-weight models under Apache 2.0: gpt-oss-120b (near o4-mini, runs on one 80GB GPU) and gpt-oss-20b (near o3-mini, runs on a 16GB device). Weights on Hugging Face — not served via the OpenAI API.</description>
     </item>
     <item>
+      <title>GitHub Spark — GitHub Spark AI app builder enters public preview</title>
+      <link>https://github.blog/changelog/2025-07-23-github-spark-in-public-preview-for-copilot-pro-subscribers/</link>
+      <guid isPermaLink="false">GitHub|GitHub Spark|platform</guid>
+      <category>GitHub</category>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+      <description>[GitHub] GitHub Spark entered public preview for Copilot Pro+ subscribers in July 2025, enabling developers to build and ship full-stack intelligent apps using natural language — with no setup or configuration required. It expanded to Copilot Enterprise subscribers in September 2025.</description>
+    </item>
+    <item>
+      <title>Kimi K2 — Kimi K2: 1T-Parameter Open-Source MoE Model for Agentic Tasks</title>
+      <link>https://moonshotai.github.io/Kimi-K2/</link>
+      <guid isPermaLink="false">Moonshot AI|Kimi K2|model</guid>
+      <category>Moonshot AI</category>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <description>[Moonshot AI] Moonshot AI open-sourced Kimi K2, a 1 trillion parameter Mixture-of-Experts model with 32B active parameters, releasing both Base and Instruct variants under a modified MIT license with state-of-the-art coding and agentic performance.</description>
+    </item>
+    <item>
+      <title>Raycast v1.100.0 – Bring Your Own Key (BYOK) — Raycast lets users connect their own Anthropic, Google, and OpenAI API keys</title>
+      <link>https://www.raycast.com/changelog/macos/1-100-0</link>
+      <guid isPermaLink="false">Raycast|Raycast v1.100.0 – Bring Your Own Key (BYOK)|feature</guid>
+      <category>Raycast</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      <description>[Raycast] Version 1.100.0 introduced Bring Your Own Key support, allowing users to use Raycast AI with their own API keys from Anthropic, Google, and OpenAI — enabling unlimited AI usage at personal cost without requiring a Pro subscription.</description>
+    </item>
+    <item>
+      <title>V-JEPA 2 — Meta releases V-JEPA 2 open-source world model for physical reasoning</title>
+      <link>https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/</link>
+      <guid isPermaLink="false">Meta|V-JEPA 2|model</guid>
+      <category>Meta</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      <description>[Meta] V-JEPA 2 is an open-source self-supervised video world model trained on over 1 million hours of video that enables zero-shot robotic planning and physical reasoning, outperforming rivals like Nvidia Cosmos by up to 30x in speed.</description>
+    </item>
+    <item>
+      <title>Foundation Models Framework — Apple Opens On-Device AI to Third-Party Developers via Foundation Models Framework</title>
+      <link>https://www.apple.com/newsroom/2025/09/apples-foundation-models-framework-unlocks-new-intelligent-app-experiences/</link>
+      <guid isPermaLink="false">Apple|Foundation Models Framework|api</guid>
+      <category>Apple</category>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <description>[Apple] Announced at WWDC25 on June 9, 2025 and shipped publicly in September 2025 with iOS 26/macOS 26, the Foundation Models framework gives Swift developers a free API to run Apple&apos;s on-device 3B-parameter language model locally — offline, private, and with as few as three lines of code. Features include guided JSON generation, tool calling, and structured output.</description>
+    </item>
+    <item>
+      <title>Cursor 1.0 — Cursor 1.0: BugBot, Background Agent GA, and One-Click MCP</title>
+      <link>https://cursor.com/changelog/1-0</link>
+      <guid isPermaLink="false">Cursor|Cursor 1.0|platform</guid>
+      <category>Cursor</category>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      <description>[Cursor] Cursor reached its 1.0 milestone, shipping BugBot (AI-powered automated PR code reviewer on GitHub), making Background Agent generally available to all users, and adding one-click MCP server setup alongside Jupyter Notebook support.</description>
+    </item>
+    <item>
+      <title>Perplexity Labs — Perplexity Labs Lets Users Build Apps and Dashboards</title>
+      <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-labs</link>
+      <guid isPermaLink="false">Perplexity|Perplexity Labs|feature</guid>
+      <category>Perplexity</category>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <description>[Perplexity] Launched May 29, 2025, Perplexity Labs is a feature that lets users generate interactive projects — reports, spreadsheets, dashboards, and simple web apps — directly from natural-language prompts within the Perplexity interface.</description>
+    </item>
+    <item>
+      <title>Obsidian 1.9 / Bases — Obsidian Bases: Built-in Database Views for Notes</title>
+      <link>https://obsidian.md/changelog/2025-05-21-desktop-v1.9.0/</link>
+      <guid isPermaLink="false">Obsidian|Obsidian 1.9 / Bases|feature</guid>
+      <category>Obsidian</category>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <description>[Obsidian] Obsidian 1.9.0 introduced Bases, a new core plugin that turns any set of Markdown notes into a dynamic database with table views, filtering, sorting, and formula-based derived properties — all backed by local YAML frontmatter with no external database required.</description>
+    </item>
+    <item>
+      <title>GitHub Models API — GitHub Models REST API launches for AI model inference</title>
+      <link>https://github.blog/changelog/2025-05-15-github-models-api-now-available/</link>
+      <guid isPermaLink="false">GitHub|GitHub Models API|api</guid>
+      <category>GitHub</category>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <description>[GitHub] GitHub released the Models REST API in May 2025, allowing developers to programmatically explore and run inference against hosted AI models (from OpenAI, Meta, Microsoft, and others) directly via GitHub&apos;s platform — no separate API key management required.</description>
+    </item>
+    <item>
+      <title>Notion AI Pricing Restructure — Notion Bundles AI into Business Plan, Ends Standalone AI Add-On</title>
+      <link>https://www.notion.com/pricing</link>
+      <guid isPermaLink="false">Notion|Notion AI Pricing Restructure|platform</guid>
+      <category>Notion</category>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <description>[Notion] On May 13, 2025, Notion discontinued its separate AI add-on ($8–$10/user/month) and bundled unlimited AI access exclusively into Business ($20/user/month) and Enterprise plans, removing meaningful AI access from Free and Plus tiers.</description>
+    </item>
+    <item>
+      <title>Figma Sites &amp; Figma Buzz — Figma Expands Platform with Sites, Buzz, and Draw at Config 2025</title>
+      <link>https://www.figma.com/blog/config-2025-recap/</link>
+      <guid isPermaLink="false">Figma|Figma Sites &amp; Figma Buzz|platform</guid>
+      <category>Figma</category>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <description>[Figma] At Config 2025, Figma announced Figma Sites (an AI-powered website builder), Figma Buzz (an AI-assisted on-brand marketing asset creator), and Figma Draw (an advanced vector illustration tool), dramatically expanding Figma beyond UI design into publishing and marketing workflows.</description>
+    </item>
+    <item>
+      <title>Figma Make — Figma Make: AI Prompt-to-App Builder Launches</title>
+      <link>https://www.figma.com/blog/introducing-figma-make/</link>
+      <guid isPermaLink="false">Figma|Figma Make|feature</guid>
+      <category>Figma</category>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <description>[Figma] Figma Make lets designers and non-designers generate, iterate, and edit interactive app prototypes through natural-language prompts, powered by AI. It was announced at Config 2025 on May 7, 2025, and reached general availability on July 24, 2025.</description>
+    </item>
+    <item>
+      <title>DeepSeek-Prover-V2 — DeepSeek-Prover-V2: Open-Source LLM for Formal Theorem Proving</title>
+      <link>https://www.marktechpost.com/2025/05/01/deepseek-ai-released-deepseek-prover-v2-an-open-source-large-language-model-designed-for-formal-theorem-proving-through-subgoal-decomposition-and-reinforcement-learning/</link>
+      <guid isPermaLink="false">DeepSeek|DeepSeek-Prover-V2|model</guid>
+      <category>DeepSeek</category>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <description>[DeepSeek] Released April 30, 2025, this 671B-parameter open-source model targets formal mathematical theorem proving in Lean 4 using recursive subgoal decomposition and GRPO reinforcement learning. It solved 88.9% of MiniF2F-test problems and introduced the new ProverBench benchmark.</description>
+    </item>
+    <item>
+      <title>Visual Suite 2.0 — Canva Launches Visual Suite 2.0 with Unified Design, Sheets, and Code</title>
+      <link>https://www.canva.com/newsroom/news/canva-create-2025/</link>
+      <guid isPermaLink="false">Canva|Visual Suite 2.0|platform</guid>
+      <category>Canva</category>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <description>[Canva] Canva announced Visual Suite 2.0 at Canva Create 2025, introducing a unified canvas where presentations, documents, websites, and more can be built in a single design file. The launch also included Canva Sheets (an AI-powered spreadsheet), Canva Code (prompt-to-app builder), and deep Canva AI integration across the suite.</description>
+    </item>
+    <item>
       <title>Llama 4 — Meta Llama 4 — natively multimodal, MoE</title>
       <link>https://ai.meta.com/blog/llama-4-multimodal-intelligence/</link>
       <guid isPermaLink="false">Meta|Llama 4|model</guid>
       <category>Meta</category>
       <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
       <description>[Meta] Meta&apos;s current open generation: Scout (17B active / 109B, a 10M-token context — the largest of any open model) and Maverick (17B active / 400B, 1M context). First Llama with Mixture-of-Experts + native multimodal training.</description>
+    </item>
+    <item>
+      <title>GitHub Copilot Agent Mode — GitHub Copilot Agent Mode reaches general availability in VS Code</title>
+      <link>https://github.blog/news-insights/product-news/github-copilot-agent-mode-activated/</link>
+      <guid isPermaLink="false">GitHub|GitHub Copilot Agent Mode|feature</guid>
+      <category>GitHub</category>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <description>[GitHub] GitHub rolled out Agent Mode with MCP (Model Context Protocol) support to all VS Code users in April 2025. Agent Mode lets Copilot autonomously plan and execute multi-step coding tasks, self-heal runtime errors, and suggest terminal commands — transforming Copilot from a code-completion tool into a fully agentic development partner.</description>
+    </item>
+    <item>
+      <title>visionOS 2.4 with Apple Intelligence — Apple Intelligence Arrives on Apple Vision Pro via visionOS 2.4</title>
+      <link>https://www.apple.com/newsroom/2025/03/apple-intelligence-comes-to-apple-vision-pro-today-with-visionos-2-4/</link>
+      <guid isPermaLink="false">Apple|visionOS 2.4 with Apple Intelligence|feature</guid>
+      <category>Apple</category>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <description>[Apple] Released March 31, 2025, visionOS 2.4 brought Apple Intelligence to the Vision Pro headset for the first time, including Writing Tools, Image Playground, Genmoji, and an enhanced Siri. The update also added a new Spatial Gallery app and iPhone integration features.</description>
+    </item>
+    <item>
+      <title>Apple Intelligence iOS 18.4 / EU &amp; Multilingual Expansion — Apple Intelligence Expands to the EU and 8+ New Languages with iOS 18.4</title>
+      <link>https://www.apple.com/newsroom/2025/03/apple-intelligence-features-expand-to-new-languages-and-regions-today/</link>
+      <guid isPermaLink="false">Apple|Apple Intelligence iOS 18.4 / EU &amp; Multilingual Expansion|feature</guid>
+      <category>Apple</category>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <description>[Apple] Released March 31, 2025, iOS 18.4 / iPadOS 18.4 / macOS Sequoia 15.4 brought Apple Intelligence to European Union users for the first time and added support for French, German, Italian, Spanish, Japanese, Korean, Chinese (Simplified), and Portuguese (Brazil). The update also debuted Priority Notifications and expanded Siri language comprehension.</description>
+    </item>
+    <item>
+      <title>Scribe — ElevenLabs launches Scribe, its first speech-to-text model</title>
+      <link>https://elevenlabs.io/blog/meet-scribe</link>
+      <guid isPermaLink="false">ElevenLabs|Scribe|model</guid>
+      <category>ElevenLabs</category>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <description>[ElevenLabs] ElevenLabs released Scribe, its inaugural automatic speech recognition model, claiming the highest transcription accuracy available — 96.7% for English — across 99 languages, with word-level timestamps, speaker diarization, and audio-event tagging. It outperformed OpenAI Whisper Large V3, Gemini 2.0 Flash, and Deepgram Nova-3 on standard benchmarks.</description>
+    </item>
+    <item>
+      <title>Grok 3 — xAI launches Grok 3 with DeepSearch and Think reasoning mode</title>
+      <link>https://x.ai/news/grok-3</link>
+      <guid isPermaLink="false">xAI|Grok 3|model</guid>
+      <category>xAI</category>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <description>[xAI] xAI released Grok 3, its flagship frontier model trained on ~200,000 GPUs, alongside two new features: DeepSearch (a real-time web-search agent) and Think (a chain-of-thought reasoning mode). It claimed top benchmark results on AIME 2025 and GPQA, outperforming GPT-4o and o3-mini-high at launch.</description>
+    </item>
+    <item>
+      <title>Perplexity Deep Research — Perplexity Launches Deep Research Feature</title>
+      <link>https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research</link>
+      <guid isPermaLink="false">Perplexity|Perplexity Deep Research|feature</guid>
+      <category>Perplexity</category>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      <description>[Perplexity] Deep Research, launched February 14, 2025, is an agentic research tool that autonomously performs dozens of searches, reads hundreds of sources, and synthesizes a comprehensive cited report. It was made available free (with limits) to all users.</description>
+    </item>
+    <item>
+      <title>Zeta — Zed launches Zeta: open-source edit prediction model</title>
+      <link>https://zed.dev/blog/edit-prediction</link>
+      <guid isPermaLink="false">Zed|Zeta|model</guid>
+      <category>Zed</category>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+      <description>[Zed] Zed released Zeta, an open-source next-edit prediction model derived from Qwen2.5-Coder-7B, integrated directly into the editor. It predicts the developer&apos;s next code edit and can be applied with a single Tab press.</description>
+    </item>
+    <item>
+      <title>Raycast v1.90.0 – More AI Models — Raycast adds DeepSeek R1, Gemini 1.5, OpenAI o1, and Perplexity to AI</title>
+      <link>https://www.raycast.com/changelog/1-90-0</link>
+      <guid isPermaLink="false">Raycast|Raycast v1.90.0 – More AI Models|feature</guid>
+      <category>Raycast</category>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <description>[Raycast] Raycast v1.90.0 expanded its built-in AI model roster significantly, adding DeepSeek R1 (via Together AI/Groq), OpenAI o1-mini and o1-preview, Google Gemini 1.5 Flash, xAI Grok, and Perplexity Sonar — all available to Raycast Pro subscribers.</description>
+    </item>
+    <item>
+      <title>Sonar API — Perplexity Launches Sonar Search API for Developers</title>
+      <link>https://techcrunch.com/2025/01/21/perplexity-launches-sonar-an-api-for-ai-search/</link>
+      <guid isPermaLink="false">Perplexity|Sonar API|api</guid>
+      <category>Perplexity</category>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      <description>[Perplexity] Perplexity launched the Sonar API on January 21, 2025, giving developers access to its web-grounded search engine in two tiers — Sonar (lightweight, fast) and Sonar Pro (multi-step reasoning, more citations). It enables building applications with real-time, cited search results.</description>
+    </item>
+    <item>
+      <title>Kimi k1.5 — Kimi k1.5: Reinforcement Learning Reasoning Model Matching OpenAI o1</title>
+      <link>https://github.com/MoonshotAI/Kimi-k1.5</link>
+      <guid isPermaLink="false">Moonshot AI|Kimi k1.5|model</guid>
+      <category>Moonshot AI</category>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <description>[Moonshot AI] Moonshot AI released Kimi k1.5, a multimodal reasoning model trained with reinforcement learning and a 128K context window, claiming benchmark performance on par with OpenAI o1 in math, coding, and multimodal tasks.</description>
+    </item>
+    <item>
+      <title>DeepSeek-R1 — DeepSeek-R1: Open-Source Reasoning Model Rivaling OpenAI o1</title>
+      <link>https://api-docs.deepseek.com/news/news250120</link>
+      <guid isPermaLink="false">DeepSeek|DeepSeek-R1|model</guid>
+      <category>DeepSeek</category>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <description>[DeepSeek] DeepSeek released R1 on January 20, 2025 — an open-source reasoning model that matches OpenAI o1 on complex reasoning benchmarks. Built under the MIT License for under $6 million using lower-capacity Nvidia chips, it surpassed ChatGPT as the top downloaded iOS app in the US within days of launch.</description>
+    </item>
+    <item>
+      <title>Aurora (Grok Image Generation) — xAI releases Aurora autoregressive image generation model</title>
+      <link>https://x.ai/news/grok-image-generation-release</link>
+      <guid isPermaLink="false">xAI|Aurora (Grok Image Generation)|model</guid>
+      <category>xAI</category>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <description>[xAI] xAI launched Aurora, an autoregressive mixture-of-experts image model integrated into the Grok platform and X, capable of photorealistic text-to-image generation and image editing. Aurora was announced for X Premium subscribers and added to the xAI developer API shortly after.</description>
     </item>
   </channel>
 </rss>
