@@ -121,6 +121,12 @@ main { max-width: 880px; margin: 0 auto; padding: 26px 20px 60px; }
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 .thumb .mono { color: #fff; font-weight: 800; font-size: 1.05rem; letter-spacing: 0.01em; }
+.thumb .logo {
+  position: absolute; inset: 0; background: #fff;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: center; mask-position: center;
+  -webkit-mask-size: 50%; mask-size: 50%;
+}
 .thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #fff; padding: 6px; }
 .card-body { flex: 1; min-width: 0; }
 
@@ -151,3 +157,48 @@ main { max-width: 880px; margin: 0 auto; padding: 26px 20px 60px; }
 .empty { text-align: center; color: var(--muted); padding: 40px; }
 
 footer { border-top: 1px solid var(--border); padding: 24px 20px; text-align: center; color: var(--muted); font-size: 0.85rem; }
+
+/* NEW badge */
+.new-badge {
+  font-size: 0.66rem; font-weight: 800; letter-spacing: 0.03em; color: #fff;
+  padding: 2px 7px; border-radius: 999px;
+  background: linear-gradient(110deg, #ff7eb3, #ff6a88);
+}
+
+/* hero stat + sparkline */
+.hero-stats { margin-top: 14px; color: var(--muted); font-size: 0.85rem; display: inline-flex; align-items: center; gap: 7px; }
+.hero-stats .stat-num { color: var(--text); font-weight: 800; font-size: 1.15rem; }
+.spark { display: inline-flex; align-items: flex-end; gap: 3px; height: 30px; margin-left: 6px; }
+.spark .bar { width: 7px; border-radius: 2px 2px 0 0; background: linear-gradient(var(--accent-2), var(--accent)); }
+
+/* theme toggle */
+#theme-toggle {
+  position: fixed; top: 14px; right: 16px; z-index: 50;
+  width: 38px; height: 38px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--panel); color: var(--text);
+  font-size: 1.05rem; line-height: 1; cursor: pointer; transition: border-color 0.15s ease;
+}
+#theme-toggle:hover { border-color: var(--accent); }
+
+/* light theme */
+body.light {
+  --bg: #f5f7fc;
+  --panel: #ffffff;
+  --panel-2: #eef1f8;
+  --text: #1a1d2b;
+  --muted: #5b6276;
+  --border: rgba(0, 0, 0, 0.10);
+}
+body.light .tag { background: #eef1f8; }
+
+/* mobile polish */
+@media (max-width: 560px) {
+  .hero { padding: 42px 16px 26px; }
+  main { padding: 18px 14px 50px; }
+  .card { padding: 13px 14px; gap: 11px; }
+  .thumb { flex: 0 0 46px; width: 46px; height: 46px; }
+  .card h3 { font-size: 1rem; }
+  .card p { font-size: 0.9rem; }
+  #theme-toggle { top: 10px; right: 10px; width: 34px; height: 34px; }
+  .hero-stats { font-size: 0.8rem; }
+}
