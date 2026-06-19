@@ -40,6 +40,21 @@ const COMPANY_CODES = {
 };
 const monogram = (c) => COMPANY_CODES[c] || (c[0] || "?").toUpperCase();
 
+// Companies with a real logo file in img/ (Simple Icons). Others use a monogram.
+const COMPANY_LOGO = {
+  "Anthropic": "anthropic", "OpenAI": "openai", "Google": "google", "Google DeepMind": "google",
+  "Microsoft": "microsoft", "Meta": "meta", "DeepSeek": "deepseek", "ElevenLabs": "elevenlabs",
+  "GitHub": "github", "Apple": "apple", "n8n": "n8n", "Notion": "notion", "Raycast": "raycast",
+  "Canva": "canva", "Figma": "figma", "Brave": "brave", "Perplexity": "perplexity",
+  "Obsidian": "obsidian", "Cursor": "cursor", "xAI": "x",
+};
+
+function isNew(dateStr) {
+  if (!dateStr) return false;
+  const days = (Date.now() - new Date(dateStr + "T00:00:00").getTime()) / 86400000;
+  return days >= 0 && days <= 7; // announced within the last week
+}
+
 const MONTHS = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"];
 function monthLabel(mk) {
@@ -59,6 +74,7 @@ async function load() {
       `${data.count} releases · ${openCount} open-source · ${data.companies.length} companies · updated ${data.generated_at}`;
     buildFilters(data.companies, data.types);
     render();
+    renderHeroStats();
   } catch (err) {
     document.getElementById("meta").textContent = "Could not load releases.json — run `radar build` first.";
     console.error(err);
@@ -148,19 +164,24 @@ function render() {
       feed.appendChild(h);
     }
     const color = COMPANY_COLORS[r.company] || "#7c5cff";
-    // Thumbnail: branded monogram tile, with an optional real image layered on top.
+    // Thumbnail: real logo (Simple Icons, tinted white) or a branded monogram tile.
+    const logo = COMPANY_LOGO[r.company];
+    const tileInner = logo
+      ? `<span class="logo" style="-webkit-mask-image:url('img/${logo}.svg');mask-image:url('img/${logo}.svg')"></span>`
+      : `<span class="mono">${esc(monogram(r.company))}</span>`;
     const img = r.image
       ? `<img src="${esc(r.image)}" alt="${esc(r.company)}" loading="lazy" onerror="this.remove()">`
       : "";
     const card = document.createElement("article");
     card.className = "card";
     card.innerHTML = `
-      <div class="thumb" style="--c:${color}"><span class="mono">${esc(monogram(r.company))}</span>${img}</div>
+      <div class="thumb" style="--c:${color}">${tileInner}${img}</div>
       <div class="card-body">
         <div class="card-top">
           <span class="badge" style="background:${color}">${esc(r.company)}</span>
           <span class="type-pill type-${esc(r.type)}">${esc(r.type)}</span>
           ${r.open_source ? `<span class="type-pill os-pill">🔓 open</span>` : ""}
+          ${isNew(r.date) ? `<span class="new-badge">🆕 NEW</span>` : ""}
           <span class="date">${esc(r.date)}</span>
         </div>
         <h3>${esc(r.product)} — ${esc(r.title)}</h3>
@@ -185,4 +206,43 @@ document.getElementById("search").addEventListener("input", (e) => {
   render();
 });
 
+// Hero: "N releases this month" + a 6-month sparkline.
+function renderHeroStats() {
+  const el = document.getElementById("hero-stats");
+  if (!el) return;
+  const byMonth = {};
+  for (const r of state.all) {
+    const mk = (r.date || "").slice(0, 7);
+    if (mk) byMonth[mk] = (byMonth[mk] || 0) + 1;
+  }
+  const now = new Date();
+  const months = [];
+  for (let i = 5; i >= 0; i--) {
+    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+    const mk = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+    months.push({ mk, count: byMonth[mk] || 0 });
+  }
+  const thisMonth = months[months.length - 1].count;
+  const max = Math.max(1, ...months.map((m) => m.count));
+  const bars = months
+    .map((m) => `<span class="bar" style="height:${Math.round((m.count / max) * 26) + 3}px" title="${monthLabel(m.mk)}: ${m.count}"></span>`)
+    .join("");
+  el.innerHTML = `<span class="stat-num">${thisMonth}</span> releases this month <span class="spark">${bars}</span>`;
+}
+
+// Light / dark theme toggle (persisted).
+function initTheme() {
+  const btn = document.getElementById("theme-toggle");
+  if (!btn) return;
+  if (localStorage.getItem("radar-theme") === "light") document.body.classList.add("light");
+  const sync = () => { btn.textContent = document.body.classList.contains("light") ? "🌙" : "☀️"; };
+  sync();
+  btn.onclick = () => {
+    document.body.classList.toggle("light");
+    localStorage.setItem("radar-theme", document.body.classList.contains("light") ? "light" : "dark");
+    sync();
+  };
+}
+
+initTheme();
 load();
