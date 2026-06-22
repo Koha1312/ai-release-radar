@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-21 15:10 UTC",
-  "count": 109,
+  "generated_at": "2026-06-22 17:29 UTC",
+  "count": 110,
   "companies": [
     "Anthropic",
     "Apple",
@@ -45,6 +45,23 @@
       "tags": [
         "retirement",
         "scheduled"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "OpenAI",
+      "product": "GPT-5.5-Cyber",
+      "title": "OpenAI Launches Daybreak Tools for Cybersecurity",
+      "summary": "OpenAI has announced the release of new Daybreak tools, featuring Codex Security and GPT-5.5-Cyber, designed to assist organizations in identifying and addressing vulnerabilities effectively.",
+      "date": "2026-06-22",
+      "type": "feature",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "tags": [
+        "AI",
+        "cybersecurity",
+        "tools"
       ],
       "open_source": false,
       "image": "",
