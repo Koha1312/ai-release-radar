@@ -27,6 +27,8 @@ const COMPANY_COLORS = {
   "Figma": "#f24e1e",
   "Brave": "#fb542b",
   "Apple": "#9aa0a6",
+  "Mistral": "#fa520f",
+  "Stability AI": "#9d39e0",
 };
 
 // Short monogram per company for the branded thumbnail tile.
@@ -36,7 +38,7 @@ const COMPANY_CODES = {
   "Perplexity": "P", "Cursor": "C", "Obsidian": "Ob",
   "xAI": "X", "ElevenLabs": "11", "GitHub": "GH", "OpenClaw": "OC", "n8n": "n8",
   "Notion": "N", "Raycast": "Ra", "Zed": "Ze", "Canva": "Ca", "Figma": "Fi",
-  "Brave": "Br", "Apple": "Ap",
+  "Brave": "Br", "Apple": "Ap", "Mistral": "Mi", "Stability AI": "St",
 };
 const monogram = (c) => COMPANY_CODES[c] || (c[0] || "?").toUpperCase();
 
@@ -46,7 +48,7 @@ const COMPANY_LOGO = {
   "Microsoft": "microsoft", "Meta": "meta", "DeepSeek": "deepseek", "ElevenLabs": "elevenlabs",
   "GitHub": "github", "Apple": "apple", "n8n": "n8n", "Notion": "notion", "Raycast": "raycast",
   "Canva": "canva", "Figma": "figma", "Brave": "brave", "Perplexity": "perplexity",
-  "Obsidian": "obsidian", "Cursor": "cursor", "xAI": "x",
+  "Obsidian": "obsidian", "Cursor": "cursor", "xAI": "x", "Mistral": "mistralai",
 };
 
 function isNew(dateStr) {
@@ -69,6 +71,8 @@ async function load() {
     const res = await fetch("releases.json", { cache: "no-store" });
     const data = await res.json();
     state.all = data.releases || [];
+    readUrl();
+    document.getElementById("search").value = state.q;
     const openCount = state.all.filter((r) => r.open_source).length;
     document.getElementById("meta").textContent =
       `${data.count} releases · ${openCount} open-source · ${data.companies.length} companies · updated ${data.generated_at}`;
@@ -146,7 +150,24 @@ function matches(r) {
   return true;
 }
 
+// Shareable filter links: keep ?company=&type=&access=&q= in sync with state.
+function readUrl() {
+  const p = new URLSearchParams(location.search);
+  for (const k of ["company", "type", "access"]) if (p.get(k)) state[k] = p.get(k);
+  if (p.get("q")) state.q = p.get("q");
+}
+function syncUrl() {
+  const p = new URLSearchParams();
+  if (state.company !== "All") p.set("company", state.company);
+  if (state.type !== "All") p.set("type", state.type);
+  if (state.access !== "All") p.set("access", state.access);
+  if (state.q) p.set("q", state.q);
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+}
+
 function render() {
+  syncUrl();
   const feed = document.getElementById("feed");
   const empty = document.getElementById("empty");
   const items = state.all.filter(matches);
