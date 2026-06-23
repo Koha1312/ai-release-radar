@@ -213,6 +213,14 @@ function render() {
           ${r.url ? `<a class="source" href="${esc(r.url)}" target="_blank" rel="noopener">source ↗</a>` : ""}
         </div>
       </div>`;
+    // Make the whole card open the source — but don't hijack real links or text selection.
+    if (r.url) {
+      card.classList.add("clickable");
+      card.addEventListener("click", (e) => {
+        if (e.target.closest("a") || String(window.getSelection())) return;
+        window.open(r.url, "_blank", "noopener");
+      });
+    }
     feed.appendChild(card);
   }
 }
