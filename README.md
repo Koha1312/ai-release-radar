@@ -33,6 +33,27 @@ Keep it fresh (needs Ollama running + network):
 uv run python -m radar.cli refresh   # ingest new feed items + rebuild
 ```
 
+## 🤖 Use it from an AI assistant (MCP)
+
+A built-in MCP server lets Claude (Code or Desktop) query the radar live —
+ask *"what open-source models dropped this week?"* and it calls the radar.
+
+Add this to your MCP config (e.g. Claude Desktop `claude_desktop_config.json`):
+
+```json
+{
+  "mcpServers": {
+    "ai-release-radar": {
+      "command": "uv",
+      "args": ["run", "--directory", "C:/Users/koha/ai-release-radar", "python", "-m", "radar.mcp_server"]
+    }
+  }
+}
+```
+
+Tools exposed: `search_releases` (by company / type / open-source / recency / text),
+`list_companies`, and `radar_stats`.
+
 ## Deploy
 
 The `site/` folder is a static site — point Vercel / Netlify / GitHub Pages at it.
