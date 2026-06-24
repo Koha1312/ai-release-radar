@@ -66,11 +66,47 @@ def extract_release(item: dict) -> Release | None:
         return None
 
 
+_VERIFY_PROMPT = """A first pass extracted the item below as an AI release. Verify STRICTLY.
+Return ONLY JSON: {{"keep": true}} or {{"keep": false}}.
+
+keep=true ONLY if this is a real, concrete, AI/ML-related release BY {company} — a named
+model, AI feature, AI API, AI platform, or AI-product deprecation.
+keep=false for: anything NOT about AI/ML (generic DevOps, dependency/billing/security/UI
+changes with no AI angle), customer/case studies, acquisitions, partnerships, funding,
+hiring, opinion/policy essays, event recaps, research write-ups with no named shipped
+artifact, or if the product is not {company}'s own.
+
+Company: {company}
+Extracted product: {product}
+Title: {title}
+Summary: {summary}"""
+
+
+def verify_release(rel: Release) -> bool:
+    """Second-pass check: a separate LLM call confirms this is a real release.
+
+    Fails open (keeps) on any error — a transient verifier failure shouldn't drop
+    a genuine release the first pass already accepted.
+    """
+    try:
+        raw = generate_json(_VERIFY_PROMPT.format(
+            company=rel.company, product=rel.product, title=rel.title, summary=rel.summary[:600],
+        ))
+        return bool(json.loads(raw).get("keep", True))
+    except Exception:  # noqa: BLE001
+        return True
+
+
 def extract_many(items: list[dict]) -> list[Release]:
+    """Extract (bot 1) then verify (bot 2) each item; only verified releases pass."""
     out: list[Release] = []
     for i, item in enumerate(items, 1):
         print(f"  extracting {i}/{len(items)}: {item['title'][:55]}")
         rel = extract_release(item)
-        if rel and rel.date:
-            out.append(rel)
+        if not (rel and rel.date):
+            continue
+        if not verify_release(rel):
+            print(f"    x verifier dropped: {rel.company} / {rel.product}")
+            continue
+        out.append(rel)
     return out

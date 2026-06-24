@@ -1,9 +1,9 @@
 name: Daily radar refresh
 
-# Runs every morning (and on-demand) to pull fresh releases and redeploy.
+# Runs every 6 hours (and on-demand) to pull fresh releases and redeploy.
 on:
   schedule:
-    - cron: "0 13 * * *"   # ~06:00 America/Los_Angeles
+    - cron: "0 */6 * * *"   # every 6 hours (near-real-time)
   workflow_dispatch:
 
 permissions:
