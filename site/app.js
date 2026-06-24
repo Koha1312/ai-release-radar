@@ -195,6 +195,7 @@ function render() {
       : "";
     const card = document.createElement("article");
     card.className = "card";
+    card.style.setProperty("--c", color); // brand-color accent bar + hover glow
     card.innerHTML = `
       <div class="thumb" style="--c:${color}">${tileInner}${img}</div>
       <div class="card-body">
