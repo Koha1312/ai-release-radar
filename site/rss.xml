@@ -5,7 +5,7 @@
     <title>AI Release Radar</title>
     <link>https://koha1312.github.io/ai-release-radar/</link>
     <description>Every AI release worth knowing — from the big labs to the tools we use.</description>
-    <lastBuildDate>Tue, 23 Jun 2026 15:46:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 15:33:06 +0000</lastBuildDate>
     <item>
       <title>GPT-4.5 — GPT-4.5 sunsetting June 27</title>
       <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes</link>
@@ -13,6 +13,14 @@
       <category>OpenAI</category>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>[OpenAI] GPT-4.5 will be retired from ChatGPT on June 27, 2026 after a 30-day sunset.</description>
+    </item>
+    <item>
+      <title>Jalapeño — OpenAI and Broadcom unveil LLM-optimized inference chip</title>
+      <link>https://openai.com/index/openai-broadcom-jalapeno-inference-chip</link>
+      <guid isPermaLink="false">OpenAI|Jalapeño|platform</guid>
+      <category>OpenAI</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to enhance performance and efficiency for large language model inference.</description>
     </item>
     <item>
       <title>GPT-5.5-Cyber — OpenAI Launches Daybreak Tools for Cybersecurity</title>
