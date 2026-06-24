@@ -67,6 +67,12 @@ def upsert_many(conn: sqlite3.Connection, releases: list[Release]) -> int:
     return len(releases)
 
 
+def seen_urls(conn: sqlite3.Connection) -> set[str]:
+    """Source URLs already turned into releases — so the bot can skip re-processing them."""
+    rows = conn.execute("SELECT url FROM releases WHERE url <> ''").fetchall()
+    return {r["url"] for r in rows}
+
+
 def load_all(conn: sqlite3.Connection) -> list[dict]:
     """All releases, newest first, as plain dicts ready for JSON."""
     rows = conn.execute(

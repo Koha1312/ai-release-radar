@@ -42,13 +42,22 @@ def cmd_refresh(args) -> None:
     re-load past auto-discoveries from releases.json, THEN ingest new RSS items.
     Even if ingestion fails entirely, the site still rebuilds from the baseline.
     """
+    from . import extract, fetch
+
     conn = store.connect()
     store.upsert_many(conn, seed_mod.all_seed())
     kept = build_site.load_existing(conn)
     print(f"Baseline ready: curated seed + {kept} existing releases.")
-    cmd_ingest(args)
+
+    seen = store.seen_urls(conn)
+    raw = fetch.fetch_raw()
+    fresh = [it for it in raw if it.get("url") and it["url"] not in seen]
+    print(f"Fetched {len(raw)} items; {len(fresh)} new (skipped {len(raw) - len(fresh)} already seen).")
+    releases = extract.extract_many(fresh)  # only NEW items hit the LLM
+    store.upsert_many(conn, releases)
+
     n = build_site.build()
-    print(f"Refreshed: {n} releases total.")
+    print(f"Refreshed: {n} releases total (+{len(releases)} new this run).")
 
 
 def main() -> None:
