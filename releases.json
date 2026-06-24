@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23 15:46 UTC",
-  "count": 110,
+  "generated_at": "2026-06-24 15:33 UTC",
+  "count": 111,
   "companies": [
     "Anthropic",
     "Apple",
@@ -45,6 +45,23 @@
       "tags": [
         "retirement",
         "scheduled"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "OpenAI",
+      "product": "Jalapeño",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to enhance performance and efficiency for large language model inference.",
+      "date": "2026-06-24",
+      "type": "platform",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "tags": [
+        "AI",
+        "chip",
+        "inference"
       ],
       "open_source": false,
       "image": "",
