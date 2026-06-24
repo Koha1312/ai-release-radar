@@ -11,8 +11,7 @@ SOURCES = [
     {"company": "Google DeepMind", "name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml"},
     {"company": "Microsoft", "name": "Microsoft Blog", "url": "https://blogs.microsoft.com/feed/"},
     {"company": "Hugging Face", "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml"},
-    {"company": "Mistral", "name": "Mistral AI News", "url": "https://mistral.ai/feed.xml"},
-    {"company": "xAI", "name": "xAI News", "url": "https://x.ai/news/rss.xml"},
-    {"company": "Stability AI", "name": "Stability AI News", "url": "https://stability.ai/news?format=rss"},
-    # Anthropic has no public RSS at time of writing — add here if/when available.
+    {"company": "Mistral", "name": "Mistral AI News", "url": "https://mistral.ai/rss.xml"},
+    # No working public RSS found for xAI (Cloudflare-blocked) or Stability AI —
+    # they stay tracked via curated entries. Anthropic also has no public RSS yet.
 ]
