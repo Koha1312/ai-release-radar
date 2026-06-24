@@ -8,11 +8,25 @@ release than pollute the tracker with noise.
 from __future__ import annotations
 
 import json
+import re
 
 from pydantic import ValidationError
 
 from .ollama_client import generate_json
 from .schema import Release
+
+# Prompt-injection defense: a feed item containing these is untrusted manipulation,
+# not a real release — skip it before it ever reaches the LLM.
+_INJECTION = re.compile(
+    r"ignore (all|any|the|previous|prior|above)|disregard (the|all|previous|above|your)"
+    r"|system prompt|you are now|new instructions|mark (all|everything)|jailbreak"
+    r"|prompt inject|override (the|your|all)",
+    re.IGNORECASE,
+)
+
+
+def looks_injected(item: dict) -> bool:
+    return bool(_INJECTION.search(f"{item.get('title', '')} {item.get('summary', '')}"))
 
 _PROMPT = """You normalize tech-news items into a strict JSON schema for an AI-release tracker.
 
@@ -101,6 +115,9 @@ def extract_many(items: list[dict]) -> list[Release]:
     """Extract (bot 1) then verify (bot 2) each item; only verified releases pass."""
     out: list[Release] = []
     for i, item in enumerate(items, 1):
+        if looks_injected(item):
+            print(f"    ! injection guard: blocked {item.get('source', '?')} / {item['title'][:45]}")
+            continue
         print(f"  extracting {i}/{len(items)}: {item['title'][:55]}")
         rel = extract_release(item)
         if not (rel and rel.date):

@@ -116,9 +116,20 @@ def load_existing(conn) -> int:
     return n
 
 
+# Safety floor: the curated baseline alone is ~108 releases, so anything well
+# below this means something broke (seed didn't load, DB corrupt). Refuse to
+# overwrite the live site data with a suspiciously-small set.
+FLOOR = 100
+
+
 def build() -> int:
     conn = store.connect()
     releases = store.load_all(conn)
+    if len(releases) < FLOOR:
+        raise SystemExit(
+            f"ABORT build: only {len(releases)} releases (< floor {FLOOR}). "
+            "Refusing to overwrite site data — possible corruption/data loss."
+        )
     for r in releases:
         r["official"] = _is_official(r["company"], r.get("url", ""))
     companies = sorted({r["company"] for r in releases})

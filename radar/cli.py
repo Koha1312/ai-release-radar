@@ -53,6 +53,12 @@ def cmd_refresh(args) -> None:
     raw = fetch.fetch_raw()
     fresh = [it for it in raw if it.get("url") and it["url"] not in seen]
     print(f"Fetched {len(raw)} items; {len(fresh)} new (skipped {len(raw) - len(fresh)} already seen).")
+
+    CAP = 25  # flood guard: a sudden surge signals a feed glitch/attack — process at most this many
+    if len(fresh) > CAP:
+        print(f"  ! flood guard: {len(fresh)} new items — capping to {CAP} this run (rest come next run)")
+        fresh = fresh[:CAP]
+
     releases = extract.extract_many(fresh)  # only NEW items hit the LLM
     store.upsert_many(conn, releases)
 
