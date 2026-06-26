@@ -1,5 +1,22 @@
 [
   {
+    "company": "OpenAI",
+    "product": "GPT-5.6 Sol",
+    "title": "OpenAI previews the GPT-5.6 family: Sol, Terra, and Luna",
+    "summary": "OpenAI began a limited preview of GPT-5.6 in three sizes — Sol (flagship), Terra (balanced everyday), and Luna (fast and affordable) — adding a new 'max' reasoning effort and an 'ultra' mode that spins up subagents to accelerate complex work. Sol sets a new state of the art on Terminal-Bench 2.1 (command-line coding) and is OpenAI's strongest model yet for cybersecurity and science, but the launch is restricted to ~20 U.S.-government-approved organizations via the API and Codex, with general availability promised in the coming weeks. Pricing per 1M tokens: Sol $5 in / $30 out, Terra $2.50 / $15, Luna $1 / $6.",
+    "date": "2026-06-26",
+    "type": "model",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "tags": [
+      "flagship",
+      "reasoning",
+      "ultra mode",
+      "coding",
+      "limited preview"
+    ],
+    "open_source": false
+  },
+  {
     "company": "xAI",
     "product": "Grok 3",
     "title": "xAI launches Grok 3 with DeepSearch and Think reasoning mode",
