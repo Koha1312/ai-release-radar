@@ -260,6 +260,61 @@ body.light {
 }
 body.light .tag { background: #eef1f8; }
 
+/* modality tag pill (💬 text / 🖼️ image / 🎬 video / 🔊 audio / 🤖 robotics / 💻 code) */
+.modality-pill { text-transform: none; letter-spacing: 0; color: var(--text); opacity: 0.8; border-color: var(--border); }
+
+/* analytics toggle button */
+.toggle-btn { font-weight: 600; }
+
+/* ---------- analytics panel ---------- */
+.analytics {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+.apanel { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+.ablock h4 {
+  margin: 0 0 12px;
+  font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted);
+}
+.abars { display: flex; flex-direction: column; gap: 7px; }
+.abar-row { display: flex; align-items: center; gap: 10px; font-size: 0.8rem; }
+.abar-label { flex: 0 0 92px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.abar-track { flex: 1; height: 9px; background: var(--panel-2); border-radius: 999px; overflow: hidden; }
+.abar-fill { display: block; height: 100%; border-radius: 999px; transition: width 0.5s ease; }
+.abar-num { flex: 0 0 24px; text-align: right; color: var(--muted); font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace; }
+.acols { display: flex; align-items: flex-end; gap: 6px; height: 110px; }
+.acol { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 5px; justify-content: flex-end; }
+.acol-fill { width: 100%; max-width: 22px; border-radius: 3px 3px 0 0; background: linear-gradient(var(--accent-2), var(--accent)); }
+.acol-x { font-size: 0.62rem; color: var(--muted); font-family: ui-monospace, Consolas, monospace; }
+.atypes { display: flex; flex-wrap: wrap; gap: 7px; }
+.atype { font-size: 0.76rem; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; text-transform: uppercase; letter-spacing: 0.03em; }
+.atype b { color: var(--text); }
+
+/* ---------- company spotlight ---------- */
+.spotlight { margin-bottom: 18px; }
+.spotlight-card {
+  display: flex; gap: 16px; align-items: center;
+  background: linear-gradient(110deg, color-mix(in srgb, var(--c) 14%, var(--panel)), var(--panel));
+  border: 1px solid color-mix(in srgb, var(--c) 35%, var(--border));
+  border-radius: 16px; padding: 16px 20px;
+  box-shadow: inset 4px 0 0 0 var(--c);
+}
+.spotlight-thumb { flex: 0 0 64px; width: 64px; height: 64px; }
+.spotlight-body h2 { margin: 0 0 6px; font-family: "Space Grotesk", "Inter", sans-serif; font-size: 1.4rem; }
+.spotlight-stats { display: flex; flex-wrap: wrap; gap: 16px; color: var(--muted); font-size: 0.86rem; }
+.spotlight-stats b { color: var(--text); font-size: 1.02rem; font-family: ui-monospace, Consolas, monospace; }
+.spotlight-latest { margin-top: 7px; color: var(--muted); font-size: 0.84rem; }
+.spotlight-latest b { color: var(--text); }
+
+@media (max-width: 560px) {
+  .apanel { grid-template-columns: 1fr; gap: 20px; }
+  .abar-label { flex-basis: 72px; }
+}
+
 /* respect users who prefer less motion — kill the spinning/drifting bits */
 @media (prefers-reduced-motion: reduce) {
   .radar-grid::before, .hero h1, body::before { animation: none; }
