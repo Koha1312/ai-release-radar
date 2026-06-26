@@ -57,6 +57,38 @@ function isNew(dateStr) {
   return days >= 0 && days <= 7; // announced within the last week
 }
 
+// Human "2 days ago" / "3 months ago" — the freshness cue the stats sites use.
+function relativeDate(dateStr) {
+  if (!dateStr) return "";
+  const d = new Date(dateStr + "T00:00:00");
+  if (isNaN(d)) return "";
+  const days = Math.floor((Date.now() - d.getTime()) / 86400000);
+  if (days < 0) return "scheduled";
+  if (days === 0) return "today";
+  if (days === 1) return "yesterday";
+  if (days < 7) return `${days} days ago`;
+  if (days < 14) return "last week";
+  if (days < 31) return `${Math.floor(days / 7)} weeks ago`;
+  if (days < 61) return "last month";
+  if (days < 365) return `${Math.floor(days / 30)} months ago`;
+  const y = Math.floor(days / 365);
+  return y === 1 ? "last year" : `${y} years ago`;
+}
+
+// Infer the modality of a release from its text (we don't store it). First match wins.
+const MODALITY = [
+  { key: "video", icon: "🎬", label: "video", re: /\b(video|sora|veo|runway|kling|movie|text-to-video)\b/i },
+  { key: "image", icon: "🖼️", label: "image", re: /\b(image|diffusion|dall-?e|imagen|midjourney|photo|vision|inpaint|text-to-image)\b/i },
+  { key: "audio", icon: "🔊", label: "audio", re: /\b(audio|speech|voice|tts|text-to-speech|music|whisper|sound|transcrib)\b/i },
+  { key: "robotics", icon: "🤖", label: "robotics", re: /\b(robot|embodied|humanoid|manipulation)\b/i },
+  { key: "code", icon: "💻", label: "code", re: /\b(code|coding|copilot|swe-?bench|developer|programming|autocomplete)\b/i },
+];
+function inferModality(r) {
+  const hay = `${r.product} ${r.title} ${r.summary} ${(r.tags || []).join(" ")}`;
+  for (const m of MODALITY) if (m.re.test(hay)) return m;
+  return { key: "text", icon: "💬", label: "text" };
+}
+
 const MONTHS = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"];
 function monthLabel(mk) {
@@ -79,6 +111,7 @@ async function load() {
     buildFilters(data.companies, data.types);
     render();
     renderHeroStats();
+    initAnalytics();
   } catch (err) {
     document.getElementById("meta").textContent = "Could not load releases.json — run `radar build` first.";
     console.error(err);
@@ -168,6 +201,7 @@ function syncUrl() {
 
 function render() {
   syncUrl();
+  renderSpotlight();
   const feed = document.getElementById("feed");
   const empty = document.getElementById("empty");
   const items = state.all.filter(matches);
@@ -185,6 +219,7 @@ function render() {
       feed.appendChild(h);
     }
     const color = COMPANY_COLORS[r.company] || "#7c5cff";
+    const mod = inferModality(r);
     // Thumbnail: real logo (Simple Icons, tinted white) or a branded monogram tile.
     const logo = COMPANY_LOGO[r.company];
     const tileInner = logo
@@ -202,9 +237,10 @@ function render() {
         <div class="card-top">
           <span class="badge" style="background:${color}">${esc(r.company)}</span>
           <span class="type-pill type-${esc(r.type)}">${esc(r.type)}</span>
+          <span class="type-pill modality-pill" title="modality: ${mod.label}">${mod.icon} ${mod.label}</span>
           ${r.open_source ? `<span class="type-pill os-pill">🔓 open</span>` : ""}
           ${isNew(r.date) ? `<span class="new-badge">🆕 NEW</span>` : ""}
-          <span class="date">${esc(r.date)}</span>
+          <span class="date" title="${esc(r.date)}">${esc(relativeDate(r.date) || r.date)}</span>
         </div>
         <h3>${esc(r.product)} — ${esc(r.title)}</h3>
         <p>${esc(r.summary)}</p>
@@ -235,6 +271,101 @@ document.getElementById("search").addEventListener("input", (e) => {
   state.q = e.target.value.trim().toLowerCase();
   render();
 });
+
+// Company spotlight: when one company is selected, show a header card with its stats.
+function renderSpotlight() {
+  const el = document.getElementById("spotlight");
+  if (!el) return;
+  if (state.company === "All") { el.hidden = true; el.innerHTML = ""; return; }
+  const items = state.all.filter((r) => r.company === state.company);
+  if (!items.length) { el.hidden = true; el.innerHTML = ""; return; }
+  const color = COMPANY_COLORS[state.company] || "#7c5cff";
+  const logo = COMPANY_LOGO[state.company];
+  const tile = logo
+    ? `<span class="logo" style="-webkit-mask-image:url('img/${logo}.svg');mask-image:url('img/${logo}.svg')"></span>`
+    : `<span class="mono">${esc(monogram(state.company))}</span>`;
+  const latest = [...items].sort((a, b) => (b.date || "").localeCompare(a.date || ""))[0];
+  const openN = items.filter((r) => r.open_source).length;
+  const officialN = items.filter((r) => r.official).length;
+  el.hidden = false;
+  el.innerHTML = `
+    <div class="spotlight-card" style="--c:${color}">
+      <div class="thumb spotlight-thumb" style="--c:${color}">${tile}</div>
+      <div class="spotlight-body">
+        <h2>${esc(state.company)}</h2>
+        <div class="spotlight-stats">
+          <span><b>${items.length}</b> releases</span>
+          <span><b>${openN}</b> open-source</span>
+          <span><b>${officialN}</b> official-sourced</span>
+        </div>
+        <div class="spotlight-latest">Latest: <b>${esc(latest.product)}</b> · ${esc(relativeDate(latest.date) || latest.date)}</div>
+      </div>
+    </div>`;
+}
+
+// Analytics panel: releases-by-company bars + a 12-month cadence chart + type breakdown.
+function renderAnalytics() {
+  const el = document.getElementById("analytics");
+  if (!el) return;
+  const byCo = {};
+  for (const r of state.all) byCo[r.company] = (byCo[r.company] || 0) + 1;
+  const cos = Object.entries(byCo).sort((a, b) => b[1] - a[1]);
+  const maxCo = Math.max(1, ...cos.map((c) => c[1]));
+  const coBars = cos.map(([c, n]) => `
+    <div class="abar-row">
+      <span class="abar-label">${esc(c)}</span>
+      <span class="abar-track"><span class="abar-fill" style="width:${Math.round((n / maxCo) * 100)}%;background:${COMPANY_COLORS[c] || "#7c5cff"}"></span></span>
+      <span class="abar-num">${n}</span>
+    </div>`).join("");
+
+  const byMonth = {};
+  for (const r of state.all) { const mk = (r.date || "").slice(0, 7); if (mk) byMonth[mk] = (byMonth[mk] || 0) + 1; }
+  const now = new Date();
+  const months = [];
+  for (let i = 11; i >= 0; i--) {
+    const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+    const mk = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+    months.push({ mk, count: byMonth[mk] || 0 });
+  }
+  const maxM = Math.max(1, ...months.map((m) => m.count));
+  const monthCols = months.map((m) => `
+    <span class="acol" title="${monthLabel(m.mk)}: ${m.count}">
+      <span class="acol-fill" style="height:${Math.round((m.count / maxM) * 90) + 4}px"></span>
+      <span class="acol-x">${m.mk.slice(5)}</span>
+    </span>`).join("");
+
+  const byType = {};
+  for (const r of state.all) byType[r.type] = (byType[r.type] || 0) + 1;
+  const typeChips = Object.entries(byType).sort((a, b) => b[1] - a[1])
+    .map(([t, n]) => `<span class="atype">${esc(t)} <b>${n}</b></span>`).join("");
+
+  el.innerHTML = `
+    <div class="apanel">
+      <div class="ablock">
+        <h4>Releases by company</h4>
+        <div class="abars">${coBars}</div>
+      </div>
+      <div class="ablock">
+        <h4>Release cadence — last 12 months</h4>
+        <div class="acols">${monthCols}</div>
+        <h4 style="margin-top:16px">By type</h4>
+        <div class="atypes">${typeChips}</div>
+      </div>
+    </div>`;
+}
+
+function initAnalytics() {
+  const btn = document.getElementById("analytics-toggle");
+  const panel = document.getElementById("analytics");
+  if (!btn || !panel) return;
+  renderAnalytics();
+  btn.onclick = () => {
+    const open = panel.hidden; // currently hidden -> we're opening
+    panel.hidden = !open;
+    btn.classList.toggle("active", open);
+    btn.textContent = open ? "📊 Hide analytics" : "📊 Analytics";
+  };
+}
 
 // Hero: "N releases this month" + a 6-month sparkline.
 function renderHeroStats() {
