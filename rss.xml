@@ -5,7 +5,7 @@
     <title>AI Release Radar</title>
     <link>https://koha1312.github.io/ai-release-radar/</link>
     <description>Every AI release worth knowing — from the big labs to the tools we use.</description>
-    <lastBuildDate>Fri, 26 Jun 2026 14:38:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 17:05:01 +0000</lastBuildDate>
     <item>
       <title>GPT-4.5 — GPT-4.5 sunsetting June 27</title>
       <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes</link>
@@ -13,6 +13,14 @@
       <category>OpenAI</category>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>[OpenAI] GPT-4.5 will be retired from ChatGPT on June 27, 2026 after a 30-day sunset.</description>
+    </item>
+    <item>
+      <title>GPT-5.6 Sol — Previewing GPT-5.6 Sol: a next-generation model</title>
+      <link>https://openai.com/index/previewing-gpt-5-6-sol</link>
+      <guid isPermaLink="false">OpenAI|GPT-5.6 Sol|model</guid>
+      <category>OpenAI</category>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] OpenAI previews GPT-5.6 Sol, a next-generation model with enhanced capabilities in coding, science, and cybersecurity, along with an advanced safety stack.</description>
     </item>
     <item>
       <title>Jalapeño — OpenAI and Broadcom unveil LLM-optimized inference chip</title>

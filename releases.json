@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-26 14:38 UTC",
-  "count": 111,
+  "generated_at": "2026-06-26 17:05 UTC",
+  "count": 112,
   "companies": [
     "Anthropic",
     "Apple",
@@ -45,6 +45,24 @@
       "tags": [
         "retirement",
         "scheduled"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "OpenAI",
+      "product": "GPT-5.6 Sol",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with enhanced capabilities in coding, science, and cybersecurity, along with an advanced safety stack.",
+      "date": "2026-06-26",
+      "type": "model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "tags": [
+        "OpenAI",
+        "GPT-5.6",
+        "AI model",
+        "next-generation"
       ],
       "open_source": false,
       "image": "",
