@@ -84,6 +84,14 @@ def cmd_refresh(args) -> None:
     except Exception as e:  # noqa: BLE001
         print(f"  ! digest pass skipped: {e}")
 
+    # Monthly Wrapped card — built once per month rollover; also fail-soft.
+    try:
+        from . import wrapped
+
+        wrapped.ensure_current()
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! wrapped pass skipped: {e}")
+
 
 def cmd_digest(_args) -> None:
     """Force-regenerate the weekly digest (local Ollama)."""

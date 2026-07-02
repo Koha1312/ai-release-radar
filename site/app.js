@@ -82,6 +82,9 @@ const I18N = {
     cmdAnalytics: "Toggle analytics", cmdLang: "Language", cmdFilter: "Filter company", palEmpty: "No matches",
     trendsTitle: "📈 Signals", trendBusiest: "{c} shipped the most in the last 90 days ({n} releases)",
     trendOpen: "{p}% of the last 90 days' releases are open-source", trendMonth: "busiest month on record: {m} ({n} releases)",
+    following: "⭐ Following", follow: "☆ Follow", unfollow: "★ Following",
+    families: "🌳 Families", hideFamilies: "🌳 Hide families",
+    viewTimeline: "📅 Timeline", viewList: "📋 List", wrapped: "🎁 Wrapped",
   },
   vi: {
     name: "Tiếng Việt",
@@ -106,6 +109,9 @@ const I18N = {
     cmdAnalytics: "Bật/tắt thống kê", cmdLang: "Ngôn ngữ", cmdFilter: "Lọc công ty", palEmpty: "Không có kết quả",
     trendsTitle: "📈 Tín hiệu", trendBusiest: "{c} phát hành nhiều nhất trong 90 ngày qua ({n} bản)",
     trendOpen: "{p}% bản phát hành 90 ngày qua là mã nguồn mở", trendMonth: "tháng sôi động nhất: {m} ({n} bản)",
+    following: "⭐ Đang theo dõi", follow: "☆ Theo dõi", unfollow: "★ Đang theo dõi",
+    families: "🌳 Dòng họ model", hideFamilies: "🌳 Ẩn dòng họ",
+    viewTimeline: "📅 Dòng thời gian", viewList: "📋 Danh sách", wrapped: "🎁 Tổng kết tháng",
   },
   es: {
     name: "Español",
@@ -130,6 +136,9 @@ const I18N = {
     cmdAnalytics: "Mostrar/ocultar analítica", cmdLang: "Idioma", cmdFilter: "Filtrar empresa", palEmpty: "Sin resultados",
     trendsTitle: "📈 Señales", trendBusiest: "{c} lanzó más en los últimos 90 días ({n} lanzamientos)",
     trendOpen: "{p}% de los lanzamientos de 90 días son código abierto", trendMonth: "mes más activo: {m} ({n})",
+    following: "⭐ Siguiendo", follow: "☆ Seguir", unfollow: "★ Siguiendo",
+    families: "🌳 Familias", hideFamilies: "🌳 Ocultar familias",
+    viewTimeline: "📅 Cronología", viewList: "📋 Lista", wrapped: "🎁 Resumen mensual",
   },
   zh: {
     name: "中文",
@@ -154,6 +163,9 @@ const I18N = {
     cmdAnalytics: "显示/隐藏统计", cmdLang: "语言", cmdFilter: "筛选公司", palEmpty: "无匹配结果",
     trendsTitle: "📈 信号", trendBusiest: "近 90 天发布最多：{c}（{n} 个）",
     trendOpen: "近 90 天发布中 {p}% 为开源", trendMonth: "最活跃月份：{m}（{n} 个）",
+    following: "⭐ 关注中", follow: "☆ 关注", unfollow: "★ 已关注",
+    families: "🌳 模型族谱", hideFamilies: "🌳 隐藏族谱",
+    viewTimeline: "📅 时间线", viewList: "📋 列表", wrapped: "🎁 月度总结",
   },
   ja: {
     name: "日本語",
@@ -178,6 +190,9 @@ const I18N = {
     cmdAnalytics: "分析の表示切替", cmdLang: "言語", cmdFilter: "企業で絞り込み", palEmpty: "一致なし",
     trendsTitle: "📈 シグナル", trendBusiest: "過去90日で最多リリース: {c}（{n} 件）",
     trendOpen: "過去90日のリリースの {p}% がオープンソース", trendMonth: "過去最多の月: {m}（{n} 件）",
+    following: "⭐ フォロー中", follow: "☆ フォロー", unfollow: "★ フォロー中",
+    families: "🌳 モデル系譜", hideFamilies: "🌳 系譜を隠す",
+    viewTimeline: "📅 タイムライン", viewList: "📋 リスト", wrapped: "🎁 月間まとめ",
   },
   ko: {
     name: "한국어",
@@ -202,6 +217,9 @@ const I18N = {
     cmdAnalytics: "분석 토글", cmdLang: "언어", cmdFilter: "회사 필터", palEmpty: "결과 없음",
     trendsTitle: "📈 시그널", trendBusiest: "최근 90일 최다 릴리스: {c} ({n}개)",
     trendOpen: "최근 90일 릴리스 중 {p}%가 오픈소스", trendMonth: "역대 최다 릴리스 월: {m} ({n}개)",
+    following: "⭐ 팔로잉", follow: "☆ 팔로우", unfollow: "★ 팔로잉",
+    families: "🌳 모델 계보", hideFamilies: "🌳 계보 숨기기",
+    viewTimeline: "📅 타임라인", viewList: "📋 목록", wrapped: "🎁 월간 요약",
   },
   fr: {
     name: "Français",
@@ -226,6 +244,9 @@ const I18N = {
     cmdAnalytics: "Afficher/masquer les stats", cmdLang: "Langue", cmdFilter: "Filtrer par entreprise", palEmpty: "Aucun résultat",
     trendsTitle: "📈 Signaux", trendBusiest: "{c} a le plus publié sur 90 jours ({n} sorties)",
     trendOpen: "{p}% des sorties des 90 derniers jours sont open source", trendMonth: "mois le plus actif : {m} ({n})",
+    following: "⭐ Suivis", follow: "☆ Suivre", unfollow: "★ Suivi",
+    families: "🌳 Familles", hideFamilies: "🌳 Masquer les familles",
+    viewTimeline: "📅 Chronologie", viewList: "📋 Liste", wrapped: "🎁 Rétrospective",
   },
 };
 
@@ -284,7 +305,16 @@ function monthLabel(mk) {
   return m ? `${t("months")[+m - 1]} ${y}` : "—";
 }
 
-const state = { all: [], companies: [], types: [], company: "All", type: "All", access: "All", q: "", lang: "en" };
+const state = { all: [], companies: [], types: [], company: "All", type: "All", access: "All", q: "", lang: "en", view: "list" };
+
+// ⭐ Watchlist — followed companies live only in this browser (no accounts).
+let follows = new Set(JSON.parse(localStorage.getItem("radar-follow") || "[]"));
+function toggleFollow(c) {
+  follows.has(c) ? follows.delete(c) : follows.add(c);
+  localStorage.setItem("radar-follow", JSON.stringify([...follows]));
+  buildFilters(state.companies, state.types);
+  render();
+}
 
 async function load() {
   try {
@@ -307,6 +337,7 @@ async function load() {
     applyLang();
     initAnalytics();
     initPalette();
+    initViewToggles();
     handleDeepLink();
   } catch (err) {
     document.getElementById("meta").textContent = "Could not load releases.json — run `radar build` first.";
@@ -336,6 +367,14 @@ function applyLang() {
   const aBtn = document.getElementById("analytics-toggle");
   const aPanel = document.getElementById("analytics");
   if (aBtn && aPanel) aBtn.textContent = aPanel.hidden ? t("analytics") : t("hideAnalytics");
+  const fBtn = document.getElementById("families-toggle");
+  const fPanel = document.getElementById("families");
+  if (fBtn && fPanel) fBtn.textContent = fPanel.hidden ? t("families") : t("hideFamilies");
+  const tBtn = document.getElementById("timeline-toggle");
+  if (tBtn) tBtn.textContent = state.view === "timeline" ? t("viewList") : t("viewTimeline");
+  const wLink = document.getElementById("wrapped-link");
+  if (wLink) wLink.textContent = t("wrapped");
+  renderFamilies();
   buildFilters(state.companies, state.types);
   render();
   renderHeroStats();
@@ -358,8 +397,9 @@ function renderAccessChips() {
     All: state.all.length,
     open: state.all.filter((r) => r.open_source).length,
     proprietary: state.all.filter((r) => !r.open_source).length,
+    following: state.all.filter((r) => follows.has(r.company)).length,
   };
-  const opts = [["All", t("all")], ["open", t("open")], ["proprietary", t("prop")]];
+  const opts = [["All", t("all")], ["open", t("open")], ["proprietary", t("prop")], ["following", t("following")]];
   for (const [val, label] of opts) {
     const chip = document.createElement("button");
     chip.className = "chip" + (state.access === val ? " active" : "");
@@ -427,6 +467,7 @@ function matches(r) {
   if (state.type !== "All" && r.type !== state.type) return false;
   if (state.access === "open" && !r.open_source) return false;
   if (state.access === "proprietary" && r.open_source) return false;
+  if (state.access === "following" && !follows.has(r.company)) return false;
   if (state.q) {
     const tr = i18nMap[keyFor(r)];
     const hay = `${r.company} ${r.product} ${r.title} ${r.summary} ${(r.tags || []).join(" ")} ${tr ? tr.title + " " + tr.summary : ""}`.toLowerCase();
@@ -566,6 +607,7 @@ function render() {
       btn.remove();
     }
   }
+  if (state.view === "timeline") { feed.hidden = true; empty.hidden = true; renderTimeline(); }
 }
 
 function esc(s) {
@@ -598,7 +640,9 @@ function renderSpotlight() {
     <div class="spotlight-card" style="--c:${color}">
       <div class="thumb spotlight-thumb" style="--c:${color}">${tile}</div>
       <div class="spotlight-body">
-        <h2>${esc(state.company)}</h2>
+        <h2>${esc(state.company)}
+          <button class="follow-btn${follows.has(state.company) ? " on" : ""}">${t(follows.has(state.company) ? "unfollow" : "follow")}</button>
+        </h2>
         <div class="spotlight-stats">
           <span><b>${items.length}</b> ${t("releasesW")}</span>
           <span><b>${openN}</b> ${t("openW")}</span>
@@ -607,6 +651,8 @@ function renderSpotlight() {
         <div class="spotlight-latest">${t("latest")} <b>${esc(latest.product)}</b> · ${esc(relativeDate(latest.date) || latest.date)}</div>
       </div>
     </div>`;
+  const fbtn = el.querySelector(".follow-btn");
+  if (fbtn) fbtn.onclick = () => { toggleFollow(state.company); renderSpotlight(); };
 }
 
 // Analytics panel: releases-by-company bars + a 12-month cadence chart + type breakdown.
@@ -890,10 +936,128 @@ function initPalette() {
   };
 }
 
+// ---------------- 🌳 model family trees ----------------
+// A "family" = company + the product's base name (text before the first digit):
+// "GPT-4.5" → GPT, "Claude Opus 4.8" → Claude Opus, "Gemini 3.5 Flash" → Gemini.
+function familyBase(p) {
+  const i = String(p).search(/\d/);
+  const base = (i > 0 ? p.slice(0, i) : p).replace(/[\s\-–—v.]+$/i, "").trim();
+  return base.length >= 2 ? base : "";
+}
+
+function renderFamilies() {
+  const el = document.getElementById("families");
+  if (!el || el.hidden) return;
+  const groups = {};
+  for (const r of state.all) {
+    const base = familyBase(r.product);
+    if (!base) continue;
+    const k = `${r.company}|${base}`;
+    (groups[k] = groups[k] || []).push(r);
+  }
+  const fams = Object.entries(groups)
+    .filter(([, m]) => m.length >= 2)
+    .sort((a, b) => b[1].length - a[1].length)
+    .slice(0, 20);
+  el.innerHTML = fams.map(([k, members]) => {
+    const [company, base] = k.split("|");
+    const color = COMPANY_COLORS[company] || "#7c5cff";
+    const chain = [...members]
+      .sort((a, b) => (a.date || "").localeCompare(b.date || ""))
+      .map((r) => {
+        const dep = r.type === "deprecation";
+        return `<a class="fam-node${dep ? " sunset" : ""}" href="#r=${encodeURIComponent(keyFor(r))}"
+                   title="${esc(r.title)}">${dep ? "🌅 " : ""}${esc(r.product)}<span class="fam-date">${esc(r.date)}</span></a>`;
+      })
+      .join(`<span class="fam-arrow">→</span>`);
+    return `<div class="fam-row">
+      <div class="fam-head"><span class="fam-dot" style="background:${color}"></span>${esc(base)} <span class="fam-co">· ${esc(company)}</span></div>
+      <div class="fam-chain">${chain}</div>
+    </div>`;
+  }).join("");
+}
+
+function initFamilies() {
+  const btn = document.getElementById("families-toggle");
+  const panel = document.getElementById("families");
+  if (!btn || !panel) return;
+  btn.onclick = () => {
+    const open = panel.hidden;
+    panel.hidden = !open;
+    btn.classList.toggle("active", open);
+    btn.textContent = open ? t("hideFamilies") : t("families");
+    if (open) renderFamilies();
+  };
+}
+
+// ---------------- 📅 timeline view ----------------
+function renderTimeline() {
+  const el = document.getElementById("timeline");
+  if (!el || el.hidden) return;
+  const cutoff = Date.now() - 365 * 86400000;
+  const items = state.all.filter(matches).filter((r) => {
+    const d = new Date((r.date || "") + "T00:00:00").getTime();
+    return !isNaN(d) && d >= cutoff;
+  });
+  const byCo = {};
+  for (const r of items) (byCo[r.company] = byCo[r.company] || []).push(r);
+  const rows = Object.entries(byCo).sort((a, b) => b[1].length - a[1].length).slice(0, 22);
+  const W = 900, ROW = 26, PADL = 110, PADT = 28;
+  const H = PADT + rows.length * ROW + 14;
+  const t0 = cutoff, t1 = Date.now() + 86400000;
+  const x = (ts) => PADL + ((ts - t0) / (t1 - t0)) * (W - PADL - 16);
+  // month gridlines
+  let grid = "";
+  const d = new Date();
+  for (let i = 0; i <= 12; i++) {
+    const gm = new Date(d.getFullYear(), d.getMonth() - i, 1).getTime();
+    if (gm < t0) break;
+    const gx = x(gm);
+    const lbl = t("months")[new Date(gm).getMonth()].slice(0, 3);
+    grid += `<line x1="${gx}" y1="${PADT - 12}" x2="${gx}" y2="${H - 8}" stroke="currentColor" opacity="0.09"/>
+             <text x="${gx + 3}" y="${PADT - 16}" font-size="9" fill="currentColor" opacity="0.45">${lbl}</text>`;
+  }
+  const svgRows = rows.map(([co, rels], i) => {
+    const cy = PADT + i * ROW + ROW / 2;
+    const color = COMPANY_COLORS[co] || "#7c5cff";
+    const dots = rels.map((r) => {
+      const ts = new Date(r.date + "T00:00:00").getTime();
+      return `<a href="#r=${encodeURIComponent(keyFor(r))}"><circle cx="${x(ts)}" cy="${cy}" r="5" fill="${color}" opacity="0.9"><title>${esc(r.product)} · ${esc(r.date)}</title></circle></a>`;
+    }).join("");
+    return `<text x="4" y="${cy + 3}" font-size="10" fill="currentColor" opacity="0.75">${esc(co.length > 15 ? co.slice(0, 14) + "…" : co)}</text>
+            <line x1="${PADL}" y1="${cy}" x2="${W - 12}" y2="${cy}" stroke="currentColor" opacity="0.06"/>${dots}`;
+  }).join("");
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;color:var(--text)">${grid}${svgRows}</svg>`;
+}
+
+function setView(view) {
+  state.view = view;
+  const btn = document.getElementById("timeline-toggle");
+  const tl = document.getElementById("timeline");
+  const feed = document.getElementById("feed");
+  const isTl = view === "timeline";
+  tl.hidden = !isTl;
+  feed.hidden = isTl;
+  document.getElementById("empty").hidden = true;
+  if (btn) { btn.textContent = isTl ? t("viewList") : t("viewTimeline"); btn.classList.toggle("active", isTl); }
+  if (isTl) renderTimeline(); else render();
+}
+
+function initViewToggles() {
+  const btn = document.getElementById("timeline-toggle");
+  if (btn) btn.onclick = () => setView(state.view === "timeline" ? "list" : "timeline");
+  initFamilies();
+  // Wrapped chip appears only once a card exists (bot generates it monthly).
+  fetch("wrapped/latest.png", { method: "HEAD" })
+    .then((r) => { if (r.ok) document.getElementById("wrapped-link").hidden = false; })
+    .catch(() => {});
+}
+
 // Arriving via a shared #r=<key> permalink: scroll to that card and flash it.
 function handleDeepLink() {
   const m = location.hash.match(/^#r=(.+)$/);
   if (!m) return;
+  if (state.view === "timeline") setView("list"); // cards live in the list view
   const key = decodeURIComponent(m[1]);
   const card = document.querySelector(`.card[data-key="${CSS.escape(key)}"]`);
   if (!card) return; // filtered out or gone — feed stays as-is
