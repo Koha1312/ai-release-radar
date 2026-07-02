@@ -29,6 +29,8 @@ const COMPANY_COLORS = {
   "Apple": "#9aa0a6",
   "Mistral": "#fa520f",
   "Stability AI": "#9d39e0",
+  "Ollama": "#8ca0b3",
+  "vLLM": "#f5a623",
 };
 
 // Short monogram per company for the branded thumbnail tile.
@@ -39,6 +41,7 @@ const COMPANY_CODES = {
   "xAI": "X", "ElevenLabs": "11", "GitHub": "GH", "OpenClaw": "OC", "n8n": "n8",
   "Notion": "N", "Raycast": "Ra", "Zed": "Ze", "Canva": "Ca", "Figma": "Fi",
   "Brave": "Br", "Apple": "Ap", "Mistral": "Mi", "Stability AI": "St",
+  "Ollama": "Ol", "vLLM": "vL",
 };
 const monogram = (c) => COMPANY_CODES[c] || (c[0] || "?").toUpperCase();
 
@@ -49,6 +52,7 @@ const COMPANY_LOGO = {
   "GitHub": "github", "Apple": "apple", "n8n": "n8n", "Notion": "notion", "Raycast": "raycast",
   "Canva": "canva", "Figma": "figma", "Brave": "brave", "Perplexity": "perplexity",
   "Obsidian": "obsidian", "Cursor": "cursor", "xAI": "x", "Mistral": "mistralai",
+  "Ollama": "ollama",
 };
 
 // ---------------- i18n ----------------
@@ -76,6 +80,8 @@ const I18N = {
     heartbeat: "🤖 bot updated {ago} ago · next sweep in ~{next}",
     palPh: "Type a command or search releases…", cmdTheme: "Toggle light/dark theme",
     cmdAnalytics: "Toggle analytics", cmdLang: "Language", cmdFilter: "Filter company", palEmpty: "No matches",
+    trendsTitle: "📈 Signals", trendBusiest: "{c} shipped the most in the last 90 days ({n} releases)",
+    trendOpen: "{p}% of the last 90 days' releases are open-source", trendMonth: "busiest month on record: {m} ({n} releases)",
   },
   vi: {
     name: "Tiếng Việt",
@@ -98,6 +104,8 @@ const I18N = {
     heartbeat: "🤖 bot cập nhật {ago} trước · lần quét tiếp sau ~{next}",
     palPh: "Nhập lệnh hoặc tìm bản phát hành…", cmdTheme: "Đổi giao diện sáng/tối",
     cmdAnalytics: "Bật/tắt thống kê", cmdLang: "Ngôn ngữ", cmdFilter: "Lọc công ty", palEmpty: "Không có kết quả",
+    trendsTitle: "📈 Tín hiệu", trendBusiest: "{c} phát hành nhiều nhất trong 90 ngày qua ({n} bản)",
+    trendOpen: "{p}% bản phát hành 90 ngày qua là mã nguồn mở", trendMonth: "tháng sôi động nhất: {m} ({n} bản)",
   },
   es: {
     name: "Español",
@@ -120,6 +128,8 @@ const I18N = {
     heartbeat: "🤖 bot actualizado hace {ago} · próximo barrido en ~{next}",
     palPh: "Escribe un comando o busca…", cmdTheme: "Cambiar tema claro/oscuro",
     cmdAnalytics: "Mostrar/ocultar analítica", cmdLang: "Idioma", cmdFilter: "Filtrar empresa", palEmpty: "Sin resultados",
+    trendsTitle: "📈 Señales", trendBusiest: "{c} lanzó más en los últimos 90 días ({n} lanzamientos)",
+    trendOpen: "{p}% de los lanzamientos de 90 días son código abierto", trendMonth: "mes más activo: {m} ({n})",
   },
   zh: {
     name: "中文",
@@ -142,6 +152,8 @@ const I18N = {
     heartbeat: "🤖 bot 更新于 {ago} 前 · 下次扫描约 {next} 后",
     palPh: "输入命令或搜索发布…", cmdTheme: "切换明暗主题",
     cmdAnalytics: "显示/隐藏统计", cmdLang: "语言", cmdFilter: "筛选公司", palEmpty: "无匹配结果",
+    trendsTitle: "📈 信号", trendBusiest: "近 90 天发布最多：{c}（{n} 个）",
+    trendOpen: "近 90 天发布中 {p}% 为开源", trendMonth: "最活跃月份：{m}（{n} 个）",
   },
   ja: {
     name: "日本語",
@@ -164,6 +176,8 @@ const I18N = {
     heartbeat: "🤖 bot 更新 {ago} 前 · 次のスキャンまで約 {next}",
     palPh: "コマンドまたは検索…", cmdTheme: "テーマ切り替え",
     cmdAnalytics: "分析の表示切替", cmdLang: "言語", cmdFilter: "企業で絞り込み", palEmpty: "一致なし",
+    trendsTitle: "📈 シグナル", trendBusiest: "過去90日で最多リリース: {c}（{n} 件）",
+    trendOpen: "過去90日のリリースの {p}% がオープンソース", trendMonth: "過去最多の月: {m}（{n} 件）",
   },
   ko: {
     name: "한국어",
@@ -186,6 +200,8 @@ const I18N = {
     heartbeat: "🤖 bot 업데이트 {ago} 전 · 다음 스캔 ~{next} 후",
     palPh: "명령 입력 또는 검색…", cmdTheme: "라이트/다크 전환",
     cmdAnalytics: "분석 토글", cmdLang: "언어", cmdFilter: "회사 필터", palEmpty: "결과 없음",
+    trendsTitle: "📈 시그널", trendBusiest: "최근 90일 최다 릴리스: {c} ({n}개)",
+    trendOpen: "최근 90일 릴리스 중 {p}%가 오픈소스", trendMonth: "역대 최다 릴리스 월: {m} ({n}개)",
   },
   fr: {
     name: "Français",
@@ -208,6 +224,8 @@ const I18N = {
     heartbeat: "🤖 bot mis à jour il y a {ago} · prochain balayage dans ~{next}",
     palPh: "Tapez une commande ou recherchez…", cmdTheme: "Basculer le thème",
     cmdAnalytics: "Afficher/masquer les stats", cmdLang: "Langue", cmdFilter: "Filtrer par entreprise", palEmpty: "Aucun résultat",
+    trendsTitle: "📈 Signaux", trendBusiest: "{c} a le plus publié sur 90 jours ({n} sorties)",
+    trendOpen: "{p}% des sorties des 90 derniers jours sont open source", trendMonth: "mois le plus actif : {m} ({n})",
   },
 };
 
@@ -289,6 +307,7 @@ async function load() {
     applyLang();
     initAnalytics();
     initPalette();
+    handleDeepLink();
   } catch (err) {
     document.getElementById("meta").textContent = "Could not load releases.json — run `radar build` first.";
     console.error(err);
@@ -430,7 +449,7 @@ function syncUrl() {
   if (state.q) p.set("q", state.q);
   if (state.lang !== "en") p.set("lang", state.lang);
   const qs = p.toString();
-  history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+  history.replaceState(null, "", (qs ? "?" + qs : location.pathname) + location.hash);
 }
 
 function render() {
@@ -463,9 +482,12 @@ function render() {
     const color = COMPANY_COLORS[r.company] || "#7c5cff";
     const mod = inferModality(r);
     // Translated content when available for this language; English otherwise.
-    const tr = i18nMap[keyFor(r)];
+    const rKey = keyFor(r);
+    const tr = i18nMap[rKey];
     const title = (tr && tr.title) || r.title;
     const summary = (tr && tr.summary) || r.summary || "";
+    // Deep link to this card (Share Era): site URL + #r=<dedup key>.
+    const permalink = `${location.origin}${location.pathname}#r=${encodeURIComponent(rKey)}`;
     // Thumbnail: real logo (Simple Icons, tinted white) or a branded monogram tile.
     const logo = COMPANY_LOGO[r.company];
     const tileInner = logo
@@ -476,6 +498,7 @@ function render() {
       : "";
     const card = document.createElement("article");
     card.className = "card";
+    card.dataset.key = rKey; // permalink target (#r=<key>)
     card.style.setProperty("--c", color); // brand-color accent bar + hover glow
     card.innerHTML = `
       <div class="thumb" style="--c:${color}">${tileInner}${img}</div>
@@ -495,8 +518,26 @@ function render() {
           ${(r.tags || []).map((tag) => `<span class="tag">${esc(tag)}</span>`).join("")}
           ${r.url ? `<span class="trust ${r.official ? "official" : "reported"}" title="${r.official ? "Primary source — the company's own announcement" : "Secondary source — reported by a news site"}">${t(r.official ? "official" : "reported")}</span>` : ""}
           ${r.url ? `<a class="source" href="${esc(r.url)}" target="_blank" rel="noopener">${t("source")}</a>` : ""}
+          <span class="share-group">
+            <a class="share-btn" title="Share on X" target="_blank" rel="noopener"
+               href="https://twitter.com/intent/tweet?text=${encodeURIComponent(`${r.product} — ${title} (via AI Release Radar)`)}&url=${encodeURIComponent(permalink)}">𝕏</a>
+            <a class="share-btn" title="Share on LinkedIn" target="_blank" rel="noopener"
+               href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(permalink)}">in</a>
+            <button class="share-btn copy-link" title="Copy link">🔗</button>
+          </span>
         </div>
       </div>`;
+    // Copy-permalink button (clipboard; quick ✓ feedback).
+    const copyBtn = card.querySelector(".copy-link");
+    if (copyBtn) {
+      copyBtn.onclick = async () => {
+        try {
+          await navigator.clipboard.writeText(permalink);
+          copyBtn.textContent = "✓";
+          setTimeout(() => { copyBtn.textContent = "🔗"; }, 1200);
+        } catch { /* clipboard unavailable — nothing to do */ }
+      };
+    }
     // Long summaries collapse to 3 lines; "show more" expands in place.
     const moreBtn = card.querySelector(".more-btn");
     if (moreBtn) {
@@ -602,7 +643,29 @@ function renderAnalytics() {
   const byType = {};
   for (const r of state.all) byType[r.type] = (byType[r.type] || 0) + 1;
   const typeChips = Object.entries(byType).sort((a, b) => b[1] - a[1])
-    .map(([t, n]) => `<span class="atype">${esc(t)} <b>${n}</b></span>`).join("");
+    .map(([ty, n]) => `<span class="atype">${esc(ty)} <b>${n}</b></span>`).join("");
+
+  // 📈 Signals — trend callouts computed from the data itself (no LLM, no drift).
+  const cutoff90 = Date.now() - 90 * 86400000;
+  const recent = state.all.filter((r) => {
+    const d = new Date((r.date || "") + "T00:00:00").getTime();
+    return !isNaN(d) && d >= cutoff90 && d <= Date.now() + 86400000;
+  });
+  const signals = [];
+  if (recent.length >= 5) {
+    const co90 = {};
+    for (const r of recent) co90[r.company] = (co90[r.company] || 0) + 1;
+    const [topCo, topN] = Object.entries(co90).sort((a, b) => b[1] - a[1])[0];
+    signals.push(t("trendBusiest").replace("{c}", topCo).replace("{n}", topN));
+    const openP = Math.round((recent.filter((r) => r.open_source).length / recent.length) * 100);
+    signals.push(t("trendOpen").replace("{p}", openP));
+  }
+  const [topMk, topMkN] = Object.entries(byMonth).sort((a, b) => b[1] - a[1])[0] || [null, 0];
+  if (topMk) signals.push(t("trendMonth").replace("{m}", monthLabel(topMk)).replace("{n}", topMkN));
+  const signalsHtml = signals.length
+    ? `<h4 style="margin-top:16px">${t("trendsTitle")}</h4>
+       <ul class="signals">${signals.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>`
+    : "";
 
   el.innerHTML = `
     <div class="apanel">
@@ -615,6 +678,7 @@ function renderAnalytics() {
         <div class="acols">${monthCols}</div>
         <h4 style="margin-top:16px">${t("byType")}</h4>
         <div class="atypes">${typeChips}</div>
+        ${signalsHtml}
       </div>
     </div>`;
 }
@@ -825,6 +889,19 @@ function initPalette() {
     else if (e.key === "Enter" && items[palIndex]) { closePalette(); items[palIndex].run(); }
   };
 }
+
+// Arriving via a shared #r=<key> permalink: scroll to that card and flash it.
+function handleDeepLink() {
+  const m = location.hash.match(/^#r=(.+)$/);
+  if (!m) return;
+  const key = decodeURIComponent(m[1]);
+  const card = document.querySelector(`.card[data-key="${CSS.escape(key)}"]`);
+  if (!card) return; // filtered out or gone — feed stays as-is
+  card.scrollIntoView({ block: "center" }); // instant — smooth is flaky on some engines
+  card.classList.add("flash");
+  setTimeout(() => card.classList.remove("flash"), 2600);
+}
+window.addEventListener("hashchange", handleDeepLink);
 
 // PWA: installable + offline fallback (sw.js is network-first, so never stale).
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
