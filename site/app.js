@@ -72,6 +72,10 @@ const I18N = {
     lastYear: "last year", yearsAgo: "{n} years ago", scheduled: "scheduled",
     months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
     mod: { text: "text", image: "image", video: "video", audio: "audio", robotics: "robotics", code: "code" },
+    digestTitle: "📰 This week in AI", digestMeta: "{n} releases · week of {d}",
+    heartbeat: "🤖 bot updated {ago} ago · next sweep in ~{next}",
+    palPh: "Type a command or search releases…", cmdTheme: "Toggle light/dark theme",
+    cmdAnalytics: "Toggle analytics", cmdLang: "Language", cmdFilter: "Filter company", palEmpty: "No matches",
   },
   vi: {
     name: "Tiếng Việt",
@@ -90,6 +94,10 @@ const I18N = {
     lastYear: "năm ngoái", yearsAgo: "{n} năm trước", scheduled: "đã lên lịch",
     months: ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"],
     mod: { text: "văn bản", image: "hình ảnh", video: "video", audio: "âm thanh", robotics: "robot", code: "lập trình" },
+    digestTitle: "📰 Tuần này trong AI", digestMeta: "{n} bản phát hành · tuần từ {d}",
+    heartbeat: "🤖 bot cập nhật {ago} trước · lần quét tiếp sau ~{next}",
+    palPh: "Nhập lệnh hoặc tìm bản phát hành…", cmdTheme: "Đổi giao diện sáng/tối",
+    cmdAnalytics: "Bật/tắt thống kê", cmdLang: "Ngôn ngữ", cmdFilter: "Lọc công ty", palEmpty: "Không có kết quả",
   },
   es: {
     name: "Español",
@@ -108,6 +116,10 @@ const I18N = {
     lastYear: "el año pasado", yearsAgo: "hace {n} años", scheduled: "programado",
     months: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
     mod: { text: "texto", image: "imagen", video: "vídeo", audio: "audio", robotics: "robótica", code: "código" },
+    digestTitle: "📰 Esta semana en IA", digestMeta: "{n} lanzamientos · semana del {d}",
+    heartbeat: "🤖 bot actualizado hace {ago} · próximo barrido en ~{next}",
+    palPh: "Escribe un comando o busca…", cmdTheme: "Cambiar tema claro/oscuro",
+    cmdAnalytics: "Mostrar/ocultar analítica", cmdLang: "Idioma", cmdFilter: "Filtrar empresa", palEmpty: "Sin resultados",
   },
   zh: {
     name: "中文",
@@ -126,6 +138,10 @@ const I18N = {
     lastYear: "去年", yearsAgo: "{n} 年前", scheduled: "已排期",
     months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
     mod: { text: "文本", image: "图像", video: "视频", audio: "音频", robotics: "机器人", code: "代码" },
+    digestTitle: "📰 本周 AI 动态", digestMeta: "{n} 个发布 · {d} 当周",
+    heartbeat: "🤖 bot 更新于 {ago} 前 · 下次扫描约 {next} 后",
+    palPh: "输入命令或搜索发布…", cmdTheme: "切换明暗主题",
+    cmdAnalytics: "显示/隐藏统计", cmdLang: "语言", cmdFilter: "筛选公司", palEmpty: "无匹配结果",
   },
   ja: {
     name: "日本語",
@@ -144,6 +160,10 @@ const I18N = {
     lastYear: "昨年", yearsAgo: "{n} 年前", scheduled: "予定",
     months: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
     mod: { text: "テキスト", image: "画像", video: "動画", audio: "音声", robotics: "ロボティクス", code: "コード" },
+    digestTitle: "📰 今週の AI", digestMeta: "{n} 件のリリース · {d} の週",
+    heartbeat: "🤖 bot 更新 {ago} 前 · 次のスキャンまで約 {next}",
+    palPh: "コマンドまたは検索…", cmdTheme: "テーマ切り替え",
+    cmdAnalytics: "分析の表示切替", cmdLang: "言語", cmdFilter: "企業で絞り込み", palEmpty: "一致なし",
   },
   ko: {
     name: "한국어",
@@ -162,6 +182,10 @@ const I18N = {
     lastYear: "작년", yearsAgo: "{n}년 전", scheduled: "예정됨",
     months: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"],
     mod: { text: "텍스트", image: "이미지", video: "영상", audio: "오디오", robotics: "로보틱스", code: "코드" },
+    digestTitle: "📰 이번 주 AI", digestMeta: "{n}개 릴리스 · {d} 주간",
+    heartbeat: "🤖 bot 업데이트 {ago} 전 · 다음 스캔 ~{next} 후",
+    palPh: "명령 입력 또는 검색…", cmdTheme: "라이트/다크 전환",
+    cmdAnalytics: "분석 토글", cmdLang: "언어", cmdFilter: "회사 필터", palEmpty: "결과 없음",
   },
   fr: {
     name: "Français",
@@ -180,6 +204,10 @@ const I18N = {
     lastYear: "l'an dernier", yearsAgo: "il y a {n} ans", scheduled: "programmé",
     months: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     mod: { text: "texte", image: "image", video: "vidéo", audio: "audio", robotics: "robotique", code: "code" },
+    digestTitle: "📰 Cette semaine en IA", digestMeta: "{n} sorties · semaine du {d}",
+    heartbeat: "🤖 bot mis à jour il y a {ago} · prochain balayage dans ~{next}",
+    palPh: "Tapez une commande ou recherchez…", cmdTheme: "Basculer le thème",
+    cmdAnalytics: "Afficher/masquer les stats", cmdLang: "Langue", cmdFilter: "Filtrer par entreprise", palEmpty: "Aucun résultat",
   },
 };
 
@@ -253,9 +281,14 @@ async function load() {
     if (!I18N[state.lang]) state.lang = "en";
     document.getElementById("search").value = state.q;
     initLangPicker();
+    try {
+      const dres = await fetch("digest.json", { cache: "no-store" });
+      if (dres.ok) digestData = await dres.json();
+    } catch { /* no digest yet — section stays hidden */ }
     await loadContentTranslations();
     applyLang();
     initAnalytics();
+    initPalette();
   } catch (err) {
     document.getElementById("meta").textContent = "Could not load releases.json — run `radar build` first.";
     console.error(err);
@@ -288,6 +321,8 @@ function applyLang() {
   render();
   renderHeroStats();
   renderAnalytics();
+  renderDigest();
+  renderHeartbeat();
 }
 
 function buildFilters(companies, types) {
@@ -642,6 +677,157 @@ function renderHeroStats() {
     .join("");
   el.innerHTML = `<span class="stat-num">${last30}</span> ${t("last30")} <span class="spark">${bars}</span>`;
 }
+
+// ---------------- weekly digest ----------------
+let digestData = null;
+
+function renderDigest() {
+  const el = document.getElementById("digest");
+  if (!el) return;
+  const txt = digestData && digestData.text && (digestData.text[state.lang] || digestData.text.en);
+  if (!txt) { el.hidden = true; return; }
+  el.hidden = false;
+  el.innerHTML = `
+    <h3>${t("digestTitle")}</h3>
+    <p>${esc(txt)}</p>
+    <div class="digest-meta">${tf("digestMeta", digestData.count).replace("{d}", digestData.week_of)}</div>`;
+}
+
+// ---------------- bot heartbeat ----------------
+// "updated 42 min ago · next sweep in ~2 h" — computed from generated_at and
+// the bot's every-3-hours cron. Duration units stay universal (min/h).
+function fmtDur(min) {
+  return min < 60 ? `${min} min` : `${Math.round(min / 60)} h`;
+}
+
+function renderHeartbeat() {
+  const el = document.getElementById("heartbeat");
+  if (!el) return;
+  const m = (state.generatedAt || "").match(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2})/);
+  if (!m) { el.hidden = true; return; }
+  const last = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+  const agoMin = Math.max(1, Math.round((Date.now() - last) / 60000));
+  const now = new Date();
+  const nextH = (Math.floor(now.getUTCHours() / 3) + 1) * 3; // cron: 0 */3 * * *
+  const next = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), nextH);
+  const nextMin = Math.max(1, Math.round((next - Date.now()) / 60000));
+  el.hidden = false;
+  el.textContent = t("heartbeat").replace("{ago}", fmtDur(agoMin)).replace("{next}", fmtDur(nextMin));
+}
+setInterval(renderHeartbeat, 60000);
+
+// ---------------- ⌘K command palette ----------------
+let palIndex = 0;
+
+function fuzzyScore(text, q) {
+  text = text.toLowerCase();
+  const idx = text.indexOf(q);
+  if (idx >= 0) return 100 - idx * 0.1; // substring: earlier is better
+  let i = 0;
+  for (const ch of text) if (ch === q[i]) i++;
+  return i === q.length ? 10 : -1; // subsequence match, else no match
+}
+
+function paletteItems(q) {
+  const items = [
+    { label: t("cmdTheme"), icon: "🌓", run: () => document.getElementById("theme-toggle").click() },
+    { label: t("cmdAnalytics"), icon: "📊", run: () => document.getElementById("analytics-toggle").click() },
+    { label: "RSS", icon: "📡", run: () => { location.href = "rss.xml"; } },
+  ];
+  for (const [code, d] of Object.entries(I18N)) {
+    items.push({ label: `${t("cmdLang")}: ${d.name}`, icon: "🌐", run: async () => {
+      state.lang = code;
+      localStorage.setItem("radar-lang", code);
+      const sel = document.getElementById("lang-picker");
+      if (sel) sel.value = code;
+      await loadContentTranslations();
+      applyLang();
+    } });
+  }
+  for (const c of state.companies) {
+    items.push({ label: `${t("cmdFilter")}: ${c}`, icon: "🏢", run: () => {
+      state.company = c;
+      buildFilters(state.companies, state.types);
+      render();
+    } });
+  }
+  for (const r of state.all) {
+    const tr = i18nMap[keyFor(r)];
+    items.push({
+      label: `${r.product} — ${(tr && tr.title) || r.title}`,
+      sub: `${r.company} · ${r.date}`,
+      icon: "🚀",
+      run: () => { if (r.url) window.open(r.url, "_blank", "noopener"); },
+    });
+  }
+  if (!q) return items.slice(0, 10);
+  return items
+    .map((it) => ({ it, s: fuzzyScore(it.label + " " + (it.sub || ""), q) }))
+    .filter((x) => x.s > 0)
+    .sort((a, b) => b.s - a.s)
+    .slice(0, 12)
+    .map((x) => x.it);
+}
+
+function renderPalette() {
+  const list = document.getElementById("pal-list");
+  const q = document.getElementById("pal-input").value.trim().toLowerCase();
+  const items = paletteItems(q);
+  palIndex = Math.min(palIndex, Math.max(0, items.length - 1));
+  list.innerHTML = items.length
+    ? items.map((it, i) => `
+        <div class="pal-item${i === palIndex ? " sel" : ""}" data-i="${i}">
+          <span class="pal-icon">${it.icon}</span>
+          <span class="pal-label">${esc(it.label)}</span>
+          ${it.sub ? `<span class="pal-sub">${esc(it.sub)}</span>` : ""}
+        </div>`).join("")
+    : `<div class="pal-empty">${t("palEmpty")}</div>`;
+  [...list.children].forEach((el) => {
+    if (!el.dataset.i) return;
+    el.onclick = () => { closePalette(); items[+el.dataset.i].run(); };
+    el.onmousemove = () => { palIndex = +el.dataset.i; renderPalette(); };
+  });
+  list._items = items;
+}
+
+function openPalette() {
+  const pal = document.getElementById("palette");
+  const input = document.getElementById("pal-input");
+  pal.hidden = false;
+  palIndex = 0;
+  input.value = "";
+  input.placeholder = t("palPh");
+  renderPalette();
+  input.focus();
+}
+function closePalette() { document.getElementById("palette").hidden = true; }
+
+function initPalette() {
+  const pal = document.getElementById("palette");
+  const input = document.getElementById("pal-input");
+  const hint = document.getElementById("pal-hint");
+  if (!pal || !input) return;
+  if (hint) hint.onclick = openPalette;
+  document.addEventListener("keydown", (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+      e.preventDefault();
+      pal.hidden ? openPalette() : closePalette();
+    } else if (!pal.hidden && e.key === "Escape") {
+      closePalette();
+    }
+  });
+  pal.onclick = (e) => { if (e.target === pal) closePalette(); };
+  input.oninput = () => { palIndex = 0; renderPalette(); };
+  input.onkeydown = (e) => {
+    const items = document.getElementById("pal-list")._items || [];
+    if (e.key === "ArrowDown") { e.preventDefault(); palIndex = Math.min(palIndex + 1, items.length - 1); renderPalette(); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); palIndex = Math.max(palIndex - 1, 0); renderPalette(); }
+    else if (e.key === "Enter" && items[palIndex]) { closePalette(); items[palIndex].run(); }
+  };
+}
+
+// PWA: installable + offline fallback (sw.js is network-first, so never stale).
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 
 // Light / dark theme toggle (persisted).
 function initTheme() {

@@ -75,6 +75,22 @@ def cmd_refresh(args) -> None:
     except Exception as e:  # noqa: BLE001
         print(f"  ! translation pass skipped: {e}")
 
+    # Weekly digest — regenerate when older than 6 days; also fail-soft.
+    try:
+        from . import digest
+
+        if digest.is_stale():
+            digest.build_digest()
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! digest pass skipped: {e}")
+
+
+def cmd_digest(_args) -> None:
+    """Force-regenerate the weekly digest (local Ollama)."""
+    from . import digest
+
+    digest.build_digest()
+
 
 def cmd_translate(_args) -> None:
     """Backfill all missing translations (local Ollama — free, uncapped)."""
@@ -93,10 +109,11 @@ def main() -> None:
     sub.add_parser("build", help="export DB to site/releases.json")
     sub.add_parser("refresh", help="ingest + build (daily job)")
     sub.add_parser("translate", help="backfill missing i18n translations")
+    sub.add_parser("digest", help="regenerate the weekly digest")
 
     args = parser.parse_args()
     {"seed": cmd_seed, "ingest": cmd_ingest, "build": cmd_build, "refresh": cmd_refresh,
-     "translate": cmd_translate}[args.command](args)
+     "translate": cmd_translate, "digest": cmd_digest}[args.command](args)
 
 
 if __name__ == "__main__":

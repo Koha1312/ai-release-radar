@@ -24,6 +24,8 @@
   <meta name="twitter:image" content="https://koha1312.github.io/ai-release-radar/og.png" />
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#0b0d17" />
 </head>
 <body>
   <button id="theme-toggle" aria-label="Toggle light/dark">🌙</button>
@@ -36,12 +38,18 @@
       <p class="tagline">Every AI release worth knowing — from the big labs to the tools we actually use. Structured, source-cited, no hype.</p>
       <p class="meta" id="meta">Loading…</p>
       <div class="hero-stats" id="hero-stats"></div>
+      <p class="heartbeat" id="heartbeat"></p>
     </div>
   </header>
 
   <main>
+    <section id="digest" class="digest" hidden></section>
+
     <section class="controls">
-      <input id="search" type="search" placeholder="🔍 Search releases…" autocomplete="off" />
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="🔍 Search releases…" autocomplete="off" />
+        <button id="pal-hint" class="kbd-hint" title="Command palette">Ctrl K</button>
+      </div>
       <div class="filter-row" id="company-filters"></div>
       <div class="filter-row" id="type-filters"></div>
       <div class="filter-row" id="access-filters"></div>
@@ -56,6 +64,14 @@
     <section id="feed" class="feed"></section>
     <p id="empty" class="empty" hidden>No releases match your filters.</p>
   </main>
+
+  <!-- ⌘K command palette -->
+  <div id="palette" hidden>
+    <div class="pal-box">
+      <input id="pal-input" type="text" autocomplete="off" spellcheck="false" />
+      <div id="pal-list"></div>
+    </div>
+  </div>
 
   <footer>
     <p class="channels">Follow the radar your way:
