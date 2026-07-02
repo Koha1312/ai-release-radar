@@ -153,10 +153,25 @@ function countFor(key, value) {
   return state.all.filter((r) => r[key] === value).length;
 }
 
+// Progressive disclosure: collapse the company wall past this many chips ("+N more").
+const COLLAPSE_AT = 12;
+let chipsExpanded = false;
+
 function renderChips(containerId, values, key) {
   const el = document.getElementById(containerId);
   el.innerHTML = "";
-  for (const v of values) {
+  let vals = values;
+  let hidden = 0;
+  if (key === "company" && !chipsExpanded && values.length > COLLAPSE_AT) {
+    const visible = values.slice(0, COLLAPSE_AT);
+    if (state.company !== "All" && !visible.includes(state.company)) {
+      chipsExpanded = true; // the active company must stay visible
+    } else {
+      hidden = values.length - visible.length;
+      vals = visible;
+    }
+  }
+  for (const v of vals) {
     const chip = document.createElement("button");
     chip.className = "chip" + (state[key] === v ? " active" : "");
     const label = key === "type" && v !== "All" ? v.toUpperCase() : v;
@@ -168,6 +183,16 @@ function renderChips(containerId, values, key) {
       render();
     };
     el.appendChild(chip);
+  }
+  if (key === "company" && values.length > COLLAPSE_AT) {
+    const t = document.createElement("button");
+    t.className = "chip chip-more";
+    t.textContent = hidden > 0 ? `+${hidden} more` : "− less";
+    t.onclick = () => {
+      chipsExpanded = hidden > 0;
+      renderChips(containerId, values, key);
+    };
+    el.appendChild(t);
   }
 }
 
@@ -208,6 +233,13 @@ function render() {
   feed.innerHTML = "";
   empty.hidden = items.length > 0;
 
+  // Per-month counts of the *filtered* items — shown in the group headers.
+  const monthCounts = {};
+  for (const r of items) {
+    const mk = (r.date || "").slice(0, 7);
+    monthCounts[mk] = (monthCounts[mk] || 0) + 1;
+  }
+
   let curMonth = null;
   for (const r of items) {
     const mk = (r.date || "").slice(0, 7); // YYYY-MM
@@ -215,7 +247,7 @@ function render() {
       curMonth = mk;
       const h = document.createElement("div");
       h.className = "month-header";
-      h.textContent = monthLabel(mk);
+      h.innerHTML = `${esc(monthLabel(mk))} <span class="mh-count">· ${monthCounts[mk]}</span>`;
       feed.appendChild(h);
     }
     const color = COMPANY_COLORS[r.company] || "#7c5cff";
@@ -243,22 +275,41 @@ function render() {
           <span class="date" title="${esc(r.date)}">${esc(relativeDate(r.date) || r.date)}</span>
         </div>
         <h3>${esc(r.product)} — ${esc(r.title)}</h3>
-        <p>${esc(r.summary)}</p>
+        <p class="summary${(r.summary || "").length > 240 ? " clamp" : ""}">${esc(r.summary)}</p>
+        ${(r.summary || "").length > 240 ? `<button class="more-btn">show more</button>` : ""}
         <div class="tags">
           ${(r.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}
           ${r.url ? `<span class="trust ${r.official ? "official" : "reported"}" title="${r.official ? "Primary source — the company's own announcement" : "Secondary source — reported by a news site"}">${r.official ? "✓ official" : "↗ reported"}</span>` : ""}
           ${r.url ? `<a class="source" href="${esc(r.url)}" target="_blank" rel="noopener">source ↗</a>` : ""}
         </div>
       </div>`;
-    // Make the whole card open the source — but don't hijack real links or text selection.
+    // Long summaries collapse to 3 lines; "show more" expands in place.
+    const moreBtn = card.querySelector(".more-btn");
+    if (moreBtn) {
+      moreBtn.onclick = () => {
+        const p = card.querySelector(".summary");
+        p.classList.toggle("clamp");
+        moreBtn.textContent = p.classList.contains("clamp") ? "show more" : "show less";
+      };
+    }
+    // Make the whole card open the source — but don't hijack links, buttons, or text selection.
     if (r.url) {
       card.classList.add("clickable");
       card.addEventListener("click", (e) => {
-        if (e.target.closest("a") || String(window.getSelection())) return;
+        if (e.target.closest("a, button") || String(window.getSelection())) return;
         window.open(r.url, "_blank", "noopener");
       });
     }
     feed.appendChild(card);
+  }
+
+  // Only keep "show more" where the summary actually overflows its 3-line clamp.
+  for (const btn of feed.querySelectorAll(".more-btn")) {
+    const p = btn.parentElement.querySelector(".summary");
+    if (p && p.scrollHeight <= p.clientHeight + 2) {
+      p.classList.remove("clamp");
+      btn.remove();
+    }
   }
 }
 
@@ -383,12 +434,18 @@ function renderHeroStats() {
     const mk = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
     months.push({ mk, count: byMonth[mk] || 0 });
   }
-  const thisMonth = months[months.length - 1].count;
+  // Rolling 30-day window — a calendar-month count reads "0" every 1st of the month.
+  const cutoff = Date.now() - 30 * 86400000;
+  const last30 = state.all.filter((r) => {
+    if (!r.date) return false;
+    const t = new Date(r.date + "T00:00:00").getTime();
+    return t >= cutoff && t <= Date.now() + 86400000;
+  }).length;
   const max = Math.max(1, ...months.map((m) => m.count));
   const bars = months
     .map((m) => `<span class="bar" style="height:${Math.round((m.count / max) * 26) + 3}px" title="${monthLabel(m.mk)}: ${m.count}"></span>`)
     .join("");
-  el.innerHTML = `<span class="stat-num">${thisMonth}</span> releases this month <span class="spark">${bars}</span>`;
+  el.innerHTML = `<span class="stat-num">${last30}</span> releases in the last 30 days <span class="spark">${bars}</span>`;
 }
 
 // Light / dark theme toggle (persisted).

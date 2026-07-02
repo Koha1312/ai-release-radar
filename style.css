@@ -263,6 +263,28 @@ body.light .tag { background: #eef1f8; }
 /* modality tag pill (💬 text / 🖼️ image / 🎬 video / 🔊 audio / 🤖 robotics / 💻 code) */
 .modality-pill { text-transform: none; letter-spacing: 0; color: var(--text); opacity: 0.8; border-color: var(--border); }
 
+/* long summaries collapse to 3 lines until "show more" */
+.card p.summary.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.more-btn {
+  background: none; border: none; padding: 0; margin: -6px 0 10px;
+  color: var(--accent-2); font-size: 0.78rem; font-weight: 600; cursor: pointer;
+}
+.more-btn:hover { text-decoration: underline; }
+
+/* "+N more" / "− less" chip for the collapsed company wall */
+.chip-more { color: var(--accent-2); border-style: dashed; }
+
+/* count next to month group headers */
+.mh-count { color: var(--muted); opacity: 0.75; font-weight: 500; }
+
+/* footer channels line */
+footer .channels { margin-bottom: 6px; }
+
 /* analytics toggle button */
 .toggle-btn { font-weight: 600; }
 
