@@ -1,0 +1,450 @@
+{
+ "openai|gpt45|deprecation": {
+  "title": "GPT-4.5 sunsetting June 27",
+  "summary": "GPT-4.5は2026年6月27日に30日間のsunset期間を経て、ChatGPTから退場します。"
+ },
+ "openai|gpt56sol|model": {
+  "title": "OpenAIがGPT-5.6ファミリーをプレビュー：ソル、テラ、ルナ",
+  "summary": "OpenAIはGPT-5.6の3つのサイズで限定プレビューを開始した。ソル（フラッグシップ）、テラ（バランスの良い日常使用）、ルナ（高速かつ低コスト）とし、新たな「max」推論機能と「ultra」モードを追加。この「ultra」モードは複雑な作業を加速するサブエージェントを起動する。ソルはTerminal-Bench 2.1（コマンドラインコード）において新たな基準を達成し、セキュリティと科学分野で最も強力なモデルとなっている。しかし、本リリースはAPIとCodexを通じて米国政府承認組織約20社に制限され、数週間以内に一般公開が予定されている。100万トークンあたりの価格：ソル5ドル（入力）30ドル（出力）、テラ2.50ドル（入力）15ドル（出力）、ルナ1ドル（入力）6ドル（出力）。"
+ },
+ "openai|jalapeo|platform": {
+  "title": "OpenAI and BroadcomがLLM最適化インフェンスチップJalapeñoを発表",
+  "summary": "OpenAIとBroadcomは、大規模言語モデルインフェンス用のパフォーマンスと効率を向上させるためのカスタムAIチップJalape:peñoを導入した。"
+ },
+ "openai|gpt55cyber|feature": {
+  "title": "OpenAIがセキュリティ領域で新ツール「Daybreak」をリリース",
+  "summary": "OpenAIは、組織が脆弱性を効果的に特定および対処するための新ツール「Daybreak」を、Codex SecurityおよびGPT-5.5-Cyberを含めて提供した。"
+ },
+ "openai|gpt55instant|model": {
+  "title": "Improving health intelligence in ChatGPT",
+  "summary": "OpenAIは、ChatGPTの健康とウェルネス応答を改善するために、推論を向上させ、明確なコミュニケーションを実現するGPT-5.5 Instantを発表しました。"
+ },
+ "github|githubcopilotapp|feature": {
+  "title": "GitHub Copilot desktop app reaches general availability",
+  "summary": "Copilot (macOS/Windows/Linux) は、複数のリポジトリで並行に実行可能なアジェンタセッションを提供する、エージェントネイティブなデスクトップホームです。各セッションは別々のブランチとワークツリーで動作します。また、Copilot SDK の一般利用を追加し、自社ツールに Copilot のエージェントエンジンを埋め込むことができます。"
+ },
+ "xai|grokv9medium|model": {
+  "title": "xAIのGrok V9-Mediumがリリース接近；Imagine Video 1.5が配布",
+  "summary": "Grok V9-Medium（約1.5Tパラメータ、3倍のパフォーマンス、コード中心）は2026年6月のリリースを前に最終トレーニングを実施中。xAIは、720pのクリップを約25秒でレンダリングする画像からビデオに変換するモデルであるGrok Imagine Video 1.5を配布した。"
+ },
+ "z.ai|glm52|model": {
+  "title": "Z.ai (Zhipu AI) が GLM-5.2 をリリース — オープンウェイト、コード中心",
+  "summary": "744Bパラメータの混合専門家モデル（40Bアクティブ）で100万トークンのコンテキストを備えたモデル。長時間のアジェンシーを想定したコード作成に最適化され、MITオープンウェイトライセンスで提供。初期報告によると、コード処理において GPT-5.5 と競争する性能を実現しており、コスト面ではかなり低い（公式ベンチマークはリリース時までない）"
+ },
+ "moonshot ai|kimik27code|model": {
+  "title": "Moonshot AIがKimi K2.7 Codeをリリース",
+  "summary": "Hugging Faceでmodified-MITライセンスに基づく10億パラメータのMoE基礎モデルKimi K2.6をコードフォーカスしたアップグレード版。Kimi Code Bench v2で+21.8%、K2.6と比べて約30%少ない推論トークン。"
+ },
+ "openai|gpt52|deprecation": {
+  "title": "GPT-5.2をChatGPTから退場",
+  "summary": "GPT-5.2 Instant/Thinking/Proは6月12日に削除され、既存のチャットはGPT-5.5に自動で継続されます。"
+ },
+ "anthropic|legalmcpconnectors|feature": {
+  "title": "20+ legal MCP connectors and 12 practice-area plugins",
+  "summary": "法務会社および内部チームが研究、契約書、発見、案件管理、法的支援などにClaudeを活用する方法を拡大"
+ },
+ "cursor|composer25|model": {
+  "title": "CursorのComposerインハウスコーディングモデル",
+  "summary": "Anysphereのフロンティアアジェンシーコーディングモデル — 類似モデルと比べて約4倍速く、ほとんどのターンを30秒以内に終える。Composer 2は3月19日にリリースされ、Composer 2.5はCursorのBugbot（レビュー時間は約90秒に短縮）およびCursor 3.7エディタ（デザインモード）で現在動作中。"
+ },
+ "anthropic|claudeopus48|model": {
+  "title": "Claude Opus 4.8 が最新のトップクラスモデルとして登場",
+  "summary": "Anthropic の最新のフラグシップ製品 — コーディング、エージェンシータスク、プロフェッショナルワークの向上を実現したアップグレード版。"
+ },
+ "apple|appleintelligencesiri|feature": {
+  "title": "AppleがWWDC26で次世代Apple IntelligenceおよびSiriを発表",
+  "summary": "WWDC2026で、AppleはiPhone、iPad、Mac、Watch、Vision Proに統合された、デバイスの画面認識と個人コンテキストを備えたより高度なAIを活用したSiriおよび次世代Apple Intelligenceの新機能を発表した。"
+ },
+ "anthropic|claudemythos5|model": {
+  "title": "Claude Mythos 5 が信頼されたアクセスに向けたリリース",
+  "summary": "Claude デベロッパー プラットフォームで Frontier Mythos クラスモデルが Claude Fable 5 と共にリリースされ、6月12日に同エクスポート規制の下で一時停止"
+ },
+ "anthropic|claudefable5|model": {
+  "title": "AnthropicがClaude Fable 5をリリース（その後停止）",
+  "summary": "Mythosクラスのモデルで100万トークンのコンテキスト、128,000トークンの最大出力、常にオンのアダプティブシンキングを備え、6月9日に一般公開後、6月12日に米国輸出制御指令により停止。"
+ },
+ "apple|afm3applefoundationmodels3rdgeneration|model": {
+  "title": "AppleがAFM 3をリリース：5つのオンデバイスおよびクラウドAIモデルファミリー",
+  "summary": "2026年6月8日にWWDC26で発表されたAppleの3世代目ファウンデーションモデルファミリーには、AFM 3 Core (3B)、AFM 3 Core Advanced (20B sparse on-device)、AFM 3 Cloud、AFM 3 Cloud (Image)、およびAFM 3 Cloud Proが含まれる。後者についてはGoogle Cloud上でNVIDIA GPUで実行され、Geminiの出力で精緻化されている。このファミリーは、マルチモーダル画像入力、エージェントツール利用、および小型アプリ開発者向けのゼロコスト開発ターミナルを追加する。"
+ },
+ "elevenlabs|elevenv3|model": {
+  "title": "ElevenLabs' Eleven v3 expressive voice model",
+  "summary": "Eleven v3は現在、テキスト-to-スピーキングモデルとしてデフォルトになっています。高感情表現を備えた自然な会話と、[whispers]や[surprised]などのインラインオーディオディレクションタグを含みます。ElevenLabsは音楽、トランスクリプション、会話型ボイスエージェントへの拡大を実現しました。"
+ },
+ "openclaw|openclaw20266xjunebetaseries|feature": {
+  "title": "June 2: 2026 beta series adds MCP coercion, parallel web search, and tighter security boundaries",
+  "summary": "2026.6.5–2026.6.8のJune 2026 betaリリースでは、MCPツール結果の強制、並列Web検索、SQLiteベースの認証プロファイル移行、構造化テキストサポートを含むTelegram/WhatsAppのより豊かなデリバリー、およびトランスクリプト、サンドボックス、MCP、ブラウザ、実行フローのすべてにおける強化されたセキュリティ承認パスが追加されました。"
+ },
+ "openai|gpt55|model": {
+  "title": "OpenAI introduces GPT-5.5",
+  "summary": "OpenAIが新たにGPT-5.5を公開。このモデルはこれまでの最もスマートなモデルとされ、複雑なコーディング、研究、データ分析に最適化された高速で実行可能なモデルである。"
+ },
+ "openai|gpt53codex|model": {
+  "title": "GPT-5.3-Codex: 最も能力の高いエージェントコードモデル",
+  "summary": "コード生成、推論、一般知能を提供するためのコードのトレーニングスタックとGPT-5のトレーニングスタックを1つに統合したモデル"
+ },
+ "microsoft|windowsagentruntime|platform": {
+  "title": "Windows Agent Runtime + Copilot Platform",
+  "summary": "WindowsをAIアグェントプラットフォームに変換；プレビュー版が展開中で、一般公開は2026年11月に予定されています。"
+ },
+ "microsoft|maimodelsthinking1code1|model": {
+  "title": "Seven new in-house MAI models",
+  "summary": "Includes MAI-Thinking-1 (reasoning) and MAI-Code-1, tuned specifically for GitHub and VS Code."
+ },
+ "microsoft|azureaifoundry|platform": {
+  "title": "Azure AI FoundryがBuild 2026で注目を浴びる",
+  "summary": "タスクごとに適切なモデルを選択するモデルルーティングレイヤーがチームにモデルロックを課さないという核心テーマ。"
+ },
+ "elevenlabs|musicv2|model": {
+  "title": "ElevenLabsがMusic v2をリリース：中盤でのジャンル変更とインペインティングをサポート",
+  "summary": "ElevenLabsは、AI音楽モデルMusic v2をリリースしました。このモデルは、トラック中盤でジャンルを変更（例：オペラからヘヴィメタル）、高速ラップを維持し、生成された音声に非音楽的なサウンドエフェクトを埋め込むことが可能です。さらに、特定のトラックセクションの編集に向けたInpainting APIを追加し、Music APIの価格を最大50%まで削減しました。"
+ },
+ "figma|figmaaiagent|feature": {
+  "title": "FigmaがネイティブAIデザインエージェントを提供",
+  "summary": "2026年5月20日から、First DraftはFigma内で設計の探索、イテレーション、精緻化をネイティブに行える新エントリーポイントとして登場。Figma Makeには直接編集、注釈、チャット、PR作成が追加され、Figma MCPサーバーにはスライドサポートとアセットエクスポートが追加された。"
+ },
+ "google|gemini3deepthink|feature": {
+  "title": "Gemini 3 Deep Think for AI Ultra subscribers",
+  "summary": "Googleの数学、科学、論理、複雑な多段階問題に特化した最高の推論モード。"
+ },
+ "google|geminisparkdailybrief|feature": {
+  "title": "Gemini app gains a personal agent and Daily Brief",
+  "summary": "The Gemini app added 'Spark' (a personal AI agent), a 'Daily Brief' feature, and a redesigned interface."
+ },
+ "google|geminiomni|model": {
+  "title": "Gemini Omni — native video creation",
+  "summary": "I/O 2026で発表された、テキスト、画像、音声、動画を入力として組み合わせる新しいAI動画モデル。"
+ },
+ "google|gemini35flash|model": {
+  "title": "Gemini 3.5 Flashが一般公開",
+  "summary": "5月19日にリリース。現在、グローバル、米国、EU地域でGemini Enterpriseと併用して一般公開中。"
+ },
+ "raycast|raycast20|feature": {
+  "title": "Raycast 2.0 — Windows support + system-wide AI",
+  "summary": "2026年5月公開ベータ版：macOSおよびWindowsのサポート、Liquid Glass UI、システム全体のAI認識、Quick AI（一時的な質問）およびAI Chat（永続メモリを有する）、再利用可能な'Agents'（以前はPresets）"
+ },
+ "notion|notiondeveloperplatform|platform": {
+  "title": "Notion turns its workspace into an AI-agent hub",
+  "summary": "2026年5月13日にリリースされた新しい開発者プラットフォームでは、WorkersとExternal Agents APIを用いてチームがAIエージェント、外部データ、カスタムコードをNotionに接続できます。4月のアップデートでは、エージェントコードの実行、voice dictation、50ページのコンテキストウィンドウが追加されました。"
+ },
+ "brave|leoagenticbrowsing|feature": {
+  "title": "BraveのLeoがアジェンシーブラウジングと自動モードを追加",
+  "summary": "Braveのプライバシーを最優先するブラウザネイティブAIアシスタントが、2026年5月にアジェンシーブラウジング（タブ間のタスク自動実行 without external serversのページコンテンツの保存）を追加し、タスクごとに最適なモデルを選択する自動モードを提供します。"
+ },
+ "n8n|microsoftagent365trigger|feature": {
+  "title": "n8n Agents Can Now Appear as Native Members Inside Microsoft 365 Apps",
+  "summary": "n8nは2026年5月5日にMicrosoft Agent 365 Triggerノードをリリースしました。Microsoft Agent 365のGA後4日目で、n8nワークフローはTeams、Outlook、SharePointでネイティブに表示されるAgent 365エージェントのバックエンドとして機能します。OAuth、メッセージデシリアライゼーション、レスポンスフォーマットを既定で処理します。"
+ },
+ "microsoft|microsoftagent365|platform": {
+  "title": "Microsoft Agent 365が一般利用開始",
+  "summary": "企業向けのAIエージェント管理用コントロールプラーン。5月1日から一般利用開始。2026年Buildで拡大予定。"
+ },
+ "zed|zed10parallelagents|feature": {
+  "title": "Zed 1.0 でネイティブな Parallel Agents が提供開始",
+  "summary": "Rust で構築された GPU アクセラレーションエディタが 2026 年 4 月 29 日に 1.0 バージョンをリリース。Parallel Agents（2026 年 4 月 22 日）は、1 つのウィンドウ内で複数の AI エージェントを同時に実行し、コードベースの異なる部分に各エージェントが対応する機能を提供します。これに加え、外部エージェント（Claude Code、Codex、Gemini CLI）をサポートしています。オープンソース"
+ },
+ "deepseek|deepseekv4|model": {
+  "title": "DeepSeek V4 — 最大のオープンウェイトモデル",
+  "summary": "DeepSeekの新製品ラインナップのプレビュー：V4-Pro（1.6Tパラメータ、単一のB2 00ノードでデプロイ可能）とスモールなV4-Flash（284B）、どちらもMITライセンス。アーケイブベンチマークにおいてGPT-5.5 / Claude Opusと競争する価格（100万出力トークンあたり約3.48ドル）"
+ },
+ "moonshot ai|kimik26|model": {
+  "title": "Kimi K2.6: 300エージェントスワームと256Kコンテキストによる長時間スコープコード作成",
+  "summary": "Moonshot AIは、262Kのコンテキストウィンドウを備えたオープンウェイト1T MoEモデルであるKimi K2.6をリリースしました。このモデルでは、エージェントスワームを300サブエージェントにスケーリングし、4,001ステップの連携ステップを実現し、SWE-Bench ProでGPT-5.4およびClaude Opus 4.6よりも高いスコアを達成しました。"
+ },
+ "canva|canvaai20|model": {
+  "title": "Canva AI 2.0 + Canva Design Model",
+  "summary": "2026年4月15日のCanva Createで発表：テキストや声でデザインを説明すると、編集可能なオブジェクトが完全に生成される会話型デザインインターフェース。世界初のデザイン専用ファウンデーションモデルを活用し、持続的な記憶とAIが駆動したMagic Switchを備えた。"
+ },
+ "figma|figmadevmodemcpserver|api": {
+  "title": "Figma Dev Mode MCP Server が AI コーディングツールにデザインコンテキストを提供",
+  "summary": "Figma は Dev Mode 用の Beta Model Context Protocol (MCP) サーバーをリリースし、Claude Code、Cursor、Copilot、Codex などの AI コーディングツールが Figma の設計コンテキスト（コンポーネント、トークン、レイアウト）に直接アクセスして設計正確なコードを生成できるようになりました。"
+ },
+ "meta|musespark|model": {
+  "title": "MetaがMuse Sparkを発表、Meta Superintelligence Labsの最初のモデル",
+  "summary": "Muse Sparkは、ツールの利用、視覚的な思考プロセス、マルチエージェントオーケストレーションを備えたネイティブマルチモーダル推論モデルであり、Meta Superintelligence Labsが完全に新規に構築したモデルで、WhatsApp、Instagram、Facebookの最新バージョンのMeta AIアシスタントを駆動する。"
+ },
+ "z.ai|glm51|model": {
+  "title": "Z.aiが長時間アグェンティックタスク向けにGLM-5.1をリリース",
+  "summary": "Z.aiは、1つのタスク実行で8時間以内に独立して動作するアグェンティックモデルであるGLM-5.1をリリースしました。このモデルは、計画・実行から反復修正までを含む複雑な長時間エンジニアリングワークフローをカバーするため特別に設計されています。"
+ },
+ "google|gemma4|model": {
+  "title": "GoogleがGemma 4のオープンウェイトモデルをリリース",
+  "summary": "Googleのオープンウェイトシリーズ（2B～31Bの高密度モデルおよび26BのMoEモデル）がApache 2.0ライセンスで公開。多機能対応、256Kのコンテキスト、140以上の言語をサポートする最も能力の高いオープンGemmaモデル"
+ },
+ "perplexity|comet|feature": {
+  "title": "PerplexityのComet AIブラウザが拡大 (iOS + Enterprise)",
+  "summary": "PerplexityのAIネイティブブラウザ — 任意のページを要約、フォローアップ質問を実行、およびブラウザ内での自動タスク実行（予約、メール、フォームなど）が可能。2026年3月にiOSでローンチ（米国App Storeで第3位）および現在、企業向けで静的MDMデプロイが可能。"
+ },
+ "zed|zeta2|model": {
+  "title": "Zeta2: 30% Higher Acceptance Rate Rebuilt Edit Prediction Model",
+  "summary": "Zed released Zeta2, a fully retrained open-weight successor to Zeta trained on approximately 100,000 opt-in user examples from open-source repositories. Zeta2 achieves a 30% higher acceptance rate than Zeta1 and has become the default edit prediction model for all Zed users."
+ },
+ "openclaw|openclawv2026322|feature": {
+  "title": "Major release: ClawHub marketplace, GPT-5.4 default, 48-hour agent timeout",
+  "summary": "OpenClaw v2026.3.22 2026年3月23日にリリースされ、45以上の新機能が含まれています。その中には、4,000以上のコミュニティスキルが提供されるClawHub Skills Marketplace、新しいPlugin SDK、SSH/OpenShellをサポートするプラグ可能なサンドボックスバックエンド、GPT-5.4をデフォルトモデルとし、エージェントタイムアウトを10分から48時間に延長したものです。"
+ },
+ "cursor|composer2|model": {
+  "title": "Composer 2: Frontier-Level Coding Model at Low Cost",
+  "summary": "2026年3月19日、CursorがComposer 2をリリースし、Terminal-Bench 2.0およびSWE-bench Multilingualにおいて大規模なベンチマーク向上を実現。入力トークンあたり$0.50、出力トークンあたり$2.50の競争力のある価格設定。"
+ },
+ "openclaw|nemoclawbynvidia|platform": {
+  "title": "NVIDIAがNemoClawをリリース — OpenClawの企業向けセキュリティレイヤー",
+  "summary": "NVIDIAは2026年3月16日に行われたGTC 2026で、組織が自社ハードウェアで自主AIエージェントを実行する場合に必要なプライバシーコントロール、SkillSpectorを活用した高度なセキュリティスキャン、およびNVIDIA OpenShell runtimeの1コマンドインストールを提供するOpenClawの企業向けディストリビューションであるNemoClawを発表した。"
+ },
+ "obsidian|obsidiancli112|feature": {
+  "title": "Obsidian Desktop の公式コマンドラインインターフェース",
+  "summary": "Obsidian 1.12 では、ユーザーがターミナルから Obsidian をコントロールするためのファーストパーティ CLI が導入され、スクリプト、自動化、外部ツールとの統合に使用可能になりました。早期アクセス版は 2026 年 2 月 10 日にリリースされ、公表版は 2026 年 2 月 27 日に配布されました。"
+ },
+ "notion|notioncustomagents33|feature": {
+  "title": "Notion 3.3: Custom Agents — Scheduled & Triggered Automation",
+  "summary": "Notion 3.3 では、スケジュールまたはイベントトリガーで自動実行される Custom Agents が導入され、チームがタスクトリージ、デイリースタンプ、インボックス管理、Q&A などの専用アグエントを構築・共有できるようになりました。Slack、Figma など他のツールと統合されています。"
+ },
+ "brave|bravesearchllmcontextapi|api": {
+  "title": "BraveがAIアプリ開発者向けLLM Context APIをリリース",
+  "summary": "2026年2月12日、BraveはSearch APIを再構築し、WebコンテンツをLLMの消費に最適化されたコンパクトでチャンクランク形式で提供する新規のLLM Context APIを導入しました。このAPIは現在、内部で1日2,200万のAI回答を処理しており、検索タイプの他のサービスとともに1,000リクエストあたり5ドルの料金が設定されています。"
+ },
+ "z.ai|glm5|model": {
+  "title": "Z.aiがGLM-5をリリース：ハウジー・アセンドチップで訓練した744BパラメータのMoEオープンウェイトモデル",
+  "summary": "Z.aiは、744BパラメータのMixture-of-Experts（MoE）オープンウェイトモデルのGLM-2をリリース。40Bのアクティブパラメータごとにトークン、200Kトークンのコンテキストウィンドウ、MITライセンスを備え、ハウジー・アセンドチップで完全に訓練された。Artificial Analysisでオープンウェイトモデルの第1位を達成し、SWE-bench Verifiedで77.8％のスコアを記録した。"
+ },
+ "openclaw|openclaw|platform": {
+  "title": "OpenClaw — バイアル open-source local AI agent",
+  "summary": "無料のオープンソースAIエージェントで、ローカルに実行され、あなたのマシンに任意のLLMを接続します。ファイルの読み書き、シェルコマンドの実行、ブラウジング、メール、メッセージング（WhatsApp/Telegram/Slack）が可能。100以上のスキル、APIキーを自分で管理；2026年2月に10万以上GitHubスターを獲得（以前はClawdbot/Moltbot）"
+ },
+ "moonshot ai|kimik25|model": {
+  "title": "Kimi K2.5: 100-Agents Swarmを活用したオープンソースのネイティブマルチモーダルエージェントモデル",
+  "summary": "Moonshot AIは、約15Tの視覚およびテキストトークンを継続的な事前学習に使用した1TパラメータのオープンソースネイティブマルチモーダルモデルKimi K2.5をリリースしました。このモデルは、最大100の専門的なサブエージェントを协调するエージェントスワームを備え、ビデオおよびコードのベンチマークで優れた性能を実現しています。"
+ },
+ "n8n|n8naiagents|feature": {
+  "title": "n8nがAIエージェントオーガナイゼーションプラットフォームになる",
+  "summary": "自動化ツールには、メモリ、ツール、ガードレイズを含むAIエージェントビルダが組み込まれ、AIツール呼び出しには人間-in-the-loopの承認が可能になりました。OpenAI、Anthropic、Google、Mistral、およびローカルのOllamaモデルを同一ワークフローキャンバスでサポートします。Self-hostableです。"
+ },
+ "obsidian|obsidianaiplugins|feature": {
+  "title": "ObsidianのAIプラグインエコシステムが成熟",
+  "summary": "Obsidianは本格的なAIを内蔵していないが、オープンプラグインエコシステムがNotion AIと競争するようになった。Smart Connections（意味的検索＋RAGチャット）、Copilot、Text Generator、Ollama Chat（ローカルモデル）が含まれる。2026年核心アップデートではBasesプラグインとSiri/Shortcutsのクイックキャプチャが追加された。"
+ },
+ "z.ai|glmimage|model": {
+  "title": "Z.aiがGLM-Imageをリリース：オープンソースハイブリッド画像生成モデル",
+  "summary": "Z.aiは16Bのオープンソース画像生成モデルGLM-Imageをリリースした。このモデルは、国内チップでトレーニングされたハイブリッド自動回帰加算分類モデルであり、CVTG-2Kで91.16%のテキストレンダリング精度を達成し、FLUX.1 DevとGPT Image 1.を上回っている。"
+ },
+ "figma|figmaaiimageediting|feature": {
+  "title": "Figma、AIを活用したオブジェクト削除および画像拡大ツールをリリース",
+  "summary": "Figmaはデザインキャンバスに3つのAI画像編集ツールを直接導入しました。Erase Object、Isolate Object、Expand Imageです。これらのツールにより、一般的な画像編集にはPhotoshopやCanvaにエクスポートする必要がなくなり、AIが有効化された有料プランのフルシートユーザーに利用可能です。"
+ },
+ "n8n|n8n20|platform": {
+  "title": "n8n 2.0: 企業向け強化プラットフォーム、デフォルトで安全実行を実現",
+  "summary": "n8n 2.0 は、コードノードの実行をデフォルトで隔離し、コードノードからの環境変数アクセスをブロッキングし、高性能 SQLite プールドライバーを提供し、エッジケースバグを引き起こすlegacyオプションを削除する、大幅な「強化」リリースです。2023年7月の1.0リリース以来、初めての破壊的変更を含むメジャーリリースです。"
+ },
+ "brave|leoskills|feature": {
+  "title": "BraveがLeo Skillsを発表：カスタムAIプロンプトショートカット",
+  "summary": "2025年12月3日、Braveは自社のLeo AIアシスタントにSkillsを導入し、キーボードショートカットを用いてカスタムプロンプトベースのショートカットを作成およびトリガーできる機能を提供しました。この機能は、Brave 1.85以降のデスクトップおよびAndroidバージョンのすべてのLeoユーザーに利用可能となっています。"
+ },
+ "deepseek|deepseekv32|model": {
+  "title": "DeepSeek-V3.2: 160Kトークンコンテキストを有するアグエントオープンソースLLM",
+  "summary": "2025年12月1日には、160Kトークンのコンテキストウィンドウを備えたオープンウェイトモデルであるDeepSeek-V3.2がリリースされ、スケーラブルなRLトレーニング、ネイティブなツール使用思考、1,800以上のアグエント環境へのサポートが特徴です。同日、APIのみでのアクセスを目的としたコンパニオン変体V3.2-Specialeも同時にリリースされ、2025年12月15日まで利用可能です。"
+ },
+ "raycast|raycastforwindowspublicbeta|platform": {
+  "title": "Raycastが2025年11月20日にWindows向け公開ベータリリース。ネイティブ検索と拡張機能を実現",
+  "summary": "2025年11月20日、RaycastがWindows向けのネイティブ公開ベータをリリース。初めてWindowsでランチャーやクリップボード歴史、スニペット、クイックリンク、ファイル検索、拡張機能を提供し、ベータ期間中にQuick AIが無料で利用可能となる。"
+ },
+ "meta|sam3segmentanythingmodel3|model": {
+  "title": "MetaがSAM 3をリリース：テキストプロンプトによるオブジェクトセグメンテーションと動画トラッキング",
+  "summary": "SAM 3はテキスト、例示、クリックプロンプトを用いて、動画フレーム間でオブジェクトをセグメンテーションおよびトラッキングする機能を追加し、3D再構成モデルとオープンソースインフェンスコードベースを同時にリリースしました。"
+ },
+ "notion|notion31|feature": {
+  "title": "Notion 3.1: Meetings Tab、Map Viewおよび拡張されたAI Connectors",
+  "summary": "Notion 3.1では、AI会議ノート用の専用Meetingsサブメニュー、Map Viewデータベースタイプ、およびSlackプライベートチャンネルやGoogleカレンダーを含む拡張されたAI Connectorsが追加され、エージェントがスケジュールを照会し、会議の議論を要約する機能が実現されました。"
+ },
+ "elevenlabs|scribev2realtime|model": {
+  "title": "ElevenLabsがScribe v2 Realtimeをリリース：150msの超低遅延で30言語対応のリアルタイム音声認識モデル",
+  "summary": "ElevenLabsはFLEURSベンチマークで30言語に対応し、93.5%の精度を達成する約150msの遅延を実現するScribe v2 Real:timeをリリース。このモデルには「負の遅延」予測機能が組み込まれており、ライブボイスエージェント、会議アシスタント、リアルタイムキャプション生成に最適化されています。"
+ },
+ "canva|affinityfreeforever|platform": {
+  "title": "Canva、プロフェッショナルな親和性デザインツールキットを永遠に無料に",
+  "summary": "Canvaは、Affinity Photo、Designer、Publisherを統合した一括アプリとして、すべての機能を維持したまま永遠に無料にしました。Adobeのサブスクリプションモデルに直接挑戦しています。デスクトップアプリはオフラインで動作し、今後のアップデートも無料で提供されます。AI機能であるGenerative Fillは、Canvaの有料サブスクリプションが必要です。"
+ },
+ "canva|creativeoperatingsystem|platform": {
+  "title": "Canvaがデザイン・AI・出版を統合したクリエイティブオペレーティングシステムをリリース",
+  "summary": "Canvaは2025年10月30日にクリエイティブオペレーティングシステム（Creative Operating System）をリリース。このプラットフォームは、Visual Suite、Canva AI、ブランドシステムおよびマーケティング用プラットフォーム（Canva Grow）をAI駆動で統合した完全に接続されたシステムで、Video 2.0、メール設計機能を含む。また、プロフェッショナルなAffinityシリーズの利用を永遠に無料にした。"
+ },
+ "canva|canvadesignmodel|model": {
+  "title": "Canvaが独自のAI設計モデルをリリース：レイヤーとレイアウト理解機能",
+  "summary": "Canvaは、デザイン要素を学習した独自のAIモデルを公開した。このモデルは完全に編集可能なレイヤー別デザイン（画像ではなく）を生成し、レイアウトの階層構造、ブランドロジック、フォーマットコンテキストを理解する。このモデルは、新しいクリエイティブオペレーションシステムの核心としてローンチされ、Canvaが第三者AIから独自モデルインフラストラクチャへの移行を示している。"
+ },
+ "cursor|cursor20composerv1|model": {
+  "title": "Cursor 2.0、専用のComposerモデルとマルチエージェントインターフェースをリリース",
+  "summary": "Cursor 2.0 では、会社が初めて開発した専用コードモデルである Composer が導入され、これにより4倍の速度で同等のインテリジェンスモデルを上回る性能を実現。さらに、8本の並列AIエージェントをサポートするリデザイン済みのマルチエージェントインターフェースが提供され、各エージェントには孤立したgitワークツリーが割り当てられる。"
+ },
+ "zed|zedforwindows|platform": {
+  "title": "ZedがWindowsで公式リリース",
+  "summary": "Zedは2025年9月の公開ベータ版を経て安定したWindowsサポートを提供し、macOS、Linux、Windowsの3つの主要プラットフォームで利用可能となり、完全なWSL統合と週次更新サイクルを実現した。"
+ },
+ "n8n|n8naiworkflowbuilder|feature": {
+  "title": "AI Workflow Builder (Beta) がプロンプトを実行可能な自動化に変換",
+  "summary": "n8n は、自然言語プロンプトからドRAFTワークフローを生成し、ノードを自動的に追加・設定・接続するAI Workflow Builder（ベータ版）をリリースしました。この機能は、n8n CloudのTrial、Starter、Proプランに20～150月間クレジットを割り当てられたユーザーに初期的に利用可能となっています。"
+ },
+ "obsidian|obsidian1100|feature": {
+  "title": "Bases API, Group By, List View, and Maps Plugin",
+  "summary": "Obsidian 1.10.0 では、プラグイン開発者向けの Bases API を初めて提供し、Bases に Group By、テーブル要約、新しい List View を追加し、ユーザーがベースエントリーを地理的に可視化できる公式 Maps プラグインを導入しました。"
+ },
+ "meta|raybanmetadisplay|platform": {
+  "title": "MetaがRay-Ban Display AIガジェットをリリース：フルカラーハーデスアップディスプレイとニューラル腕带を搭載",
+  "summary": "Ray-Ban Meta Displayは、AIによる実時間視覚回答、リアルタイム翻訳キャプション、プライベートメッセージオーバーレイを搭載したフルカラーハーデスアップディスプレイとEMGニューラル腕帶を用いたジェスチャーリストコントロールを実現し、価格は799ドルから開始。"
+ },
+ "brave|askbrave|feature": {
+  "title": "BraveがAsk Braveをリリース：統合されたAI検索およびチャットインターフェース",
+  "summary": "2025年9月29日、Braveはブラウザまたはプラットフォームで無料で利用可能なAsk Braveをリリースしました。このサービスは、従来のウェブ検索とAIチャットを1つのインターフェースに統合しており、アカウント作成や支払いを必要とせずにBrave Searchの検索結果とAI生成の回答を組み合わせています。"
+ },
+ "github|githubcopilotcodingagent|feature": {
+  "title": "GitHub Copilot Coding Agentが一般提供開始",
+  "summary": "GitHubの自動実行コードエージェントは、5月2025年のMicrosoft Buildでの公開プレビュー後、2025年9月25日に有料のCopilotサブスクライバー全員に一般提供されました。このエージェントはGitHubの問題からタスクを割り当て、独自にプルリクエストを提出することが可能です。"
+ },
+ "n8n|n8ndatatables|feature": {
+  "title": "Native Data Storage Lands in n8n with Data Tables (Beta)",
+  "summary": "n8n v1.113 で、データテーブル（ベータ）が本格的に導入され、ユーザーがプラットフォーム内に構造化データ（文字列、数値、日時）をストレージおよびクエリする機能が提供されています。すべてのプランで利用可能で、挿入、更新、削除、フィルタ操作をサポートしています。"
+ },
+ "notion|notion30agents|feature": {
+  "title": "Notion 3.0が自主AIエージェントをリリース",
+  "summary": "Notionは、20分間の連続多段階作業を数百ページにわたって実行できる自主AIエージェントを基盤に再構築し、ページやデータベースの作成・更新、調査・分析タスクの実行に手動のプロンプトなしで対応します。"
+ },
+ "zed|agentclientprotocolacp|api": {
+  "title": "ZedがAIコードエージェント向けオープンスタンダード「Agent Client Protocol」を発表",
+  "summary": "Zedは、AIコードエージェント（Claude Code、Codex CLI、Gemini CLI、GitHub Copilot CLIなど）が任意の互換性のあるエディタとネイティブに統合できるJSON-RPC 2.0プロトコルであるACP（Agent Client Protocol）をリリース。JetBrainsと共同でACPエージェント登録表を立ち上げた。"
+ },
+ "xai|grok25|model": {
+  "title": "xAIがHugging FaceにGrok 2.5モデルの重みをオープンソース",
+  "summary": "xAIはHugging FaceにGrok 2.5の重み（約500GB、42ファイル）をカスタムソース可用ライセンスに基づいて公開しました。この公開は、Grok-1を2024年3月にリリースした後初めての本格的な重みオープンリリースです。ただし、重みを競合モデルのトレーニングに使用することは禁止されています。"
+ },
+ "brave|bravesearchaigroundingapi|api": {
+  "title": "BraveがAI Grounding APIをリリース：hallucinationsを削減",
+  "summary": "2025年8月5日、BraveはBrave SearchプラットフォームにAI Grounding APIをリリースし、LLMの応答を検証可能なウェブソースに紐付けることでhallucinationsを削減する。SimpleQAベンチマークで最適な性能を達成し、F1スコア94.1%を実現。無料プランから開始予定。"
+ },
+ "elevenlabs|elevenmusic|platform": {
+  "title": "ElevenLabsがEleven Musicをリリース：商用ライセンス付きAI音楽生成プラットフォーム",
+  "summary": "ElevenLabsは、主要レーベル、出版会社、アーティストからのライセンスデータを活用したAI音楽生成プラットフォーム「Eleven Music」をリリースした。映像、テレビ、ポッドキャスト、広告、ゲームなど商業用途で利用可能なプラットフォームで、自然言語のプロンプトからスタジオ品質のトラックを生成可能で、ジャンル、スタイル、声の制御が可能。"
+ },
+ "openai|gptoss120b20b|model": {
+  "title": "OpenAIのgpt-oss open-weight reasoningモデル",
+  "summary": "OpenAIのApache 2.0ライセンスのオープンウェイトモデル：gpt-oss-120b（o4-miniに近い性能、1つの80GB GPUで実行可能）およびgpt-oss-20b（o3-miniに近い性能、16GBデバイスで実行可能）。Hugging Faceで重みが公開されているが、OpenAI APIを介さないでサービスされない。"
+ },
+ "github|githubspark|platform": {
+  "title": "GitHub Spark AI app builderが公開プレビューに参加",
+  "summary": "GitHub Sparkは2025年7月にCopilot Pro+サブスクリプションのユーザー向けに公開プレビューを開始し、自然言語を使用してフルスタックのスマートアプリを構築・配布できる機能を提供します。これには設定や構成が不要です。また、2025年9月にCopilot Enterpriseサブスクリプションのユーザーにも拡張されました。"
+ },
+ "moonshot ai|kimik2|model": {
+  "title": "Kimi K2: 1T-Parameter Open-Source MoE Model for Agentic Tasks",
+  "summary": "Moonshot AIは、32Bのアクティブパラメータを持つ1兆パラメータのMixture-of-ExpertsモデルであるKimi K.2を公開しました。このモデルは、コード生成およびアジェンシーのパフォーマンスにおいて最前線の性能を実現しており、BaseおよびInstructの2つのバージョンをmodified MITライセンスの下で提供しています。"
+ },
+ "raycast|raycastv11000bringyourownkeybyok|feature": {
+  "title": "Raycastがユーザーが自身のAnthropic、Google、OpenAI APIキーを接続できるようにする",
+  "summary": "バージョン1.100.0で「自身のキーを用意」サポートが導入され、ユーザーはAnthropic、Google、Open:AIのAPIキーを使用してRaycast AIを活用できます。これにより、プロサブスクリプションなしに無制限のAI利用が可能になり、ユーザー自身のコストで行うことができます。"
+ },
+ "meta|vjepa2|model": {
+  "title": "Metaが物理推論用オープンソースワールドモデルV-JEPA 2をリリース",
+  "summary": "V-JEPA 2は、100万時間以上のビデオを用いてトレーニングされたオープンソースの自己監督ビデオワールドモデルであり、ゼロショットロボティクス計画および物理推論を実現します。Nvidia Cosmosなどと比較して、速度で30倍までの向上を達成しています。"
+ },
+ "apple|foundationmodelsframework|api": {
+  "title": "AppleがFoundation Modelsフレームワークを通じて第三方開発者にオンデバイスAIを開封",
+  "summary": "2025年6月9日WWDC25で発表され、2025年9月にiOS 26/macOS 26で公に配布されたFoundation Modelsフレームワークは、Swift開発者向けにAppleのオンデバイス3Bパラメータ言語モデルをローカルで実行できる無料APIを提供します。オフライン、プライベート、3行のコードで動作する特徴があり、ガイド付きJSON生成、ツール呼び出し、構造化出力が含まれます。"
+ },
+ "cursor|cursor10|platform": {
+  "title": "Cursor 1.0: BugBot、Background Agent が GA 、One-Click MCP の導入",
+  "summary": "Cursor は 1.0 マイルストーンを達成し、GitHub で AI 驅動の自動 PR コードレビュー機能である BugBot を提供し、Background Agent を全ユーザー向けに一般に公開（GA）し、Jupyter Notebook との互換性を確保した One-Click MCP サーバー設定を追加しました。"
+ },
+ "perplexity|perplexitylabs|feature": {
+  "title": "Perplexity Labs にユーザーがアプリとダッシュボードを構築できる機能を提供",
+  "summary": "2025年5月29日には、Perplexity Labs が自然言語プロンプトを Perplexity インターフェース内で使用してインタラクティブなプロジェクト（レポート、スプレッドシート、ダッシュボード、シンプルなウェブアプリなど）を生成できる機能をリリースしました。"
+ },
+ "obsidian|obsidian19bases|feature": {
+  "title": "Obsidian Bases: Notes 用の組み込みデータベースビュー",
+  "summary": "Obsidian 1.9.0 では、Bases という新しいコアプラグインが導入され、Markdown ノートの集合を動的なデータベースに変換し、テーブルビュー、フィルタリング、ソート、フォーマulaベースの派生プロパティを提供します。これには、外部データベースが不要で、ローカル YAML フロントマターでサポートされています。"
+ },
+ "github|githubmodelsapi|api": {
+  "title": "GitHub Models REST APIをリリース：AIモデル推論サービス",
+  "summary": "GitHubは2025年5月にModels REST APIをリリースし、OpenAI、Meta、MicrosoftなどによるホストされたAIモデルに対して、GitHubのプラットフォームを介してプログラムatically探索および推論を実行できるようになりました。別途APIキー管理が不要です。"
+ },
+ "notion|notionaipricingrestructure|platform": {
+  "title": "Notion, AIをビジネスプランに組み込み、独自AI追加機能を廃止",
+  "summary": "2025年5月13日、Notionは、別途のAI追加機能（月額8～10ドル/ユーザー）を廃止し、ビジネス（月額20ドル/ユーザー）およびエンタープライズプランに無制限のAIアクセスを組み込み、フリーアンドプラスプランで意味のあるAIアクセスを削除しました。"
+ },
+ "figma|figmasitesfigmabuzz|platform": {
+  "title": "Figma Expands Platform with Sites, Buzz, and Draw at Config 2: FigmaがConfig 2025でSites、Buzz、Drawをリリース",
+  "summary": "Config 2025において、FigmaはAI駆動のウェブサイトビルダーFigma Sites、ブランドに合わせたマーケティング資産作成を支援するAIアシストツールFigma Buzz、高度なベクターアイコン作成ツールFigma Drawを発表し、UIデザインからパブリッシングおよびマーケティングワークフローまでFigmaのプラットフォームを拡大しました。"
+ },
+ "figma|figmamake|feature": {
+  "title": "Figma Make: AI Prompt-to-App Builder がリリース",
+  "summary": "Figma Make は、AI によって駆動された自然言語プロンプトを用いてデザイナーおよび非デザイナーがインタラクティブなアプリプロトタイプを生成・修正・イテレーションできるツールです。2025年5月7日に Config 2025 で発表され、2025年7月24日に一般公開されました。"
+ },
+ "deepseek|deepseekproverv2|model": {
+  "title": "DeepSeek-Prover-V2: Lean 4 用の形式論理定理証明用 Open-Source LLM",
+  "summary": "2025年4月30日にリリースされたこの671Bパラメータのオープンソースモデルは、レーン4を使用した形式数学定理証明において、再帰的サブゴール分解とGRPO強化学習を用いて目標を達成する。MiniF2Fテスト問題の88.9%を解き、ProverBenchベンチマークを新たに導入した。"
+ },
+ "canva|visualsuite20|platform": {
+  "title": "CanvaがVisual Suite 2.0をリリース：統合されたデザイン、シート、コード機能",
+  "summary": "CanvaはCanva Create 2025でVisual Suite 2.0を発表し、プレゼンテーション、ドキュメント、ウェブサイトを1つのデザインファイルで構築できる統合キャンバスを提供しました。今回のリリースには、AIを活用したCanva Sheets（スプレッドシート）、Canva Code（プロンプトによるアプリ作成ツール）およびVisual Suite全体への深層Canva AI統合が含まれます。"
+ },
+ "meta|llama4|model": {
+  "title": "Meta Llama 4 — natively multimodal, MoE",
+  "summary": "Metaの現在のオープンジェネレーション：Scout（17Bアクティブ / 109B、10Mトークンのコンテキスト — すべてのオープンモデル中最も大きい）およびMaverick（17Bアクティブ / 401B、1Mコンテキスト）。初めてのLlamaで、Mixtures-of-Experts（MoE）とネイティブなマルチモーダルトレーニングを採用。"
+ },
+ "github|githubcopilotagentmode|feature": {
+  "title": "GitHub Copilot Agent Mode が VS Code で一般公開",
+  "summary": "GitHub は 2025 年 4 月に VS Code すべてのユーザーに MCP (Model Context Protocol) のサポートを備えた Agent Mode をリリースしました。Agent Mode は Copilot が多段階のコード作成タスクを自動的に計画および実行し、実行時のエラーを自己修復し、ターミナルコマンドを提案することができ、これにより Copilot をコード補完ツールから完全なアジェンシーを持つ開発パートナーに変えることができます。"
+ },
+ "apple|visionos24withappleintelligence|feature": {
+  "title": "Apple IntelligenceがVision ProにvisionOS 2.4で登場",
+  "summary": "2025年3月31日にリリースされたvisionOS 2.4では、Vision ProヘッドセットにApple Intelligenceが初めて導入され、Writing Tools、Image Playground、Genmoji、および改良されたSiriが含まれます。このアップデートに加え、Spatial GalleryアプリとiPhoneの統合機能が追加されました。"
+ },
+ "apple|appleintelligenceios184eumultilingualexpansion|feature": {
+  "title": "Apple IntelligenceがEUおよび8以上の言語に対応、iOS 18.4でリリース",
+  "summary": "2025年3月31日にリリースされたiOS 18.4 / iPadOS 18.4 / macOS Sequoia 15.4 では、Apple Intelligenceが初めて欧州連合ユーザーに提供され、フランス語、ドイツ語、イタリア語、スペイン語、日本語、韓国語、中国語（簡体字）、ブラジルのポルトガル語をサポートしました。この更新では、優先通知が新たに導入され、Siriの言語理解が拡大されました。"
+ },
+ "elevenlabs|scribe|model": {
+  "title": "ElevenLabsがScribeをリリース、初の音声認識モデル",
+  "summary": "ElevenLabsは、英語で96.7%の正確性を達成する99言語対応の音声認識モデルScribeを本格的にリリースした。このモデルは、単語レベルのタイムスタンプ、話者分離、音声イベントタグ付けをサポートし、OpenAI Whisper Large V3、Gemini 2.0 Flash、Deepgram Nova-3を上回る性能を標準ベンチマークで実現した。"
+ },
+ "xai|grok3|model": {
+  "title": "xAI、DeepSearchとThink推論モードを搭載したGrok 3をリリース",
+  "summary": "xAIは、約200,000台のGPUを用いてトレーニングした旗艦モデルGrok 3を公開し、新たにDeepSearch（リアルタイムウェブ検索エージェント）およびThink（チェーンオブスイート推論モード）の2つの新機能を提供した。リリース時にはAIME 2:2025およびGPQAのベンチマークでGPT-4oおよびo3-mini-highよりも優れた結果を示した。"
+ },
+ "perplexity|perplexitydeepresearch|feature": {
+  "title": "Perplexityが深層研究機能をリリース",
+  "summary": "2025年2月14日にリリースされたDeep Researchは、数十回の検索を自動実行し、数百のソースを読み込み、引用を含む総合報告書を合成するアジェンシー研究ツールです。すべてのユーザーに無料（制限あり）で提供されています。"
+ },
+ "zed|zeta|model": {
+  "title": "ZedがZetaをリリース：オープンソースの編集予測モデル",
+  "summary": "ZedはQwen2.5-Coder-7Bを基にしたオープンソースの次編集予測モデル「Zeta」をリリース。このモデルはエディタに直接統合され、開発者の次に実行するコード編集を予測し、単一のTabキーを押すと適用可能である。"
+ },
+ "raycast|raycastv1900moreaimodels|feature": {
+  "title": "Raycast に DeepSeek R1、Gemini 1.5、OpenAI o1、Perplex.1 が追加",
+  "summary": "Raycast v1.90.0 では、Together AI/Groq から DeepSeek R1、OpenAI から o1-mini および o1-preview、Google の Gemini 1.5 Flash、xAI の Grok、Perplexity の Sonar が、Raycast Pro へのサブスクリプションで利用可能に追加されました。"
+ },
+ "perplexity|sonarapi|api": {
+  "title": "Perplexityが開発者向けSonar Search APIをリリース",
+  "summary": "Perplexityは2025年1月21日にSonar APIをリリースし、開発者にウェブベースの検索エンジンへのアクセスを2つのプランで提供しました。Sonar（軽量・高速）とSonar Pro（多段階推論、より多くの引用情報）です。これにより、リアルタイムで引用された検索結果を用いたアプリケーションの構築が可能になります。"
+ },
+ "moonshot ai|kimik15|model": {
+  "title": "Kimi k1.5: Reinforcement Learning Reasoning Model Matching OpenAI o1",
+  "summary": "Moonshot AIは、強化学習を用いた多モーダル推論モデルであるKimi k1.5をリリースしました。このモデルは128Kのコンテキストウィンドウを備え、数学、コード、多モーダルタスクにおけるベンチマーク性能がOpenAIのo1と同等であると主張しています。"
+ },
+ "deepseek|deepseekr1|model": {
+  "title": "DeepSeek-R1: Open-Source Reasoning Model Rivaling OpenAI o1",
+  "summary": "DeepSeekは2025年1月20日にR1をリリース——複雑な推論ベンチマークにおいてOpenAIのo1と並ぶオープンソース推論モデル。MITライセンスに基づき、600万ドル未満のコストで低容量Nvidiaチップを使用して構築され、リリース後数日で米国で最もダウンロードされたiOSアプリとしてChatGPTを上回った。"
+ },
+ "xai|auroragrokimagegeneration|model": {
+  "title": "xAIがAuroraをリリース：GrokプラットフォームおよびXに統合された自動回帰混合専門モデル",
+  "summary": "xAIは、GrokプラットフォームおよびXに統合された自動回帰混合専門モデルAuroraをリリースしました。このモデルは、写真のようなテキストから画像を生成および画像編集が可能な機能を備えています。AuroraはX Premiumサブスクリプションユーザー向けに発表され、数日後、xAIの開発者APIに追加されました。"
+ },
+ "xai|grok43|model": {
+  "title": "xAI、100万トークンのコンテキストと最低のハラクレーション率を実現したGrok 4.3をリリース",
+  "summary": "xAIはGrok 4.3をリリースし、100万トークンのコンテキストウィンドウ、構成可能な推論努力レベル、および当時最も低いハラクレーション率を備えたモデルを提供しました。このモデルはxAI APIで公開され、企業顧客向けにAmazon Bedrockで利用可能になりました。"
+ },
+ "perplexity|perplexitycomputer|platform": {
+  "title": "Perplexityが「Computer」多モデルAIエージェントをリリース",
+  "summary": "2026年2月25日にリリースされたPerplexity Computerは、クラウドベースのエージェントシステムで、クlaude、Gemini、GPT-4、Grokなどの19のAIモデルを自動的に組み合わせて複雑な多ステップタスクを実行する。Perplexity Maxのサブスクリプションユーザーのみが利用可能。"
+ },
+ "z.ai|glm47|model": {
+  "title": "Z.ai がコードに特化した基礎モデル GLM-4.7 を MIT ライセンスでオープンソースリリース",
+  "summary": "Z.ai は MIT ライセンスのもと、358B パラメータの大型言語モデル GLM-4.7 をオープンソースでリリース。コード作成、ツールの利用、長文処理の能力が強いため、実際の開発ワークフローに最適化され、Code Arena で 100 万以上の参加者が参加するオープンソースモデルにおいて最上位を獲得。"
+ }
+}
