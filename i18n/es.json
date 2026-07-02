@@ -1,0 +1,42 @@
+{
+ "openai|gpt45|deprecation": {
+  "title": "GPT-4.5 sunetting June 27",
+  "summary": "GPT-4.5 se retirará de ChatGPT el 27 de junio de 2026 después de un período de 30 días de transición."
+ },
+ "openai|gpt56sol|model": {
+  "title": "OpenAI presenta la familia GPT-5.6: Sol, Terra y Luna",
+  "summary": "OpenAI comenzó una preview limitada de GPT-5.6 en tres tamaños — Sol (flagship), Terra (equilibrado para uso diario) y Luna (rápido y asequible) — añadiendo un nuevo 'max' para razonamiento y un modo 'ultra' que activa subagentes para acelerar trabajos complejos. Sol establece un nuevo estado del arte en Terminal-Bench 2.1 (codificación en línea de comandos) y es el modelo más potente de OpenAI hasta la fecha para ciberseguridad y ciencia, pero el lanzamiento está restringido a ~2.000 organizaciones aprobadas por el gobierno estadounidense a través de la API y Codex, con disponibilidad general prevista para las próximas semanas. Precio por 1M de tokens: Sol $5 en / $30 fuera, Terra $2.50 / $15, Luna $1 / $6."
+ },
+ "openai|jalapeo|platform": {
+  "title": "OpenAI y Broadcom presentan chip de inferencia optimizado para modelos de lenguaje de gran tamaño",
+  "summary": "OpenAI y Broadcom han introducido Jalapeño, un chip de IA personalizado diseñado para mejorar el rendimiento y eficiencia en la inferencia de modelos de lenguaje de gran tamaño."
+ },
+ "openai|gpt55cyber|feature": {
+  "title": "OpenAI Lanza herramientas Daybreak para ciberseguridad",
+  "summary": "OpenAI ha anunciado el lanzamiento de nuevas herramientas Daybreak, incluyendo Codex Security y GPT-5.5-Cyber, diseñadas para ayudar a las organizaciones a identificar y abordar vulnerabilidades de manera efectiva."
+ },
+ "openai|gpt55instant|model": {
+  "title": "Improving health intelligence in ChatGPT",
+  "summary": "OpenAI anuncia GPT-5.5 Instant, que mejora las respuestas de ChatGPT en salud y bienestar mediante un razonamiento mejorado y comunicaciones más claras."
+ },
+ "github|githubcopilotapp|feature": {
+  "title": "GitHub Copilot desktop app reaches general availability",
+  "summary": "Un agente nativo para escritorio de Copilot (macOS/Windows/Linux) que ejecuta sesiones paralelas de agentes en repositorios, cada una en su propio ramo y worktree. Sigue la disponibilidad general del Copilot SDK (incorporar el motor de agente de Copilot en tus propias herramientas)."
+ },
+ "xai|grokv9medium|model": {
+  "title": "xAI's Grok V9-Medium cerca de su lanzamiento; Imagine Video 1.5 se entrega",
+  "summary": "Grok V9-Medium (~1.5T params, ~3x el modelo de producción anterior, enfocado en codificación) está en su último entrenamiento para un lanzamiento en junio de 2026. xAI también ha lanzado Grok Imagine Video 1.5, un modelo de imágenes a video que genera clips de 720p en ~25 segundos."
+ },
+ "z.ai|glm52|model": {
+  "title": "Z.ai (Zhipu AI) lanza GLM-5.2 — peso abierto, primero en codificación",
+  "summary": "Un modelo de Mixture-of-Experts de 744B parámetros (40B activos) con contexto de 1M tokens, diseñado para sesiones de codificación agente largas y distribuido bajo licencia MIT de peso abierto. Reportes tempranos indican que riva a GPT-5.5 en código a una fracción del costo (sin benchmarks oficiales al lanzamiento)."
+ },
+ "moonshot ai|kimik27code|model": {
+  "title": "Moonshot AI lanza Kimi K2.7 Code",
+  "summary": "Mejora enfocada en codificación de la versión 1T de parámetros MoE Kimi K2.6, disponible en Hugging Face bajo licencia modificada MIT. +21.8% en Kimi Code Bench v2 y ~30% menos tokens de razonamiento en comparación con K2.6."
+ },
+ "openai|gpt52|deprecation": {
+  "title": "GPT-5.2 retired from ChatGPT",
+  "summary": "GPT-5.2 Instant/Thinking/Pro eliminado el 12 de junio; los chats existentes continúan automáticamente en GPT-5.5."
+ }
+}

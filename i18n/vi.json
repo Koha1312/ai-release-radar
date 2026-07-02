@@ -1,0 +1,446 @@
+{
+ "openai|gpt45|deprecation": {
+  "title": "GPT-4.5 sunsetting June 27",
+  "summary": "GPT-4.5 sẽ được ngừng hoạt động trên ChatGPT vào ngày 27 tháng 6 năm 2026 sau một khoảng thời gian 30 ngày sunset."
+ },
+ "openai|gpt56sol|model": {
+  "title": "OpenAI giới thiệu giai đoạn thử nghiệm GPT-5.6: Sol, Terra và Luna",
+  "summary": "OpenAI bắt đầu thử nghiệm hạn chế GPT-5.6 ở ba kích thước — Sol (đỉnh cao), Terra (cân bằng cho mọi hoạt động hằng ngày) và Luna (nhanh và tiết kiệm) — đồng thời thêm chế độ 'max' suy luận và chế độ 'ultra' để khởi động các subagent hỗ trợ công việc phức tạp. Sol đạt hiệu suất mới nhất trên Terminal-Bench 2.1 (mã hóa dòng lệnh) và là mô hình mạnh nhất của OpenAI cho an ninh mạng và khoa học, nhưng việc triển khai chỉ giới hạn cho ~20 tổ chức được chính phủ Hoa Kỳ phê duyệt qua API và Codex, với khả năng mở rộng cho mọi người trong vài tuần tới. Giá thành mỗi 1 triệu token: Sol $5 vào $30 ra, Terra $2.50 / $15, Luna $1 / $6."
+ },
+ "openai|jalapeo|platform": {
+  "title": "OpenAI và Broadcom công bố chip xử lý inference tối ưu cho LLM",
+  "summary": "OpenAI và Broadcom đã giới thiệu Jalapeño, một chip AI độ ưu để cải thiện hiệu năng và hiệu quả cho việc inference mô hình ngôn ngữ lớn."
+ },
+ "openai|gpt55cyber|feature": {
+  "title": "OpenAI công bố Daybreak Tools cho an ninh mạng",
+  "summary": "OpenAI đã công bố việc phát hành các công cụ Daybreak mới, bao gồm Codex Security và GPT-5.5-Cyber, được thiết kế để giúp tổ chức phát hiện và khắc phục các rủi ro an ninh hiệu quả."
+ },
+ "openai|gpt55instant|model": {
+  "title": "Improving health intelligence in ChatGPT",
+  "summary": "OpenAI announces GPT-5.5 Instant, which enhances ChatGPT’s health and wellness responses through improved reasoning and clearer communication."
+ },
+ "github|githubcopilotapp|feature": {
+  "title": "GitHub Copilot desktop app reaches general availability",
+  "summary": "Một nền tảng desktop nguyên bản cho Copilot (macOS/Windows/Linux) hỗ trợ chạy song song các phiên làm việc agent trên nhiều kho chứa mã, mỗi phiên trên một nhánh và worktree riêng. Tiếp theo là việc Copilot SDK đi vào giai đoạn tổng quát (tích hợp động cơ agent của Copilot vào các công cụ của bạn)."
+ },
+ "xai|grokv9medium|model": {
+  "title": "xAI's Grok V9-Medium gần tiếp cận phát hành; Imagine Video 1.5 chính thức ra mắt",
+  "summary": "Grok V9-Medium (~1.5T params, ~3x so với mô hình sản xuất trước đây, chuyên về lập trình) đang trong giai đoạn huấn luyện cuối để phát hành vào tháng 6 năm 2026. xAI cũng chính thức ra mắt Grok Imagine Video 1.5, một mô hình chuyển đổi hình ảnh thành video có khả năng tạo ra các đoạn phim 720p trong khoảng 25 giây."
+ },
+ "z.ai|glm52|model": {
+  "title": "Z.ai (Zhipu AI) công bố GLM-5.2 — mô hình trọng số mở, tập trung vào lập trình",
+  "summary": "Mô hình Mixture-of-Experts 744B tham số (40B hoạt động) với ngữ cảnh 1M token, được thiết kế cho các phiên lập trình dài và được phát hành dưới giấy phép trọng số mở MIT. Các báo cáo sớm cho rằng nó so sánh với GPT-5.5 về lập trình với chi phí thấp hơn nhiều (không có benchmark chính thức khi ra mắt)."
+ },
+ "moonshot ai|kimik27code|model": {
+  "title": "Moonshot AI phát hành Kimi K2.7 Code",
+  "summary": "Lần nâng cấp tập trung vào lập trình trên nền tảng MoE Kimi K2.6 có 1T tham số, được đăng tải trên Hugging Face dưới giấy phép MIT đã được sửa đổi. Tăng 21,8% trên Kimi Code Bench v2 và giảm khoảng 30% số lượng token suy luận so với K2.6."
+ },
+ "openai|gpt52|deprecation": {
+  "title": "GPT-5.2 retired from ChatGPT",
+  "summary": "GPT-5.2 Instant/Thinking/Pro được loại bỏ vào ngày 12 tháng 6; các cuộc trò chuyện hiện tại sẽ tự động tiếp tục trên GPT-5.5."
+ },
+ "anthropic|legalmcpconnectors|feature": {
+  "title": "20+ legal MCP connectors and 12 practice-area plugins",
+  "summary": "Mở rộng cách các công ty luật và đội ngũ nội bộ sử dụng Claude trong nghiên cứu, hợp đồng, khám phá, quản lý vụ việc và hỗ trợ pháp lý."
+ },
+ "cursor|composer25|model": {
+  "title": "Cursor's Composer in-house coding model",
+  "summary": "Mô hình mã hóa agent frontier của Anysphere — nhanh hơn ~4 lần so với các mô hình tương tự, hoàn thành hầu hết các lượt trong dưới 30 giây. Composer 2 được phát hành ngày 19 tháng 3; Composer 2.5 hiện đang chạy nền tảng Bugbot của Cursor (thời gian review giảm xuống ~90 giây) và trình biên dịch Cursor 3.7 (Chế độ Thiết kế)."
+ },
+ "anthropic|claudeopus48|model": {
+  "title": "Claude Opus 4.8 là mô hình cấp cao nhất mới",
+  "summary": "Phiên bản mới nhất của Anthropic — cải tiến cho lập trình, nhiệm vụ chủ động và công việc chuyên nghiệp."
+ },
+ "apple|appleintelligencesiri|feature": {
+  "title": "Apple ra mắt Apple Intelligence thế hệ tiếp theo và Siri tại WWDC26",
+  "summary": "Tại WWDC 2026, Apple giới thiệu thế hệ tiếp theo của Apple Intelligence cùng Siri được trang bị khả năng AI mạnh mẽ hơn — tích hợp nhận diện màn hình và bối cảnh cá nhân trên iPhone, iPad, Mac, Apple Watch và Vision Pro."
+ },
+ "anthropic|claudemythos5|model": {
+  "title": "Claude Mythos 5 chính thức ra mắt cho truy cập an toàn",
+  "summary": "Mô hình lớp Mythos của Frontier được triển khai trên nền tảng Claude Developer cùng với Fable 5; cũng bị tạm dừng vào ngày 12 tháng 6 dưới cùng một quy định xuất khẩu."
+ },
+ "anthropic|claudefable5|model": {
+  "title": "Anthropic phát hành Claude Fable 5 (sau đó tạm dừng)",
+  "summary": "Mô hình lớp Mythos với ngữ cảnh 1 triệu token, đầu ra tối đa 128k và tư duy thích ứng luôn bật — được cung cấp cho người dùng ngày 9 tháng 6, sau đó tạm dừng vào ngày 12 tháng 6 dưới chỉ đạo kiểm soát xuất khẩu của Mỹ."
+ },
+ "apple|afm3applefoundationmodels3rdgeneration|model": {
+  "title": "Apple Launches AFM 3: A Family of Five On-Device and Cloud AI Models",
+  "summary": "Announced tại WWDC26 vào ngày 8 tháng 6 năm 2026, gia đình mô hình nền tảng thứ ba của Apple bao gồm AFM 3 Core (3B), AFM 3 Core Advanced (20B sparse on-device), AFM 3 Cloud, AFM 3 Cloud (Image), và AFM 3 Cloud Pro — mô hình sau chạy trên GPU NVIDIA trong Google Cloud và được tinh chỉnh bằng đầu ra Gemini. Gia đình này thêm khả năng nhập dữ liệu đa phương thức hình ảnh, sử dụng công cụ tự động, và tầng phát triển không chi phí cho các nhà xây dựng ứng dụng nhỏ."
+ },
+ "elevenlabs|elevenv3|model": {
+  "title": "ElevenLabs' Eleven v3 expressive voice model",
+  "summary": "Eleven v3 giờ đây là mô hình chuyển đổi văn bản thành giọng nói mặc định — giọng nói sinh động với phạm vi cảm xúc cao và các nhãn hướng dẫn âm thanh trực tiếp như [whispers] hoặc [surprised]. ElevenLabs đã mở rộng vào lĩnh vực âm nhạc, ghi âm chuyển tiếp và agent giọng nói tương tác."
+ },
+ "openclaw|openclaw20266xjunebetaseries|feature": {
+  "title": "Dãy beta tháng 6 năm 2026 thêm tính năng coercion MCP, tìm kiếm web song song và rào cản bảo mật chặt chẽ hơn",
+  "summary": "Các phiên bản beta tháng 6 năm 2026 (2026.6.5–2026.6.8) đã thêm tính năng coercion kết quả công cụ MCP, tìm kiếm web song song, di chuyển profile xác thực dựa trên SQLite, giao thức giao tiếp Telegram/WhatsApp với văn bản cấu trúc phong phú hơn, và các đường dẫn phê duyệt bảo mật được củng cố trên toàn bộ luồng transcript, sandbox, MCP, trình duyệt và thực thi."
+ },
+ "openai|gpt55|model": {
+  "title": "OpenAI giới thiệu GPT-5.5",
+  "summary": "Được mô tả là mô hình thông minh nhất đến nay — nhanh hơn và được xây dựng để xử lý phức tạp trong lập trình, nghiên cứu và phân tích dữ liệu trên các công cụ."
+ },
+ "openai|gpt53codex|model": {
+  "title": "GPT-5.3-Codex: mô hình mã hóa có khả năng cao nhất",
+  "summary": "Kết hợp các tầng đào tạo Codex + GPT-5 thành một mô hình thống nhất cho việc sinh mã, suy luận và trí tuệ tổng quát."
+ },
+ "microsoft|windowsagentruntime|platform": {
+  "title": "Windows Agent Runtime + Copilot Platform",
+  "summary": "Chuyển đổi Windows thành nền tảng AI-agent; đang triển khai trong phiên bản thử nghiệm, với khả năng mở rộng chính thức dự kiến vào tháng 11 năm 2026."
+ },
+ "microsoft|maimodelsthinking1code1|model": {
+  "title": "Seven new in-house MAI models",
+  "summary": "Includes MAI-Thinking-1 (reasoning) and MAI-Code-1, tuned specifically for GitHub and VS Code."
+ },
+ "microsoft|azureaifoundry|platform": {
+  "title": "Azure AI Foundry headlines Build 2.026",
+  "summary": "A central model-routing layer that selects the appropriate model for each task, ensuring teams are not locked in — a core theme of Build 2026."
+ },
+ "elevenlabs|musicv2|model": {
+  "title": "ElevenLabs phát hành Music v2 với khả năng chuyển thể loại giữa đoạn nhạc và inpainting",
+  "summary": "ElevenL: ElevenLabs đã phát hành Music v2, một phiên bản nâng cấp lớn cho mô hình AI âm nhạc của họ, có khả năng chuyển thể loại giữa đoạn nhạc (ví dụ: opera sang heavy metal), duy trì tốc độ rap nhanh, và chèn hiệu ứng âm thanh không nhạc vào âm thanh được sinh ra. Nó còn thêm API Inpainting để chỉnh sửa các phần cụ thể của bài hát và giảm giá cả API Music lên đến 50%."
+ },
+ "figma|figmaaiagent|feature": {
+  "title": "Figma ships a native AI design agent",
+  "summary": "Từ ngày 20 tháng 5 năm 2026, một agent AI trở thành điểm vào mới cho First Draft — khám phá, lặp lại và tinh chỉnh thiết kế trực tiếp trong Figma. Figma Make thêm tính năng chỉnh sửa trực tiếp, ghi chú, chat và tạo PR; server Figma MCP hỗ trợ Slides và xuất tài nguyên."
+ },
+ "google|gemini3deepthink|feature": {
+  "title": "Gemini 3 Deep Think for AI Ultra subscribers",
+  "summary": "Chế độ suy luận cao cấp nhất của Google dành cho toán học, khoa học, logic và các bài toán đa bước phức tạp."
+ },
+ "google|geminisparkdailybrief|feature": {
+  "title": "Gemini app gains a personal agent and Daily Brief",
+  "summary": "The Gemini app added 'Spark' (a personal AI agent), a 'Daily Brief' feature, and a redesigned interface."
+ },
+ "google|geminiomni|model": {
+  "title": "Gemini Omni — native video creation",
+  "summary": "A new AI video model that combines text, images, audio, and video as inputs, unveiled at I/O 2:026."
+ },
+ "google|gemini35flash|model": {
+  "title": "Gemini 3.5 Flash goes generally available",
+  "summary": "Được phát hành vào ngày 19 tháng 5; hiện đã sẵn sàng sử dụng toàn cầu, khu vực Hoa Kỳ và EU với Gemini Enterprise."
+ },
+ "raycast|raycast20|feature": {
+  "title": "Raycast 2.0 — Windows support + system-wide AI",
+  "summary": "Một lần cải tiến lớn (beta công khai, tháng 5 năm 2.026): Hỗ trợ macOS và Windows, giao diện Liquid Glass, ghi âm AI toàn hệ thống, Quick AI (câu hỏi một lần) và AI Chat có bộ nhớ bền, cùng các 'Agents' tái sử dụng (trước đây là Presets)."
+ },
+ "notion|notiondeveloperplatform|platform": {
+  "title": "Notion chuyển không gian làm việc thành trung tâm AI-agent",
+  "summary": "Một nền tảng phát triển mới (ngày 13 tháng 5 năm 2026) cho phép các nhóm kết nối các agent AI, dữ liệu bên ngoài và mã tùy chỉnh vào Notion qua Workers và API External Agents. Các cập nhật tháng 4 thêm chức năng thực thi mã agent, ghi âm giọng nói và cửa sổ ngữ cảnh 50 trang."
+ },
+ "brave|leoagenticbrowsing|feature": {
+  "title": "Brave's Leo gains agentic browsing + Automatic mode",
+  "summary": "Brave's privacy-first, browser-native AI assistant added agentic browsing (May 2026) — automating tasks across your tabs without storing page content on external servers — plus an Automatic mode that picks the best model per task."
+ },
+ "xai|grok43|model": {
+  "title": "xAI phát hành Grok 4.3 với khả năng xử lý 1 triệu token và tỷ lệ hoa văn thấp nhất",
+  "summary": "xAI đã phát hành Grok 4.3, tích hợp cửa sổ ngữ cảnh 1 triệu token, mức độ cố gắng suy luận có thể cấu hình và tỷ lệ hoa văn thấp nhất trong các mô hình tiên phong lúc đó. Mô hình này được phát hành trên API xAI và sẵn sàng cho khách hàng doanh nghiệp qua Amazon Bedrock."
+ },
+ "n8n|microsoftagent365trigger|feature": {
+  "title": "n8n Agents Now Appear as Native Members Inside Microsoft 365 Apps",
+  "summary": "n8n đã phát hành node kích hoạt Microsoft Agent 365 vào ngày 5 tháng 5 năm 2026 — bốn ngày sau khi Microsoft Agent 365 chính thức đi vào sản xuất — cho phép các workflow của n8n hoạt động như backend cho các agent Agent 365 xuất hiện tự nhiên trong Teams, Outlook và SharePoint, xử lý OAuth, giải mã tin nhắn và định dạng phản hồi ngay lập tức."
+ },
+ "microsoft|microsoftagent365|platform": {
+  "title": "Microsoft Agent 365 reaches general availability",
+  "summary": "Một nền tảng kiểm soát doanh nghiệp để quản lý các agent AI; GA từ ngày 1 tháng 5, mở rộng tại Build 2026."
+ },
+ "zed|zed10parallelagents|feature": {
+  "title": "Zed 1.0 ships with native Parallel Agents",
+  "summary": "Chế độ biên dịch bằng Rust, hỗ trợ GPU, phần mềm biên dịch đạt phiên bản 1.0 (29 tháng 4, 2026). Đặc điểm Parallel Agents (22 tháng 4) cho phép chạy nhiều agent AI cùng lúc trong một cửa sổ, mỗi agent hoạt động trên một phần khác của hệ thống mã nguồn — cùng với các agent bên ngoài (Claude Code, Codex, Gemini CLI). Mở nguồn."
+ },
+ "deepseek|deepseekv4|model": {
+  "title": "DeepSeek V4 — largest open-weight model to date",
+  "summary": "A preview of DeepSeek's new flagship: V4-Pro (1.6T params, deployable on a single B200 node) and the smaller V4-Flash (284B), both MIT-licensed. Rivals GPT-5.5 / Claude Opus on agentic benchmarks at ~$3.48 per million output tokens."
+ },
+ "moonshot ai|kimik26|model": {
+  "title": "Kimi K2.6: Mã hóa dài hạn với 300 swarm agent và 256K ngữ cảnh",
+  "summary": "Moonshot AI đã phát hành Kimi K2.6, một mô hình 1T MoE mở trọng lượng có cửa sổ ngữ cảnh 262K, mở rộng Swarm Agent lên 300 agent con và 4.000 bước tương tác có thể điều phối, đạt điểm số cao nhất trên SWE-Bench Pro trước GPT-5.4 và Claude Opus 4.6."
+ },
+ "canva|canvaai20|model": {
+  "title": "Canva AI 2.0 + Canva Design Model",
+  "summary": "Được công bố tại Canva Create vào ngày 15 tháng 4 năm 2026: giao diện thiết kế hội thoại cho phép bạn mô tả thiết kế bằng văn bản hoặc giọng nói và nhận được các đối tượng có thể chỉnh sửa đầy đủ (không phải hình ảnh phẳng), được thúc đẩy bởi mô hình nền tảng đầu tiên thế giới chuyên về thiết kế — đồng thời hỗ trợ bộ nhớ bền vững và Magic Switch được tăng cường bởi AI."
+ },
+ "figma|figmadevmodemcpserver|api": {
+  "title": "Figma Dev Mode MCP Server Brings Design Context to AI Coding Tools",
+  "summary": "Figma đã phát hành một máy chủ Model Context Protocol (MCP) cho Dev Mode beta, cho phép các công cụ lập trình trí tuệ nhân tạo như Claude Code, Cursor, Copilot và Codex truy cập ngữ cảnh thiết kế cấu trúc của Figma — các thành phần, token và bố cục — trực tiếp từ IDE để sinh ra mã chính xác về thiết kế."
+ },
+ "meta|musespark|model": {
+  "title": "Meta công bố Muse Spark, mô hình đầu tiên từ Meta Superintelligence Labs",
+  "summary": "Muse Spark là một mô hình suy luận đa phương thức được xây dựng từ đầu bởi Meta Superintelligence Labs, hỗ trợ công cụ sử dụng, chuỗi suy nghĩ hình ảnh và điều phối đa agent, đồng thời cung cấp dịch vụ cho Meta AI assistant cập nhật trên WhatsApp, Instagram và Facebook."
+ },
+ "z.ai|glm51|model": {
+  "title": "Z.ai phát hành GLM-5.1 cho nhiệm vụ tự động hóa thời gian dài",
+  "summary": "Z.ai đã phát hành GLM-5.1, một mô hình tự động hóa có khả năng chạy độc lập trong một nhiệm vụ duy nhất lên đến 8 giờ, bao gồm toàn bộ vòng lặp từ lập kế hoạch và thực thi đến tinh chỉnh lặp lại và giao tiếp cuối cùng. Nó được thiết kế đặc biệt cho các quy trình kỹ thuật phức tạp, thời gian dài."
+ },
+ "google|gemma4|model": {
+  "title": "Google phát hành mô hình trọng lượng mở Gemma 4",
+  "summary": "Gia đình mô hình trọng lượng mở của Google (kích thước ~2B đến mô hình 31B mật độ cao và 26B MoE), hiện được mở rộng theo Apache 2.0. Đa phương thức, 256K ngữ cảnh, 140+ ngôn ngữ — mô hình Gemma mở khả năng mạnh nhất hiện có."
+ },
+ "perplexity|comet|feature": {
+  "title": "Perplexity's Comet AI browser expands (iOS + Enterprise)",
+  "summary": "Perplexity's AI-native browser — summarize any page, ask follow-ups, and have it run autonomous in-browser tasks (booking, email, forms). Launched on iOS in March 2026 (hit #3 on the US App Store) and is now available for Enterprise with silent MDM deployment."
+ },
+ "zed|zeta2|model": {
+  "title": "Zeta2: mô hình dự đoán chỉnh sửa được xây dựng lại với tỷ lệ chấp nhận cao hơn 30%",
+  "summary": "Zed đã phát hành Zeta2, một mô hình kế thừa mở rộng được đào tạo lại hoàn toàn từ Zeta, được huấn luyện trên ~100.000 ví dụ người dùng chọn lọc từ các kho lưu trữ nguồn mở. Tỷ lệ chấp nhận của Zeta2 cao hơn 30% so với Zeta1 và trở thành mô hình dự đoán chỉnh sửa mặc định cho tất cả người dùng Zed."
+ },
+ "openclaw|openclawv2026322|feature": {
+  "title": "Major release: ClawHub marketplace, GPT-5.4 default, 48-hour agent timeout",
+  "summary": "OpenClaw v2026.3.22 đã được phát hành vào ngày 23 tháng 3 năm 2026 với hơn 45 tính năng mới bao gồm ClawHub Skills Marketplace (4.000+ kỹ năng cộng đồng), một SDK mới cho Plugin, các back-end sandbox có thể plug vành (SSH/OpenShell), GPT-5.4 là mô hình mặc định, và thời gian chờ của agent được mở rộng từ 10 phút lên 48 giờ."
+ },
+ "cursor|composer2|model": {
+  "title": "Composer 2: Frontier-Level Coding Model at Low Cost",
+  "summary": "Cursor đã ra mắt Composer 2 vào ngày 19 tháng 3 năm 2026, mang lại cải tiến lớn trên các tiêu chuẩn benchmark Terminal-Bench 2.0 và SWE-bench Multilingual với giá thấp chỉ $0.50/M input và $2.50/M output tokens."
+ },
+ "openclaw|nemoclawbynvidia|platform": {
+  "title": "NVIDIA ra mắt NemoClaw — lớp bảo mật cấp doanh nghiệp cho OpenClaw",
+  "summary": "NVIDIA chính thức ra mắt NemoClaw tại sự kiện GTC 2026 (16 tháng 3 năm 2026), là phân phối doanh nghiệp của OpenClaw cung cấp các biện pháp kiểm soát quyền riêng tư, quét an ninh nâng cao qua SkillSpector và khả năng cài đặt một lệnh cho runtime NVIDIA OpenShell để tổ chức chạy các agent AI tự động trên phần cứng của mình."
+ },
+ "obsidian|obsidiancli112|feature": {
+  "title": "Official Command-Line Interface for Obsidian Desktop",
+  "summary": "Obsidian 1.12 đã giới thiệu giao diện dòng lệnh (CLI) đầu tiên của công ty, cho phép người dùng kiểm soát Obsidian từ bất kỳ terminal nào để thực hiện script, tự động hóa và tích hợp với các công cụ bên ngoài; phiên bản thử nghiệm sớm được phát hành vào ngày 10 tháng 2 năm 2026 và phiên bản chính thức ra mắt vào ngày 27 tháng 2 năm 2026."
+ },
+ "perplexity|perplexitycomputer|platform": {
+  "title": "Perplexity Launches 'Computer' Multi-Model AI Agent",
+  "summary": "Được phát hành vào ngày 25 tháng 2 năm 2026, Perplexity Computer là hệ thống agentic dựa trên đám mây có khả năng điều phối 19 mô hình AI (Claude, Gemini, GPT-4, Grok và các mô hình khác) để thực hiện tự động các nhiệm vụ đa bước phức tạp. Hệ thống này chỉ được cung cấp cho người dùng có gói Perplexity Max."
+ },
+ "notion|notioncustomagents33|feature": {
+  "title": "Notion 3.3: Custom Agents — Scheduled & Triggered Automation",
+  "summary": "Notion 3.3 đã giới thiệu Custom Agents có thể chạy tự động theo lịch trình hoặc sự kiện kích hoạt, cho phép các nhóm xây dựng và chia sẻ các agent chuyên biệt để xử lý nhiệm vụ, họp ngày, quản lý hộp thư và trả lời câu hỏi — tích hợp với Slack, Figma và các công cụ khác."
+ },
+ "brave|bravesearchllmcontextapi|api": {
+  "title": "Brave Launches LLM Context API for AI App Developers",
+  "summary": "Brave đã ra mắt phiên bản cải tiến của API Tìm kiếm vào ngày 12 tháng 2 năm 2026, bao gồm API LLM Context mới có khả năng cung cấp nội dung web dưới dạng định dạng compact, được xếp hàng theo chunk tối ưu cho việc tiêu thụ bởi LLM. API này hiện đang hỗ trợ hơn 22 triệu câu trả lời AI mỗi ngày và được định giá là 5 đô la cho 1.000 yêu cầu cùng với các loại tìm kiếm khác."
+ },
+ "z.ai|glm5|model": {
+  "title": "Z.ai giới thiệu GLM-5: Mô hình MoE hàng đầu 744B được huấn luyện trên Huawei Ascend",
+  "summary": "Z.ai đã công bố GLM-5, một mô hình Mixture-of-Experts mở nguồn với 744 tỷ tham số và 40 tỷ tham số hoạt động trên mỗi token, cửa sổ ngữ cảnh 200.000 token, và giấy phép MIT. Được huấn luyện hoàn toàn trên chip Huawei Ascend, mô hình này đạt vị trí thứ nhất trong danh sách các mô hình mở nguồn trên Artificial Analysis và đạt 77,8% điểm số trên SWE-bench Verified."
+ },
+ "openclaw|openclaw|platform": {
+  "title": "OpenClaw — viral open-source local AI agent",
+  "summary": "Một agent AI miễn phí, mã nguồn mở chạy cục bộ có thể kết nối bất kỳ LLM nào với máy tính của bạn — đọc/tạo file, chạy lệnh shell, duyệt web, email và nhắn tin (WhatsApp/Telegram/Slack). 100+ kỹ năng, sử dụng chìa khóa API của bạn; đạt 100.000 sao GitHub vào tháng 2 năm 2.026 (trước đây là Clawdbot/Moltbot)."
+ },
+ "moonshot ai|kimik25|model": {
+  "title": "Kimi K2.5: Mô hình đa chế độ tự do mở nguồn với 100 agent swarm",
+  "summary": "Moonshot AI đã phát hành Kimi K.2.5 như một mô hình đa chế độ mở nguồn 1T tham số, được xây dựng dựa trên việc tiền xử lý liên tục với ~15T token hình ảnh và văn bản, hỗ trợ nhóm agent lên đến 100 sub-agent chuyên biệt và đạt kết quả tốt trên các benchmark video và lập trình."
+ },
+ "n8n|n8naiagents|feature": {
+  "title": "n8n trở thành nền tảng điều phối agent AI",
+  "summary": "Công cụ tự động hóa này hiện có tính năng Builder AI Agent nội bộ (nhớ, công cụ, quy tắc bảo vệ) cùng phê duyệt con người trong vòng lặp cho các cuộc gọi công cụ AI. Hỗ trợ các mô hình OpenAI, Anthropic, Google, Mistral và Ollama cục bộ trên cùng một canvas workflow. Có thể tự quản lý."
+ },
+ "obsidian|obsidianaiplugins|feature": {
+  "title": "Obsidian's AI plugin ecosystem matures",
+  "summary": "Obsidian không tích hợp AI sẵn, nhưng hệ sinh thái plugin mở của nó hiện nay cạnh tranh với Notion AI: Smart Connections (tìm kiếm ngữ nghĩa + chat RAG), Copilot, Text Generator và Ollama Chat (mô hình cục bộ). Cập nhật chính 2026 thêm plugin Bases và tính năng nhanh lấy dữ liệu Siri/Shortcuts."
+ },
+ "z.ai|glmimage|model": {
+  "title": "Z.ai Phát hành GLM-Image: Mô hình sinh hình ảnh hỗn hợp mở nguồn",
+  "summary": "Z.ai ra mắt GLM-Image, một mô hình sinh hình ảnh mở nguồn 16B sử dụng kiến trúc hybrid autoregressive-plus-diffusion được huấn luyện trên chip trong nước. Mô hình đạt độ chính xác sinh chữ viết dẫn đầu (91.16% trên CVTG-2K), vượt trội so với FLUX.1 Dev và GPT Image 1."
+ },
+ "z.ai|glm47|model": {
+  "title": "Z.ai Open-Sources GLM-4.7 Coding-Focused Foundation Model",
+  "summary": "Z.ai đã phát hành GLM-4.7 — một mô hình ngôn ngữ lớn có 358 tỷ tham số được mở nguồn dưới giấy phép MIT — nhằm mục tiêu các quy trình phát triển thực tế với khả năng mạnh mẽ trong lập trình, sử dụng công cụ và hỗ trợ ngữ cảnh dài. Mô hình này đang đứng đầu danh sách các mô hình mở nguồn trên Code Arena với hơn một triệu người tham gia."
+ },
+ "figma|figmaaiimageediting|feature": {
+  "title": "Figma Launches AI-Powered Object Removal and Image Expansion Tools",
+  "summary": "Figma đã giới thiệu ba công cụ chỉnh sửa hình ảnh thông minh trực tiếp lên canvas thiết kế: Erase Object, Isolate Object và Expand Image. Các công cụ này loại bỏ nhu cầu xuất file sang Photoshop hoặc Canva để thực hiện các chỉnh sửa hình ảnh thông thường và có sẵn cho người dùng có gói trả phí với tính năng AI kích hoạt."
+ },
+ "n8n|n8n20|platform": {
+  "title": "n8n 2.0: Nền tảng có độ vững chắc do doanh nghiệp với chế độ thực thi an toàn mặc định",
+  "summary": "n8n 2.0 là phiên bản 'hardening' chính thức, cho phép người dùng chạy nhiệm vụ mặc định (tách biệt các tác vụ Code node), chặn truy cập biến môi trường từ Code nodes, cung cấp driver kết nối SQLite hiệu năng cao và loại bỏ các tùy chọn cũ gây ra lỗi ở trường hợp biên. Đây là phiên bản lớn có thay đổi đột biến đầu tiên kể từ phiên bản 1.0 vào tháng 7 năm 2023."
+ },
+ "brave|leoskills|feature": {
+  "title": "Brave Công bố Leo Skills: Shortcut lệnh AI tùy chỉnh",
+  "summary": "Ngày 3 tháng 12 năm 2025, Brave giới thiệu Skills cho trợ lý AI Leo nội bộ của mình, cho phép người dùng tạo và kích hoạt shortcut lệnh dựa trên prompt tùy chỉnh qua phím tắt bàn phím. Đặc tính này có sẵn cho tất cả người dùng Leo trên máy tính và Android chạy Brave 1.85 trở lên."
+ },
+ "deepseek|deepseekv32|model": {
+  "title": "DeepSeek-V3.2: LLM Mở nguồn với Khả năng 160K Token và Chế độ Trí tuệ Nhân tạo",
+  "summary": "Được phát hành vào ngày 1 tháng 12 năm 2025, DeepSeek-V3.2 là mô hình open-weight với cửa sổ ngữ cảnh 160K-token, huấn luyện mở rộng bằng RL, tư duy sử dụng công cụ bản địa và hỗ trợ 1.800+ môi trường trí tuệ nhân tạo. Một phiên bản đi kèm, V3.2-Speciale, được phát hành đồng thời để truy cập qua API cho đến ngày 15 tháng 12."
+ },
+ "raycast|raycastforwindowspublicbeta|platform": {
+  "title": "Raycast ra mắt beta công khai trên Windows với tìm kiếm bản địa và các mở rộng",
+  "summary": "Raycast đã phát hành phiên bản beta công khai cho Windows vào ngày 20 tháng 11 năm 2025, mang đến khả năng khởi động, Lịch sử Bản sao chép, Snippets, Quicklinks, tìm kiếm file và hỗ trợ mở rộng cho Windows lần đầu tiên, với Quick AI miễn phí trong giai đoạn beta."
+ },
+ "meta|sam3segmentanythingmodel3|model": {
+  "title": "Meta ra mắt SAM 3 với phân đoạn đối tượng bằng lệnh văn bản và theo dõi video",
+  "summary": "SAM 3 mở rộng giai đoạn Segment Anything bằng các lệnh văn bản, mẫu và click có thể phân đoạn và theo dõi đối tượng trong các khung hình video, đồng thời phát hành các mô hình tái tạo 3D và mã nguồn mở cho quá trình dự đoán."
+ },
+ "notion|notion31|feature": {
+  "title": "Notion 3.1: Meetings Tab, Map View & Expanded AI Connectors",
+  "summary": "Notion 3.1 đã thêm một phần sidebar chuyên dụng cho AI Meeting Notes, loại cơ sở dữ liệu Map View, và mở rộng AI Connectors bao gồm các kênh riêng tư Slack và Google Calendar, cho phép các nhà đại diện truy vấn lịch trình và tóm tắt cuộc thảo luận."
+ },
+ "elevenlabs|scribev2realtime|model": {
+  "title": "ElevenLabs phát hành Scribe v2 Realtime với độ trễ siêu thấp 150ms",
+  "summary": "ElevenLabs đã chính thức ra mắt Scribe v2 Realtime, một mô hình chuyển giọng nói thành văn bản thời gian thực đạt độ trễ ~150ms với độ chính xác 93,5% trên bộ test FLEURS trong 30 ngôn ngữ. Sản phẩm này hỗ trợ dự đoán 'negative latency' và được thiết kế dành cho các ứng dụng như trợ lý giọng nói thời gian thực, trợ lý cuộc họp và ghi chú văn bản thời gian thực."
+ },
+ "canva|affinityfreeforever|platform": {
+  "title": "Canva Làm Trọn Vẹn Bộ Công Cụ Thiết Kế Affinity Cho Mọi Người",
+  "summary": "Canva đã hợp nhất Affinity Photo, Designer và Publisher thành một ứng dụng toàn diện và miễn phí vĩnh viễn mà không loại bỏ bất kỳ tính năng nào, trực tiếp thách thức mô hình đăng ký của Adobe. Ứng dụng trên máy tính trả về hoạt động ngoại tuyến và bao gồm các phiên bản cập nhật tương lai miễn phí; các tính năng AI như Generative Fill yêu cầu đăng ký trả phí của Canva."
+ },
+ "canva|creativeoperatingsystem|platform": {
+  "title": "Canva Launches Creative Operating System Unifying Design, AI, and Publishing",
+  "summary": "Canva đã giới thiệu Creative Operating System vào ngày 30 tháng 10 năm 2025 — một nền tảng AI được kết nối toàn diện tích hợp Visual Suite, Canva AI và lớp nền cho hệ thống thương hiệu và tiếp thị (Canva Grow). Sản phẩm còn bao gồm Video 2.0, Email Design và miễn phí vĩnh viễn bộ công cụ Affinity chuyên nghiệp trong giai đoạn triển khai."
+ },
+ "canva|canvadesignmodel|model": {
+  "title": "Canva phát hành mô hình AI thiết kế tự sở hữu với lớp hiểu biết và bố cục",
+  "summary": "Canva đã giới thiệu mô hình AI đầu tiên của mình được đào tạo trên các yếu tố thiết kế, tạo ra các thiết kế có thể chỉnh sửa được với lớp chồng (không phải hình ảnh phẳng), hiểu rõ thứ tự bố cục, logic thương hiệu và bối cảnh định dạng. Mô hình này được triển khai như trung tâm của hệ thống Creative Operating System mới, đánh dấu sự chuyển đổi của Canva từ AI thứ ba sang cơ sở hạ tầng mô hình sở hữu trí tuệ."
+ },
+ "cursor|cursor20composerv1|model": {
+  "title": "Cursor 2.0 ra mắt mô hình Composer độc quyền và giao diện nhiều agent",
+  "summary": "Cursor 2.0 giới thiệu Composer, mô hình mã nguồn đầu tiên độc quyền của công ty (nhanh 4 lần so với các mô hình có cùng mức độ thông minh), cùng giao diện nhiều agent được thiết kế lại hỗ trợ tối đa 8 agent AI song song, mỗi agent có công việc git riêng biệt."
+ },
+ "n8n|n8naiworkflowbuilder|feature": {
+  "title": "AI Workflow Builder (Beta) Turns Prompts into Working Automations",
+  "summary": "n8n đã phát hành AI Workflow Builder trong phiên bản beta, có thể tạo ra các workflow dự thảo từ các prompt ngôn ngữ tự nhiên, tự động thêm, cấu hình và kết nối các node. Ứng dụng ban đầu chỉ dành cho người dùng n8n Cloud trên các gói Trial, Starter và Pro với 20–150 lượt sử dụng hàng tháng."
+ },
+ "obsidian|obsidian1100|feature": {
+  "title": "Bases API, Group By, List View, and Maps Plugin",
+  "summary": "Obsidian 1.10.0 đã cung cấp API Bases ban đầu cho các nhà phát triển plugin, thêm chức năng Group By, tổng hợp bảng và góc nhìn List mới cho Bases, đồng thời giới thiệu plugin Maps chính thức cho phép người dùng trực quan hóa các mục trong base địa lý."
+ },
+ "meta|raybanmetadisplay|platform": {
+  "title": "Meta ra mắt kính thông minh Ray-Ban Display với màn hình HUD màu và vòng tay thần kinh",
+  "summary": "Ray-Ban Meta Display trang bị màn hình heads-up display màu và vòng tay thần kinh EMG để điều khiển cử chỉ, mang đến các câu trả lời AI trực tiếp, phụ đề dịch thời gian thực và lớp phủ tin nhắn riêng tư cho dạng kính, với giá bắt đầu từ 799 USD."
+ },
+ "brave|askbrave|feature": {
+  "title": "Brave Launches Ask Brave: Unified AI Search and Chat Interface",
+  "summary": "Brave đã chính thức ra mắt Ask Brave vào ngày 29 tháng 9 năm 2025, kết hợp tìm kiếm web truyền thống với giao diện chat trí tuệ nhân tạo thành một nền tảng duy nhất có thể sử dụng miễn phí trên bất kỳ trình duyệt hay nền tảng nào. Dịch vụ này tích hợp kết quả tìm kiếm từ Brave Search với câu trả lời được tạo ra bởi trí tuệ nhân tạo mà không yêu cầu đăng ký tài khoản hoặc thanh toán."
+ },
+ "github|githubcopilotcodingagent|feature": {
+  "title": "GitHub Copilot Coding Agent becomes generally available",
+  "summary": "GitHub's autonomous coding agent — which can be assigned tasks from GitHub issues and opens pull requests independently — reached general availability on September 25, 2025 for all paid Copilot subscribers after launching in public preview at Microsoft Build in May 2025."
+ },
+ "n8n|n8ndatatables|feature": {
+  "title": "Native Data Storage Lands in n8n with Data Tables (Beta)",
+  "summary": "n8n v1.113 đã giới thiệu bảng dữ liệu nội bộ (beta), cho phép người dùng lưu trữ và truy vấn dữ liệu có cấu trúc — chuỗi, số, thời gian — trực tiếp trên nền tảng mà không cần cơ sở dữ liệu bên ngoài. Tính năng này có sẵn trên tất cả các gói và hỗ trợ các thao tác chèn, cập nhật, xóa và lọc."
+ },
+ "notion|notion30agents|feature": {
+  "title": "Notion 3.0 ra mắt Agent AI tự động",
+  "summary": "Notion đã xây dựng lại AI từ đầu để tạo ra các Agent tự động có khả năng làm việc liên tục trong khoảng thời gian lên đến 20 phút, thực hiện nhiều bước công việc trên hàng trăm trang — tạo và cập nhật trang, cơ sở dữ liệu, thực hiện nghiên cứu hoặc phân tích mà không cần nhắc lệnh thủ công."
+ },
+ "zed|agentclientprotocolacp|api": {
+  "title": "Zed giới thiệu Giao thức Client Agent — tiêu chuẩn mở cho các agent lập trình AI",
+  "summary": "Zed đã ra mắt ACP, một giao thức JSON-RPC 2.0 mở cho phép bất kỳ agent lập trình AI nào (Claude Code, Codex CLI, Gemini CLI, GitHub Copilot CLI, v.v.) tích hợp nguyên bản với bất kỳ trình biên dịch tương thích nào. JetBrains đã đồng hành phát hành ACP Agent Registry cùng Zed."
+ },
+ "xai|grok25|model": {
+  "title": "xAI công bố trọng lượng mô hình Grok 2.5 trên Hugging Face",
+  "summary": "xAI đã công bố trọng lượng mô hình Grok 2.5 (~500 GB, 42 tập tin) trên Hugging Face dưới giấy phép nguồn có sẵn tùy chỉnh. Việc công bố này cấm sử dụng trọng lượng để đào tạo mô hình cạnh tranh, nhưng đánh dấu lần đầu tiên xAI công bố trọng lượng mở rộng sau khi phát hành Grok-1 vào tháng 3 năm 2024."
+ },
+ "brave|bravesearchaigroundingapi|api": {
+  "title": "Brave Launches AI Grounding API to Reduce Hallucinations",
+  "summary": "Vào ngày 5 tháng 8 năm 2025, Brave đã triển khai API AI Grounding cho nền tảng Brave Search, cố định phản hồi của mô hình học máy (LLM) vào các nguồn thông tin web có thể kiểm chứng để giảm thiểu hiện tượng hoa mày. Sản phẩm đạt hiệu suất hàng đầu trên benchmark SimpleQA với điểm F1 là 94,1%, và có kế hoạch bắt đầu từ phiên bản miễn phí."
+ },
+ "elevenlabs|elevenmusic|platform": {
+  "title": "ElevenLabs ra mắt Eleven Music, công cụ tạo nhạc AI có giấy phép kinh doanh",
+  "summary": "ElevenLabs đã ra mắt Eleven Music, một nền tảng tạo nhạc AI được xây dựng từ dữ liệu đã cấp phép từ các nhà đài lớn, nhà xuất bản và nghệ sĩ — có thể sử dụng cho mục đích thương mại trong phim, truyền hình, podcast, quảng cáo và trò chơi điện tử. Người dùng có thể tạo ra các bản nhạc chất lượng phòng thu từ các yêu cầu ngôn ngữ tự nhiên, kiểm soát thể loại, phong cách và giọng nói."
+ },
+ "openai|gptoss120b20b|model": {
+  "title": "OpenAI's gpt-oss open-weight reasoning models",
+  "summary": "OpenAI's open-weight models under Apache 2.0: gpt-oss-120b (near o4-mini, runs on one 80GB GPU) and gpt-oss-20b (near o3-mini, runs on a 16GB device). Weights on Hugging Face — not served via the OpenAI API."
+ },
+ "github|githubspark|platform": {
+  "title": "GitHub Spark AI app builder enters public preview",
+  "summary": "GitHub Spark đã chính thức mở công khai cho các người dùng Copilot Pro+ vào tháng 7 năm 2025, cho phép các nhà phát triển xây dựng và triển khai ứng dụng toàn bộ hệ thống thông minh bằng ngôn ngữ tự nhiên — không yêu cầu cài đặt hoặc cấu hình. Sản phẩm này sau đó mở rộng cho các người dùng Copilot Enterprise vào tháng 9 năm 2:2025."
+ },
+ "moonshot ai|kimik2|model": {
+  "title": "Kimi K2: 1T-Parameter Open-Source MoE Model for Agentic Tasks",
+  "summary": "Moonshot AI đã công bố phiên bản mở nguồn Kimi K2, một mô hình Mixture-of-Experts với 1 nghìn tỷ tham số và 32 tỷ tham số hoạt động, cung cấp cả hai phiên bản Base và Instruct, được phát hành dưới giấy phép MIT được sửa đổi, với hiệu suất mã hóa và nhiệm vụ agentic hàng đầu."
+ },
+ "raycast|raycastv11000bringyourownkeybyok|feature": {
+  "title": "Raycast cho phép người dùng kết nối chìa khóa API của riêng họ từ Anthropic, Google và OpenAI",
+  "summary": "Phiên bản 1.100.0 đã giới thiệu tính năng Bring Your Own Key, cho phép người dùng sử dụng Raycast AI với chìa khóa API của riêng họ từ Anthropic, Google và Open. Điều này cho phép sử dụng AI không giới hạn tại chi phí cá nhân mà không yêu cầu đăng ký Pro."
+ },
+ "meta|vjepa2|model": {
+  "title": "Meta phát hành V-JEPA 2 - mô hình thế giới mở nguồn mở cho lý trí vật lý",
+  "summary": "V-JEPA 2 là mô hình thế giới tự giám sát mở nguồn được đào tạo trên hơn 1 triệu giờ video, cho phép lập kế hoạch robot không cần nhãn và lý trí vật lý, vượt trội so với các đối thủ như Nvidia Cosmos lên đến 30 lần về tốc độ."
+ },
+ "apple|foundationmodelsframework|api": {
+  "title": "Apple Mở Mở Rộng AI Trí Tuệ Nhân Tạo Trên Thiết Bị Cho Phát Triển Phần Mềm Bên Ngoại Thương Qua Framework Foundation Models",
+  "summary": "Được công bố tại WWDC25 vào ngày 9 tháng 6 năm 2025 và được triển khai công khai vào tháng 9 năm 2025 với iOS 26/macOS 26, framework Foundation Models cung cấp một API miễn phí cho các phát triển Swift để chạy mô hình ngôn ngữ 3B tham số của Apple trên thiết bị, trực tiếp, riêng tư và chỉ với tối thiểu ba dòng mã. Tính năng bao gồm sinh JSON hướng dẫn, gọi công cụ và đầu ra có cấu trúc."
+ },
+ "cursor|cursor10|platform": {
+  "title": "Cursor 1.0: BugBot, Background Agent GA, and One-Click MCP",
+  "summary": "Cursor đã đạt mốc 1.0, cung cấp BugBot (một trình duyệt mã tự động hóa PR được cung cấp bởi AI trên GitHub), đưa Background Agent vào trạng thái GA cho tất cả người dùng, và thêm tính năng thiết lập một lần MCP server cùng với hỗ trợ Jupyter Notebook."
+ },
+ "perplexity|perplexitylabs|feature": {
+  "title": "Perplexity Labs Cho phép Người dùng Tạo Ứng dụng và Bảng Biểu đồ",
+  "summary": "Được tung ra ngày 29 tháng 5 năm 2025, Perplexity Labs là một tính năng cho phép người dùng tạo ra các dự án tương tác — báo cáo, bảng tính, bảng biểu đồ và các ứng dụng web đơn giản — trực tiếp từ các lệnh ngôn ngữ tự nhiên trong giao diện Perplexity."
+ },
+ "obsidian|obsidian19bases|feature": {
+  "title": "Obsidian Bases: Xem bảng dữ liệu nội bộ cho chú thích",
+  "summary": "Obsidian 1.9.0 đã giới thiệu Bases, một plugin mới của hệ thống biến đổi giúp chuyển bất kỳ tập hợp các chú thích Markdown thành một cơ sở dữ liệu động với các bảng xem, lọc, sắp xếp và các thuộc tính được tính toán dựa trên công thức — tất cả đều được hỗ trợ bởi YAML frontmatter địa phương mà không cần cơ sở dữ liệu bên ngoài."
+ },
+ "github|githubmodelsapi|api": {
+  "title": "GitHub Models REST API ra mắt cho việc triển khai inference mô hình AI",
+  "summary": "GitHub đã chính thức phát hành Models REST API vào tháng 5 năm 2025, cho phép các nhà phát triển thực hiện khám phá và chạy inference trực tiếp lên các mô hình AI đã được lưu trữ (từ OpenAI, Meta, Microsoft và các nhà cung cấp khác) thông qua nền tảng của GitHub — không yêu cầu quản lý chìa khóa API riêng."
+ },
+ "notion|notionaipricingrestructure|platform": {
+  "title": "Notion kết hợp AI vào gói dịch vụ kinh doanh, ngừng cung cấp phần mở rộng AI độc lập",
+  "summary": "Vào ngày 13 tháng 5 năm 2025, Notion đã ngừng cung cấp phần mở rộng AI độc lập (giá 8–10 USD/user/tháng) và tích hợp quyền truy cập AI không giới hạn vào gói Kinh doanh ($20/user/tháng) và gói Doanh nghiệp, loại bỏ quyền truy cập AI có ý nghĩa từ các gói Free và Plus."
+ },
+ "figma|figmasitesfigmabuzz|platform": {
+  "title": "Figma Expands Platform with Sites, Buzz, and Draw at Config 2: Figma Sites, Figma Buzz, and Figma Draw",
+  "summary": "Tại Config 2025, Figma công bố Figma Sites (một công cụ xây dựng trang web thông minh), Figma Buzz (một công cụ tạo tài nguyên marketing theo thương hiệu với hỗ trợ AI), và Figma Draw (một công cụ vẽ vector tiên tiến), mở rộng mạnh mẽ Figma từ thiết kế giao diện người dùng sang các quy trình xuất bản và marketing."
+ },
+ "figma|figmamake|feature": {
+  "title": "Figma Make: AI Prompt-to-App Builder Launches",
+  "summary": "Figma Make cho phép thiết kế và người không chuyên tạo, điều chỉnh và chỉnh sửa các prototype ứng dụng tương tác thông qua các lệnh tự nhiên, được hỗ trợ bởi AI. Công bố vào Config 2025 ngày 7 tháng 5 năm 2025 và chính thức ra mắt cho phép sử dụng vào ngày 24 tháng 7 năm 2025."
+ },
+ "deepseek|deepseekproverv2|model": {
+  "title": "DeepSeek-Prover-V2: LLM Mở rộng Công thức Mở rộng cho Chứng minh Định lý Hình thức",
+  "summary": "Được phát hành vào ngày 30 tháng 4 năm 2025, mô hình mở nguồn 671B tham số này hướng đến chứng minh định lý toán học hình thức bằng Lean 4 sử dụng phân tích mục tiêu con đệ quy và học củng cố GRPO. Nó giải quyết được 88,9% các bài toán trong MiniF2F-test và giới thiệu tiêu chuẩn đánh giá mới ProverBench."
+ },
+ "canva|visualsuite20|platform": {
+  "title": "Canva ra mắt Visual Suite 2.0 với thiết kế tổng hợp, Sheets và Code",
+  "summary": "Canva chính thức ra mắt Visual Suite 2.0 tại sự kiện Canva Create 2:2025, giới thiệu khung làm việc thống nhất để xây dựng bài thuyết trình, tài liệu, trang web và nhiều hơn nữa trong một file thiết kế duy nhất. Sự kiện này còn bao gồm Canva Sheets (bảng tính tự động bằng AI), Canva Code (công cụ xây dựng ứng dụng từ prompt) và tích hợp AI sâu rộng trên toàn bộ bộ sưu tập Visual Suite."
+ },
+ "meta|llama4|model": {
+  "title": "Meta Llama 4 — natively multimodal, MoE",
+  "summary": "Meta's current open generation: Scout (17B active / 109B, a 1:10M-token context — the largest of any open model) and Maverick (17B active / 400B, 1M context). First Llama with Mixture-of-Experts + native multimodal training."
+ },
+ "github|githubcopilotagentmode|feature": {
+  "title": "GitHub Copilot Agent Mode reaches general availability in VS Code",
+  "summary": "GitHub đã triển khai chế độ Agent Mode hỗ trợ MCP (Model Context Protocol) cho tất cả người dùng VS Code vào tháng 4 năm 2025. Chế độ Agent Mode cho phép Copilot tự động lên kế hoạch và thực thi các nhiệm vụ lập trình nhiều bước, tự sửa lỗi thời gian chạy và đề xuất lệnh terminal — biến Cop.ilot từ một công cụ hoàn thành mã thành đối tác phát triển toàn diện."
+ },
+ "apple|visionos24withappleintelligence|feature": {
+  "title": "Apple Intelligence Arrives on Apple Vision Pro via visionOS 2.4",
+  "summary": "Được phát hành vào ngày 31 tháng 3 năm 2025, visionOS 2.4 đã giới thiệu Apple Intelligence cho đầu đài Vision Pro lần đầu tiên, bao gồm các công cụ Viết, Image Playground, Genmoji và Siri được cải tiến. Cập nhật này còn thêm ứng dụng Spatial Gallery mới và các tính năng tích hợp với iPhone."
+ },
+ "apple|appleintelligenceios184eumultilingualexpansion|feature": {
+  "title": "Apple Intelligence mở rộng sang EU và 8+ ngôn ngữ mới với iOS 18.4",
+  "summary": "Được phát hành ngày 31 tháng 3 năm 2025, iOS 18.4 / iPadOS 18.4 / macOS Sequoia 15.4 mang lại Apple Intelligence cho người dùng Liên minh Châu Âu lần đầu tiên và hỗ trợ thêm tiếng Pháp, tiếng Đức, tiếng Ý, tiếng Tây Ban Nha, tiếng Nhật, tiếng Hàn, tiếng Trung (giản thể) và tiếng Bồ Đào Nha (Brazil). Cập nhật này cũng giới thiệu Thông báo Priority và mở rộng khả năng hiểu ngôn ngữ của Siri."
+ },
+ "elevenlabs|scribe|model": {
+  "title": "ElevenLabs ra mắt Scribe, mô hình chuyển đổi giọng nói thành văn bản đầu tiên",
+  "summary": "ElevenLabs đã phát hành Scribe, mô hình nhận diện giọng nói tự động đầu tiên của họ, tuyên bố đạt độ chính xác chuyển đổi cao nhất hiện có — 96,7% cho tiếng Anh — trên 99 ngôn ngữ, kèm theo thời gian bắt đầu từ từ, phân biệt người nói và đánh dấu sự kiện âm thanh. Scribe vượt trội so với OpenAI Whisper Large V3, Gemini : 2.0 Flash và Deepgram Nova-3 trên các tiêu chuẩn benchmark tiêu chuẩn."
+ },
+ "xai|grok3|model": {
+  "title": "xAI ra mắt Grok 3 với DeepSearch và chế độ Think lý luận",
+  "summary": "xAI đã phát hành Grok 3 - mô hình frontier tiêu biểu được huấn luyện trên ~200.000 GPU, cùng hai tính năng mới: DeepSearch (một agent tìm kiếm web thời gian thực) và Think (chế độ lý luận chuỗi suy nghĩ). Sản phẩm này đạt thành tích dẫn đầu trên các benchmark AIME 2:2025 và GPQA, vượt trội so với GPT-4o và o3-mini-high khi ra mắt."
+ },
+ "perplexity|perplexitydeepresearch|feature": {
+  "title": "Perplexity Launches Deep Research Feature",
+  "summary": "Deep Research, được phát hành vào ngày 14 tháng 2 năm 2025, là một công cụ nghiên cứu tự động thực hiện hàng chục tìm kiếm, đọc hàng trăm nguồn tham khảo và tổng hợp báo cáo có trích dẫn toàn diện. Công cụ này được cung cấp miễn phí (với giới hạn) cho tất cả người dùng."
+ },
+ "zed|zeta|model": {
+  "title": "Zed ra mắt Zeta: mô hình dự đoán chỉnh sửa mở nguồn",
+  "summary": "Zed đã phát hành Zeta, một mô hình dự đoán chỉnh sửa mở nguồn được cải tiến từ Qwen2.5-Coder-7B và tích hợp trực tiếp vào trình biên dịch. Mô hình này dự đoán chỉnh sửa mã tiếp theo của nhà phát triển và có thể được áp dụng chỉ bằng một phím Tab."
+ },
+ "raycast|raycastv1900moreaimodels|feature": {
+  "title": "Raycast thêm DeepSeek R1, Gemini 1.5, OpenAI o1 và Perplexity vào AI",
+  "summary": "Raycast v1.90.0 đã mở rộng danh sách mô hình AI nội bộ đáng kể, thêm DeepSeek R1 (qua Together AI/Groq), OpenAI o1-mini và o.1-preview, Google Gemini 1.5 Flash, xAI Grok và Perplexity Sonar — tất cả đều có sẵn cho người dùng Raycast Pro."
+ },
+ "perplexity|sonarapi|api": {
+  "title": "Perplexity Launches Sonar Search API for Developers",
+  "summary": "Perplexity đã triển khai API Sonar vào ngày 21 tháng 1 năm 2025, cung cấp cho các nhà phát triển truy cập vào động cơ tìm kiếm web cơ sở vào hai mức độ — Sonar (nhanh, nhẹ) và Sonar Pro (lập luận nhiều bước, nhiều trích dẫn). Nó cho phép xây dựng ứng dụng với kết quả tìm kiếm có trích dẫn và thời gian thực."
+ },
+ "moonshot ai|kimik15|model": {
+  "title": "Kimi k1.5: Reinforcement Learning Reasoning Model Matching OpenAI o1",
+  "summary": "Moonshot AI đã phát hành Kimi k1.5, một mô hình lý luận đa phương thức được huấn luyện bằng học củng cố và có cửa sổ ngữ cảnh 128K, tuyên bố hiệu suất benchmark tương đương với OpenAI o1 trong các nhiệm vụ toán học, lập trình và đa phương thức."
+ },
+ "deepseek|deepseekr1|model": {
+  "title": "DeepSeek-R1: Mô hình suy luận mở nguồn cạnh tranh với OpenAI o1",
+  "summary": "DeepSeek đã phát hành R1 vào ngày 20 tháng 1 năm 2025 — một mô hình suy luận mở nguồn có thể so sánh với OpenAI o1 trên các bài kiểm tra suy luận phức tạp. Được xây dựng dưới giấy phép MIT với chi phí dưới 6 triệu USD sử dụng chip Nvidia dung lượng thấp, R1 vượt qua ChatGPT trở thành ứng dụng được tải nhiều nhất trên iOS tại Mỹ trong vài ngày sau khi ra mắt."
+ },
+ "xai|auroragrokimagegeneration|model": {
+  "title": "xAI phát hành mô hình sinh hình ảnh tự hồi quy Aurora",
+  "summary": "xAI đã ra mắt Aurora, một mô hình hình ảnh hỗn hợp chuyên gia tự hồi quy tích hợp vào nền tảng Grok và X, có khả năng sinh hình ảnh chuyển đổi văn bản thành hình ảnh và chỉnh sửa hình ảnh một cách thực tế. Aurora được thông báo dành cho người dùng X Premium và được thêm vào API phát triển của xAI ngay sau đó."
+ }
+}
