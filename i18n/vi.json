@@ -442,5 +442,9 @@
  "xai|auroragrokimagegeneration|model": {
   "title": "xAI phát hành mô hình sinh hình ảnh tự hồi quy Aurora",
   "summary": "xAI đã ra mắt Aurora, một mô hình hình ảnh hỗn hợp chuyên gia tự hồi quy tích hợp vào nền tảng Grok và X, có khả năng sinh hình ảnh chuyển đổi văn bản thành hình ảnh và chỉnh sửa hình ảnh một cách thực tế. Aurora được thông báo dành cho người dùng X Premium và được thêm vào API phát triển của xAI ngay sau đó."
+ },
+ "zed|zedforwindows|platform": {
+  "title": "Zed chính thức ra mắt trên Windows",
+  "summary": "Zed đã chính thức cung cấp hỗ trợ Windows ổn định sau khi phát hành phiên bản beta công khai vào tháng 9 năm 2025, hiện đang hỗ trợ đầy đủ ba nền tảng chính (macOS, Linux, Windows) cùng tích hợp WSL và cập nhật hàng tuần."
  }
 }
