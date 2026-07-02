@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-02 22:13 UTC",
-  "count": 112,
+  "generated_at": "2026-07-02 23:20 UTC",
+  "count": 113,
   "companies": [
     "Anthropic",
     "Apple",
@@ -34,6 +34,23 @@
     "platform"
   ],
   "releases": [
+    {
+      "company": "OpenAI",
+      "product": "GeneBench-Pro",
+      "title": "Introducing GeneBench-Pro",
+      "summary": "OpenAI introduces GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research.",
+      "date": "2026-06-30",
+      "type": "model",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "tags": [
+        "ai",
+        "benchmark",
+        "genomics"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
     {
       "company": "OpenAI",
       "product": "GPT-4.5",

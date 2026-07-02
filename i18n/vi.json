@@ -446,5 +446,9 @@
  "zed|zedforwindows|platform": {
   "title": "Zed chính thức ra mắt trên Windows",
   "summary": "Zed đã chính thức cung cấp hỗ trợ Windows ổn định sau khi phát hành phiên bản beta công khai vào tháng 9 năm 2025, hiện đang hỗ trợ đầy đủ ba nền tảng chính (macOS, Linux, Windows) cùng tích hợp WSL và cập nhật hàng tuần."
+ },
+ "openai|genebenchpro|model": {
+  "title": "Introducing GeneBench-Pro",
+  "summary": "OpenAI giới thiệu GeneBench-Pro, một benchmark mới để kiểm tra hiệu năng AI trong lĩnh vực genomics, sinh học và nghiên cứu khoa học."
  }
 }

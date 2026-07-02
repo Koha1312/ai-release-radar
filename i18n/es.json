@@ -446,5 +446,9 @@
  "xai|auroragrokimagegeneration|model": {
   "title": "xAI lanza el modelo de generación de imágenes autoregresivo Aurora",
   "summary": "xAI lanzó Aurora, un modelo de generación de imágenes autoregresivo de mezcla de expertos integrado en la plataforma Grok y X, capaz de generar imágenes fotorealistas y editar imágenes. Aurora se anunció para suscriptores de X Premium y se agregó a la API de desarrollo de xAI poco después."
+ },
+ "openai|genebenchpro|model": {
+  "title": "Introducing GeneBench-Pro",
+  "summary": "OpenAI presenta GeneBench-Pro, un nuevo benchmark para probar el rendimiento de la IA en genómica, biología y investigación científica."
  }
 }
