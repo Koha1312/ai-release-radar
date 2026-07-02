@@ -16,6 +16,14 @@ SOURCES = [
     {"company": "GitHub", "name": "GitHub Changelog", "kind": "rss", "url": "https://github.blog/changelog/feed/"},
     {"company": "Hugging Face", "name": "Hugging Face Blog", "kind": "rss", "url": "https://huggingface.co/blog/feed.xml"},
     {"company": "Mistral", "name": "Mistral AI News", "kind": "rss", "url": "https://mistral.ai/rss.xml"},
-    # No working public RSS found for xAI (Cloudflare-blocked) or Stability AI —
-    # they stay tracked via curated entries. Anthropic also has no public RSS yet.
+    {"company": "Brave", "name": "Brave Blog", "kind": "rss", "url": "https://brave.com/blog/index.xml"},
+    # Tools without RSS but with public GitHub releases (keyless API; the
+    # adapter keeps only majors/minors so patch releases never reach the LLM).
+    {"company": "Zed", "name": "Zed Releases", "kind": "github_releases", "repo": "zed-industries/zed"},
+    {"company": "n8n", "name": "n8n Releases", "kind": "github_releases", "repo": "n8n-io/n8n"},
+    {"company": "Ollama", "name": "Ollama Releases", "kind": "github_releases", "repo": "ollama/ollama"},
+    {"company": "vLLM", "name": "vLLM Releases", "kind": "github_releases", "repo": "vllm-project/vllm"},
+    # No working public RSS found for xAI (Cloudflare-blocked), Stability AI,
+    # Anthropic, ElevenLabs, Cursor, Raycast or Perplexity (checked 2026-07-02) —
+    # they stay tracked via curated entries.
 ]

@@ -35,6 +35,8 @@ jobs:
           RADAR_LLM_BASE_URL: https://models.github.ai/inference
           RADAR_LLM_API_KEY: ${{ secrets.GITHUB_TOKEN }}
           RADAR_LLM_MODEL: openai/gpt-4o-mini
+          # Raises the GitHub Releases API rate limit for the new tool sources.
+          GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: uv run python -m radar.cli refresh
 
       - name: Commit + deploy if changed
