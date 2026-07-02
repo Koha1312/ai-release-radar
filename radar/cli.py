@@ -65,6 +65,25 @@ def cmd_refresh(args) -> None:
     n = build_site.build()
     print(f"Refreshed: {n} releases total (+{len(releases)} new this run).")
 
+    # Keep translations fresh too — capped (quota guard) and fail-soft:
+    # a translation hiccup must never fail the refresh itself.
+    try:
+        from . import translate
+
+        calls = translate.translate_missing(cap=60)
+        print(f"Translations: {calls} LLM calls this run.")
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! translation pass skipped: {e}")
+
+
+def cmd_translate(_args) -> None:
+    """Backfill all missing translations (local Ollama — free, uncapped)."""
+    from . import translate
+
+    print(f"Translating into: {', '.join(translate.LANGS.values())}")
+    calls = translate.translate_missing()
+    print(f"Done — {calls} LLM calls.")
+
 
 def main() -> None:
     parser = argparse.ArgumentParser(prog="radar")
@@ -73,9 +92,11 @@ def main() -> None:
     sub.add_parser("ingest", help="fetch + LLM-structure new releases")
     sub.add_parser("build", help="export DB to site/releases.json")
     sub.add_parser("refresh", help="ingest + build (daily job)")
+    sub.add_parser("translate", help="backfill missing i18n translations")
 
     args = parser.parse_args()
-    {"seed": cmd_seed, "ingest": cmd_ingest, "build": cmd_build, "refresh": cmd_refresh}[args.command](args)
+    {"seed": cmd_seed, "ingest": cmd_ingest, "build": cmd_build, "refresh": cmd_refresh,
+     "translate": cmd_translate}[args.command](args)
 
 
 if __name__ == "__main__":

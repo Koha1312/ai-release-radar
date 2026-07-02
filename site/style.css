@@ -240,6 +240,21 @@ footer { border-top: 1px solid var(--border); padding: 24px 20px; text-align: ce
 .spark { display: inline-flex; align-items: flex-end; gap: 3px; height: 30px; margin-left: 6px; }
 .spark .bar { width: 7px; border-radius: 2px 2px 0 0; background: linear-gradient(var(--accent-2), var(--accent)); }
 
+/* language picker */
+#lang-wrap {
+  position: fixed; top: 14px; right: 62px; z-index: 50;
+  display: flex; align-items: center; gap: 6px;
+  height: 38px; padding: 0 10px;
+  border: 1px solid var(--border); border-radius: 999px;
+  background: var(--panel); color: var(--text); font-size: 0.9rem;
+}
+#lang-wrap:hover { border-color: var(--accent); }
+#lang-picker {
+  background: transparent; border: none; color: var(--text);
+  font-size: 0.85rem; font-family: inherit; cursor: pointer; outline: none;
+}
+#lang-picker option { background: var(--panel); color: var(--text); }
+
 /* theme toggle */
 #theme-toggle {
   position: fixed; top: 14px; right: 16px; z-index: 50;
@@ -352,5 +367,6 @@ footer .channels { margin-bottom: 6px; }
   .card h3 { font-size: 1rem; }
   .card p { font-size: 0.9rem; }
   #theme-toggle { top: 10px; right: 10px; width: 34px; height: 34px; }
+  #lang-wrap { top: 10px; right: 52px; height: 34px; padding: 0 8px; }
   .hero-stats { font-size: 0.8rem; }
 }
