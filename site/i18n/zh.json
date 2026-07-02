@@ -446,5 +446,9 @@
  "xai|auroragrokimagegeneration|model": {
   "title": "xAI发布Aurora自回归图像生成模型",
   "summary": "xAI推出Aurora，一款集成至Grok平台和X的自回归混合专家图像模型，可实现高保真文本到图像生成与图像编辑。Aurora面向X Premium订阅用户发布，并随后加入xAI开发者API。"
+ },
+ "openai|genebenchpro|model": {
+  "title": "Introducing GeneBench-Pro",
+  "summary": "OpenAI推出GeneBench-Pro，一款用于测试AI在基因组学、生物学及科学研究领域性能的新基准测试工具。"
  }
 }

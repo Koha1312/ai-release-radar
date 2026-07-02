@@ -5,7 +5,15 @@
     <title>AI Release Radar</title>
     <link>https://koha1312.github.io/ai-release-radar/</link>
     <description>Every AI release worth knowing — from the big labs to the tools we use.</description>
-    <lastBuildDate>Thu, 02 Jul 2026 22:13:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 23:20:41 +0000</lastBuildDate>
+    <item>
+      <title>GeneBench-Pro — Introducing GeneBench-Pro</title>
+      <link>https://openai.com/index/introducing-genebench-pro</link>
+      <guid isPermaLink="false">OpenAI|GeneBench-Pro|model</guid>
+      <category>OpenAI</category>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] OpenAI introduces GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research.</description>
+    </item>
     <item>
       <title>GPT-4.5 — GPT-4.5 sunsetting June 27</title>
       <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes</link>

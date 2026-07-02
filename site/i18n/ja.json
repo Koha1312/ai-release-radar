@@ -446,5 +446,9 @@
  "z.ai|glm47|model": {
   "title": "Z.ai がコードに特化した基礎モデル GLM-4.7 を MIT ライセンスでオープンソースリリース",
   "summary": "Z.ai は MIT ライセンスのもと、358B パラメータの大型言語モデル GLM-4.7 をオープンソースでリリース。コード作成、ツールの利用、長文処理の能力が強いため、実際の開発ワークフローに最適化され、Code Arena で 100 万以上の参加者が参加するオープンソースモデルにおいて最上位を獲得。"
+ },
+ "openai|genebenchpro|model": {
+  "title": "Introducing GeneBench-Pro",
+  "summary": "OpenAIは、ゲノミクス、生物学、科学的研究におけるAIの性能を評価する新しいベンチマークとしてGeneBench-Proを導入しました。"
  }
 }
