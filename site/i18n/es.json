@@ -454,5 +454,9 @@
  "google|geminiapi|api": {
   "title": "Expansión de Agentes Gestionados en Gemini API",
   "summary": "Google anuncia el lanzamiento de un paquete de funciones para el Gemini API, que incluye mejoras para tareas en segundo plano y MCP remoto."
+ },
+ "google deepmind|gemini35flash|model": {
+  "title": "Presentación del uso de computadoras en Gemini 3.5 Flash",
+  "summary": "Google DeepMind ha anunciado el lanzamiento de Gemini 3.5 Flash, que introduce nuevas capacidades para el uso de computadoras."
  }
 }

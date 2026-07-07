@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07 17:23 UTC",
-  "count": 114,
+  "generated_at": "2026-07-07 20:06 UTC",
+  "count": 116,
   "companies": [
     "Anthropic",
     "Apple",
@@ -12,6 +12,7 @@
     "Figma",
     "GitHub",
     "Google",
+    "Google DeepMind",
     "Meta",
     "Microsoft",
     "Moonshot AI",
@@ -47,6 +48,23 @@
         "Gemini",
         "API",
         "Managed Agents"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "Google DeepMind",
+      "product": "Nano Banana 2 Lite, Gemini Omni Flash",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "summary": "Google DeepMind announces the release of two new products, Nano Banana 2 Lite and Gemini Omni Flash, aimed at enhancing AI development capabilities.",
+      "date": "2026-06-30",
+      "type": "model",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "tags": [
+        "AI",
+        "DeepMind",
+        "release"
       ],
       "open_source": false,
       "image": "",
@@ -99,6 +117,24 @@
         "ultra mode",
         "coding",
         "limited preview"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "Google DeepMind",
+      "product": "Gemini 3.5 Flash",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "summary": "Google DeepMind has announced the release of Gemini 3.5 Flash, which introduces new capabilities for computer use.",
+      "date": "2026-06-24",
+      "type": "model",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "tags": [
+        "AI",
+        "DeepMind",
+        "Gemini",
+        "release"
       ],
       "open_source": false,
       "image": "",

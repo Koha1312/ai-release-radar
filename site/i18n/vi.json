@@ -450,5 +450,9 @@
  "openai|genebenchpro|model": {
   "title": "Introducing GeneBench-Pro",
   "summary": "OpenAI giới thiệu GeneBench-Pro, một benchmark mới để kiểm tra hiệu năng AI trong lĩnh vực genomics, sinh học và nghiên cứu khoa học."
+ },
+ "google deepmind|gemini35flash|model": {
+  "title": "Giới thiệu việc sử dụng máy tính trong Gemini 3.5 Flash",
+  "summary": "Google DeepMind đã công bố phát hành Gemini 3.5 Flash, mang đến những khả năng mới cho việc sử dụng máy tính."
  }
 }
