@@ -450,5 +450,9 @@
  "openai|genebenchpro|model": {
   "title": "Introducing GeneBench-Pro",
   "summary": "OpenAI présente GeneBench-Pro, un nouveau benchmark permettant de tester les performances d'IA dans le génétique, la biologie et les recherches scientifiques."
+ },
+ "google|geminiapi|api": {
+  "title": "Expansion des agents gérés dans l'API Gemini",
+  "summary": "Google annonce le lancement d'un ensemble de fonctionnalités pour l'API Gemini, qui comprend des améliorations pour les tâches en arrière-plan et le MCP distant."
  }
 }

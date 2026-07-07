@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07 14:52 UTC",
-  "count": 113,
+  "generated_at": "2026-07-07 17:23 UTC",
+  "count": 114,
   "companies": [
     "Anthropic",
     "Apple",
@@ -34,6 +34,24 @@
     "platform"
   ],
   "releases": [
+    {
+      "company": "Google",
+      "product": "Gemini API",
+      "title": "Expanding Managed Agents in Gemini API",
+      "summary": "Google announces the launch of a feature bundle for the Gemini API, which includes enhancements for background tasks and remote MCP.",
+      "date": "2026-07-07",
+      "type": "api",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "tags": [
+        "Google",
+        "Gemini",
+        "API",
+        "Managed Agents"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
     {
       "company": "OpenAI",
       "product": "GeneBench-Pro",
