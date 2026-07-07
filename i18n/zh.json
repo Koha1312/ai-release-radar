@@ -450,5 +450,9 @@
  "openai|genebenchpro|model": {
   "title": "Introducing GeneBench-Pro",
   "summary": "OpenAI推出GeneBench-Pro，一款用于测试AI在基因组学、生物学及科学研究领域性能的新基准测试工具。"
+ },
+ "google deepmind|nanobanana2litegeminiomniflash|model": {
+  "title": "开始使用 Nano Banana 2 Lite 和 Gemini Omni Flash 构建",
+  "summary": "Google DeepMind 宣布发布两款新产品，Nano Banana 2 Lite 和 Gemini Omni Flash，旨在增强 AI 开发能力。"
  }
 }
