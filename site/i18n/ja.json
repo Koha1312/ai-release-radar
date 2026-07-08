@@ -450,5 +450,21 @@
  "openai|genebenchpro|model": {
   "title": "Introducing GeneBench-Pro",
   "summary": "OpenAIは、ゲノミクス、生物学、科学的研究におけるAIの性能を評価する新しいベンチマークとしてGeneBench-Proを導入しました。"
+ },
+ "google|geminiapi|api": {
+  "title": "Gemini APIにおけるマネージドエージェントの拡張",
+  "summary": "Googleは、バックグラウンドタスクとリモートMCPの強化を含むGemini APIの機能バンドルのローンチを発表しました。"
+ },
+ "google deepmind|nanobanana2litegeminiomniflash|model": {
+  "title": "Nano Banana 2 LiteとGemini Omni Flashの開発開始",
+  "summary": "Google DeepMindは、AI開発能力を向上させることを目的とした新製品Nano Banana 2 LiteとGemini Omni Flashのリリースを発表しました。"
+ },
+ "google deepmind|gemini35flash|model": {
+  "title": "Gemini 3.5 Flashにおけるコンピュータ利用の導入",
+  "summary": "Google DeepMindは、コンピュータ利用の新機能を搭載したGemini 3.5 Flashのリリースを発表しました。"
+ },
+ "google deepmind|diffusiongemma|model": {
+  "title": "DiffusionGemma: 4倍速のテキスト生成",
+  "summary": "Google DeepMindは、従来のモデルの4倍の速度でテキスト生成を可能にする新しいモデル、DiffusionGemmaを発表しました。"
  }
 }

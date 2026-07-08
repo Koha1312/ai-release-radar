@@ -1,14 +1,14 @@
 {
- "week_of": "2026-07-02",
- "generated_at": "2026-07-02",
- "count": 2,
+ "week_of": "2026-07-08",
+ "generated_at": "2026-07-08",
+ "count": 1,
  "text": {
-  "en": "This week, OpenAI deprecated GPT-4.5 with a June 27 sunset date, while previewing its next-generation GPT-5.6 family, which includes the Sol, Terra, and Luna models. The GPT-5.6 family represents OpenAI's shift toward a more modular approach to AI model development. No other major AI releases were highlighted this week.",
-  "vi": "Tuần này, OpenAI đã loại bỏ GPT-4.5 với ngày kết thúc là 27 tháng 6, đồng thời trình bày giai đoạn tiếp theo của GPT-5.6 bao gồm các mô hình Sol, Terra và Luna. Giai đoạn GPT-5.6 thể hiện sự chuyển hướng của OpenAI sang phương pháp phát triển mô hình AI theo cách modul hóa hơn. Không có các phiên bản AI lớn khác được đề cập trong tuần này.",
-  "es": "Esta semana, OpenAI deprecó GPT-4.5 con una fecha de finalización el 27 de junio, mientras presentaba su próxima generación de familia GPT-5.6, que incluye los modelos Sol, Terra y Luna. La familia GPT-5.6 representa el cambio de OpenAI hacia una aproximación más modular en el desarrollo de modelos de IA. No se destacaron otras liberaciones importantes de IA esta semana.",
-  "zh": "本周，OpenAI将GPT-4.5于6月27日正式弃用，同时预览了下一代GPT-5.6系列模型，包括Sol、Terra和Luna等。GPT-5.6系列标志着OpenAI在AI模型开发中向模块化架构的转型。本周其他主要AI产品更新未有突出亮点。",
-  "ja": "今週、OpenAIは6月27日にGPT-4.5を廃止し、次世代のGPT-5.6ファミリー（Sol、Terra、Lunaモデルを含む）をプレビューアン。GPT-5.6ファミリーはOpenAIがAIモデル開発にモジュール化アプローチを採用する方向性を示すものである。今週はその他の主要なAIリリースが強調されていない。",
-  "ko": "This week, OpenAI deprecated GPT-4.5 with a June 27 sunset date, while previewing its next-generation GPT-5.6 family, which includes the Sol, Terra, and Luna models. The GPT-5.6 family represents OpenAI's shift toward a more modular approach to AI model development. No other major AI releases were highlighted this week.",
-  "fr": "Cette semaine, OpenAI a déprécié GPT-4.5 avec une date de fin le 27 juin, tout en présentant sa prochaine génération GPT-5.6, comprenant les modèles Sol, Terra et Luna. La famille GPT-5.6 représente le déplacement d'OpenAI vers une approche plus modulaire pour le développement de modèles d'IA. Aucun autre lancement majeur d'IA n'a été mis en avant cette semaine."
+  "en": "This week, Google announced an expansion of its Gemini API, which now includes additional managed agents. This update aims to enhance the capabilities of developers using the API for various applications. The Gemini API is part of Google's ongoing efforts to improve AI integration in software development.",
+  "vi": "Tuần này, Google đã công bố mở rộng Gemini API, hiện bao gồm các tác nhân quản lý bổ sung. Cập nhật này nhằm nâng cao khả năng của các nhà phát triển sử dụng API cho nhiều ứng dụng khác nhau. Gemini API là một phần trong nỗ lực liên tục của Google để cải thiện tích hợp AI trong phát triển phần mềm.",
+  "es": "Esta semana, Google anunció una expansión de su Gemini API, que ahora incluye agentes gestionados adicionales. Esta actualización tiene como objetivo mejorar las capacidades de los desarrolladores que utilizan la API para diversas aplicaciones. La Gemini API es parte de los esfuerzos continuos de Google para mejorar la integración de la IA en el desarrollo de software.",
+  "zh": "本周，Google 宣布扩展其 Gemini API，现在包括更多的托管代理。此更新旨在增强开发者使用该 API 进行各种应用的能力。Gemini API 是 Google 持续努力改善 AI 在软件开发中集成的一部分。",
+  "ja": "今週、GoogleはGemini APIの拡張を発表し、追加の管理エージェントが含まれるようになりました。この更新は、さまざまなアプリケーションでAPIを使用する開発者の能力を向上させることを目的としています。Gemini APIは、ソフトウェア開発におけるAI統合を改善するためのGoogleの継続的な取り組みの一環です。",
+  "ko": "이번 주, Google은 Gemini API의 확장을 발표했으며, 이제 추가 관리형 에이전트를 포함합니다. 이 업데이트는 다양한 애플리케이션을 위해 API를 사용하는 개발자들의 기능을 향상시키는 것을 목표로 합니다. Gemini API는 소프트웨어 개발에서 AI 통합을 개선하기 위한 Google의 지속적인 노력의 일환입니다.",
+  "fr": "Cette semaine, Google a annoncé une expansion de son Gemini API, qui inclut désormais des agents gérés supplémentaires. Cette mise à jour vise à améliorer les capacités des développeurs utilisant l'API pour diverses applications. Le Gemini API fait partie des efforts continus de Google pour améliorer l'intégration de l'IA dans le développement logiciel."
  }
 }
