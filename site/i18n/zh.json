@@ -470,5 +470,9 @@
  "google deepmind|gemini35livetranslate|feature": {
   "title": "流畅自然的语音翻译，使用Gemini 3.5 Live Translate",
   "summary": "Google DeepMind宣布Gemini 3.5 Live Translate，为Google AI Studio、Google Translate和Google Meet提供近实时的自然语音翻译。"
+ },
+ "google deepmind|gemma412b|model": {
+  "title": "推出 Gemma 4 12B：一个统一的无编码器多模态模型",
+  "summary": "Google DeepMind 宣布发布 Gemma 4 12B，这是一种新的统一多模态模型，能够在没有编码器的情况下运行。"
  }
 }

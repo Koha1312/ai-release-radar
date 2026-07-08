@@ -470,5 +470,9 @@
  "google deepmind|gemini35livetranslate|feature": {
   "title": "Traducción de voz fluida y natural con Gemini 3.5 Live Translate",
   "summary": "Google DeepMind anuncia Gemini 3.5 Live Translate, que ofrece traducción de voz natural en casi tiempo real para Google AI Studio, Google Translate y Google Meet."
+ },
+ "google deepmind|gemma412b|model": {
+  "title": "Presentamos Gemma 4 12B: un modelo multimodal unificado sin codificadores",
+  "summary": "Google DeepMind ha anunciado el lanzamiento de Gemma 4 12B, un nuevo modelo multimodal unificado que opera sin codificadores."
  }
 }

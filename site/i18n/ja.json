@@ -470,5 +470,9 @@
  "google deepmind|gemini35livetranslate|feature": {
   "title": "流暢で自然な音声翻訳を実現するGemini 3.5 Live Translate",
   "summary": "Google DeepMindは、Google AI Studio、Google Translate、Google Meet向けに、ほぼリアルタイムで自然な音声翻訳を提供するGemini 3.5 Live Translateを発表しました。"
+ },
+ "google deepmind|gemma412b|model": {
+  "title": "Gemma 4 12Bの発表：エンコーダー不要の統合型マルチモーダルモデル",
+  "summary": "Google DeepMindは、エンコーダーなしで動作する新しい統合型マルチモーダルモデルGemma 4 12Bのリリースを発表しました。"
  }
 }
