@@ -466,5 +466,9 @@
  "google deepmind|diffusiongemma|model": {
   "title": "DiffusionGemma : génération de texte 4 fois plus rapide",
   "summary": "Google DeepMind a annoncé DiffusionGemma, un nouveau modèle qui permet la génération de texte quatre fois plus vite que les modèles précédents."
+ },
+ "google deepmind|gemini35livetranslate|feature": {
+  "title": "Traduction vocale fluide et naturelle avec Gemini 3.5 Live Translate",
+  "summary": "Google DeepMind annonce Gemini 3.5 Live Translate, offrant une traduction vocale naturelle en quasi temps réel pour Google AI Studio, Google Translate et Google Meet."
  }
 }
