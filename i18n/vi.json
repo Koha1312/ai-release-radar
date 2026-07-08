@@ -470,5 +470,9 @@
  "google deepmind|gemini35livetranslate|feature": {
   "title": "Dịch giọng nói mượt mà, tự nhiên với Gemini 3.5 Live Translate",
   "summary": "Google DeepMind công bố Gemini 3.5 Live Translate, cung cấp dịch giọng nói tự nhiên gần như thời gian thực cho Google AI Studio, Google Translate và Google Meet."
+ },
+ "google deepmind|gemma412b|model": {
+  "title": "Giới thiệu Gemma 4 12B: mô hình đa phương thức thống nhất không cần bộ mã hóa",
+  "summary": "Google DeepMind đã công bố phát hành Gemma 4 12B, một mô hình đa phương thức thống nhất mới hoạt động mà không cần bộ mã hóa."
  }
 }

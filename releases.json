@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-08 08:39 UTC",
-  "count": 118,
+  "generated_at": "2026-07-08 11:10 UTC",
+  "count": 119,
   "companies": [
     "Anthropic",
     "Apple",
@@ -54,23 +54,6 @@
       "official": true
     },
     {
-      "company": "OpenAI",
-      "product": "GeneBench-Pro",
-      "title": "Introducing GeneBench-Pro",
-      "summary": "OpenAI introduces GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research.",
-      "date": "2026-06-30",
-      "type": "model",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "tags": [
-        "ai",
-        "benchmark",
-        "genomics"
-      ],
-      "open_source": false,
-      "image": "",
-      "official": true
-    },
-    {
       "company": "Google DeepMind",
       "product": "Nano Banana 2 Lite, Gemini Omni Flash",
       "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
@@ -82,6 +65,23 @@
         "AI",
         "DeepMind",
         "release"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "OpenAI",
+      "product": "GeneBench-Pro",
+      "title": "Introducing GeneBench-Pro",
+      "summary": "OpenAI introduces GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research.",
+      "date": "2026-06-30",
+      "type": "model",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "tags": [
+        "ai",
+        "benchmark",
+        "genomics"
       ],
       "open_source": false,
       "image": "",
@@ -123,23 +123,6 @@
       "official": true
     },
     {
-      "company": "OpenAI",
-      "product": "Jalapeño",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to enhance performance and efficiency for large language model inference.",
-      "date": "2026-06-24",
-      "type": "platform",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "tags": [
-        "AI",
-        "chip",
-        "inference"
-      ],
-      "open_source": false,
-      "image": "",
-      "official": true
-    },
-    {
       "company": "Google DeepMind",
       "product": "Gemini 3.5 Flash",
       "title": "Introducing computer use in Gemini 3.5 Flash",
@@ -152,6 +135,23 @@
         "DeepMind",
         "Gemini",
         "release"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "OpenAI",
+      "product": "Jalapeño",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to enhance performance and efficiency for large language model inference.",
+      "date": "2026-06-24",
+      "type": "platform",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "tags": [
+        "AI",
+        "chip",
+        "inference"
       ],
       "open_source": false,
       "image": "",
@@ -345,6 +345,24 @@
       "open_source": false,
       "image": "",
       "official": false
+    },
+    {
+      "company": "Google DeepMind",
+      "product": "Gemma 4 12B",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "summary": "Google DeepMind has announced the release of Gemma 4 12B, a new unified multimodal model that operates without encoders.",
+      "date": "2026-06-09",
+      "type": "model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "tags": [
+        "AI",
+        "DeepMind",
+        "Gemma",
+        "multimodal"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
     },
     {
       "company": "Google DeepMind",
