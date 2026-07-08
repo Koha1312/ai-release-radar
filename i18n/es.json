@@ -458,5 +458,17 @@
  "google deepmind|gemini35flash|model": {
   "title": "Presentación del uso de computadoras en Gemini 3.5 Flash",
   "summary": "Google DeepMind ha anunciado el lanzamiento de Gemini 3.5 Flash, que introduce nuevas capacidades para el uso de computadoras."
+ },
+ "google deepmind|nanobanana2litegeminiomniflash|model": {
+  "title": "Comienza a construir con Nano Banana 2 Lite y Gemini Omni Flash",
+  "summary": "Google DeepMind anuncia el lanzamiento de dos nuevos productos, Nano Banana 2 Lite y Gemini Omni Flash, destinados a mejorar las capacidades de desarrollo de IA."
+ },
+ "google deepmind|diffusiongemma|model": {
+  "title": "DiffusionGemma: generación de texto 4x más rápida",
+  "summary": "Google DeepMind ha anunciado DiffusionGemma, un nuevo modelo que permite la generación de texto a cuatro veces la velocidad de los modelos anteriores."
+ },
+ "google deepmind|gemini35livetranslate|feature": {
+  "title": "Traducción de voz fluida y natural con Gemini 3.5 Live Translate",
+  "summary": "Google DeepMind anuncia Gemini 3.5 Live Translate, que ofrece traducción de voz natural en casi tiempo real para Google AI Studio, Google Translate y Google Meet."
  }
 }

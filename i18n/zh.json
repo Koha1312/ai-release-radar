@@ -458,5 +458,17 @@
  "google deepmind|diffusiongemma|model": {
   "title": "DiffusionGemma：文本生成速度提升4倍",
   "summary": "Google DeepMind宣布推出DiffusionGemma，这是一种新模型，能够以比之前的模型快四倍的速度生成文本。"
+ },
+ "google|geminiapi|api": {
+  "title": "在Gemini API中扩展托管代理",
+  "summary": "谷歌宣布推出Gemini API的新功能包，其中包括对后台任务和远程MCP的增强。"
+ },
+ "google deepmind|gemini35flash|model": {
+  "title": "在Gemini 3.5 Flash中引入计算机使用",
+  "summary": "Google DeepMind宣布发布Gemini 3.5 Flash，带来了计算机使用的新功能。"
+ },
+ "google deepmind|gemini35livetranslate|feature": {
+  "title": "流畅自然的语音翻译，使用Gemini 3.5 Live Translate",
+  "summary": "Google DeepMind宣布Gemini 3.5 Live Translate，为Google AI Studio、Google Translate和Google Meet提供近实时的自然语音翻译。"
  }
 }

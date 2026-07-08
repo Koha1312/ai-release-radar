@@ -454,5 +454,21 @@
  "google deepmind|gemini35flash|model": {
   "title": "Giới thiệu việc sử dụng máy tính trong Gemini 3.5 Flash",
   "summary": "Google DeepMind đã công bố phát hành Gemini 3.5 Flash, mang đến những khả năng mới cho việc sử dụng máy tính."
+ },
+ "google|geminiapi|api": {
+  "title": "Mở rộng Managed Agents trong Gemini API",
+  "summary": "Google thông báo ra mắt một gói tính năng cho Gemini API, bao gồm các cải tiến cho tác vụ nền và MCP từ xa."
+ },
+ "google deepmind|nanobanana2litegeminiomniflash|model": {
+  "title": "Bắt đầu xây dựng với Nano Banana 2 Lite và Gemini Omni Flash",
+  "summary": "Google DeepMind công bố ra mắt hai sản phẩm mới, Nano Banana 2 Lite và Gemini Omni Flash, nhằm nâng cao khả năng phát triển AI."
+ },
+ "google deepmind|diffusiongemma|model": {
+  "title": "DiffusionGemma: Tạo văn bản nhanh gấp 4 lần",
+  "summary": "Google DeepMind đã công bố DiffusionGemma, một mô hình mới cho phép tạo văn bản nhanh gấp bốn lần so với các mô hình trước."
+ },
+ "google deepmind|gemini35livetranslate|feature": {
+  "title": "Dịch giọng nói mượt mà, tự nhiên với Gemini 3.5 Live Translate",
+  "summary": "Google DeepMind công bố Gemini 3.5 Live Translate, cung cấp dịch giọng nói tự nhiên gần như thời gian thực cho Google AI Studio, Google Translate và Google Meet."
  }
 }

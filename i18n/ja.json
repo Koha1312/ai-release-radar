@@ -466,5 +466,9 @@
  "google deepmind|diffusiongemma|model": {
   "title": "DiffusionGemma: 4倍速のテキスト生成",
   "summary": "Google DeepMindは、従来のモデルの4倍の速度でテキスト生成を可能にする新しいモデル、DiffusionGemmaを発表しました。"
+ },
+ "google deepmind|gemini35livetranslate|feature": {
+  "title": "流暢で自然な音声翻訳を実現するGemini 3.5 Live Translate",
+  "summary": "Google DeepMindは、Google AI Studio、Google Translate、Google Meet向けに、ほぼリアルタイムで自然な音声翻訳を提供するGemini 3.5 Live Translateを発表しました。"
  }
 }
