@@ -454,5 +454,17 @@
  "google|geminiapi|api": {
   "title": "Expansion des agents gérés dans l'API Gemini",
   "summary": "Google annonce le lancement d'un ensemble de fonctionnalités pour l'API Gemini, qui comprend des améliorations pour les tâches en arrière-plan et le MCP distant."
+ },
+ "google deepmind|nanobanana2litegeminiomniflash|model": {
+  "title": "Commencez à construire avec Nano Banana 2 Lite et Gemini Omni Flash",
+  "summary": "Google DeepMind annonce la sortie de deux nouveaux produits, Nano Banana 2 Lite et Gemini Omni Flash, visant à améliorer les capacités de développement de l'IA."
+ },
+ "google deepmind|gemini35flash|model": {
+  "title": "Présentation de l'utilisation de l'ordinateur dans Gemini 3.5 Flash",
+  "summary": "Google DeepMind a annoncé la sortie de Gemini 3.5 Flash, qui introduit de nouvelles capacités pour l'utilisation de l'ordinateur."
+ },
+ "google deepmind|diffusiongemma|model": {
+  "title": "DiffusionGemma : génération de texte 4 fois plus rapide",
+  "summary": "Google DeepMind a annoncé DiffusionGemma, un nouveau modèle qui permet la génération de texte quatre fois plus vite que les modèles précédents."
  }
 }
