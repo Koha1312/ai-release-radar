@@ -474,5 +474,9 @@
  "google deepmind|gemma412b|model": {
   "title": "Presentamos Gemma 4 12B: un modelo multimodal unificado sin codificadores",
   "summary": "Google DeepMind ha anunciado el lanzamiento de Gemma 4 12B, un nuevo modelo multimodal unificado que opera sin codificadores."
+ },
+ "openai|gptlive|model": {
+  "title": "Presentamos GPT-Live",
+  "summary": "OpenAI ha anunciado GPT-Live, una nueva generación de modelos de voz diseñados para la interacción natural entre humanos e IA, que impulsará ChatGPT Voice."
  }
 }
