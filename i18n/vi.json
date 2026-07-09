@@ -474,5 +474,9 @@
  "google deepmind|gemma412b|model": {
   "title": "Giới thiệu Gemma 4 12B: mô hình đa phương thức thống nhất không cần bộ mã hóa",
   "summary": "Google DeepMind đã công bố phát hành Gemma 4 12B, một mô hình đa phương thức thống nhất mới hoạt động mà không cần bộ mã hóa."
+ },
+ "openai|gptlive|model": {
+  "title": "Giới thiệu GPT-Live",
+  "summary": "OpenAI đã công bố GPT-Live, một thế hệ mới của các mô hình giọng nói được thiết kế cho tương tác tự nhiên giữa con người và AI, sẽ cung cấp sức mạnh cho ChatGPT Voice."
  }
 }

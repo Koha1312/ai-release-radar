@@ -474,5 +474,9 @@
  "google deepmind|gemma412b|model": {
   "title": "Gemma 4 12Bの発表：エンコーダー不要の統合型マルチモーダルモデル",
   "summary": "Google DeepMindは、エンコーダーなしで動作する新しい統合型マルチモーダルモデルGemma 4 12Bのリリースを発表しました。"
+ },
+ "openai|gptlive|model": {
+  "title": "GPT-Liveの紹介",
+  "summary": "OpenAIは、自然な人間とAIのインタラクションのために設計された新世代の音声モデルGPT-Liveを発表しました。これにより、ChatGPT Voiceが強化されます。"
  }
 }
