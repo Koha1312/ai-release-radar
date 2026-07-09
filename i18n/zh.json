@@ -478,5 +478,9 @@
  "openai|gptlive|model": {
   "title": "推出 GPT-Live",
   "summary": "OpenAI 宣布推出 GPT-Live，这是一种新一代语音模型，旨在实现自然的人机交互，将为 ChatGPT Voice 提供支持。"
+ },
+ "openai|gpt56|model": {
+  "title": "GPT-5.6 现已成为 Microsoft 365 Copilot 的首选模型",
+  "summary": "OpenAI 宣布 GPT-5.6 现已成为 Microsoft 365 Copilot 中使用的首选模型，提升了各类应用中的 AI 能力。"
  }
 }
