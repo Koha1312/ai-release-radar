@@ -478,5 +478,9 @@
  "openai|gptlive|model": {
   "title": "Présentation de GPT-Live",
   "summary": "OpenAI a annoncé GPT-Live, une nouvelle génération de modèles vocaux conçus pour une interaction naturelle entre l'humain et l'IA, qui alimentera ChatGPT Voice."
+ },
+ "openai|gpt56|model": {
+  "title": "GPT-5.6 est désormais le modèle préféré dans Microsoft 365 Copilot",
+  "summary": "OpenAI annonce que GPT-5.6 est désormais le modèle préféré utilisé dans Microsoft 365 Copilot, améliorant les capacités d'IA dans diverses applications."
  }
 }

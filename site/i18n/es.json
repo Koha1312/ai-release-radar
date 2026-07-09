@@ -478,5 +478,9 @@
  "openai|gptlive|model": {
   "title": "Presentamos GPT-Live",
   "summary": "OpenAI ha anunciado GPT-Live, una nueva generación de modelos de voz diseñados para la interacción natural entre humanos e IA, que impulsará ChatGPT Voice."
+ },
+ "openai|chatgptwork|feature": {
+  "title": "ChatGPT Work ya está disponible para proyectos ambiciosos",
+  "summary": "OpenAI ha anunciado ChatGPT Work, un agente diseñado para ayudar a los usuarios a gestionar proyectos al realizar acciones en diversas aplicaciones y archivos."
  }
 }
