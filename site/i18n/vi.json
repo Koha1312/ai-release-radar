@@ -478,5 +478,13 @@
  "openai|gptlive|model": {
   "title": "Giới thiệu GPT-Live",
   "summary": "OpenAI đã công bố GPT-Live, một thế hệ mới của các mô hình giọng nói được thiết kế cho tương tác tự nhiên giữa con người và AI, sẽ cung cấp sức mạnh cho ChatGPT Voice."
+ },
+ "openai|gpt56|model": {
+  "title": "GPT-5.6: Trí tuệ tiên tiến mở rộng theo tham vọng của bạn",
+  "summary": "OpenAI công bố GPT-5.6, cung cấp trí tuệ nâng cao, hiệu suất tốt hơn trên mỗi đô la và khả năng tăng cường cho các nhiệm vụ đòi hỏi."
+ },
+ "openai|chatgptwork|feature": {
+  "title": "ChatGPT Work hiện đã có sẵn cho các dự án đầy tham vọng",
+  "summary": "OpenAI đã công bố ChatGPT Work, một tác nhân được thiết kế để hỗ trợ người dùng quản lý các dự án bằng cách thực hiện các hành động trên nhiều ứng dụng và tệp khác nhau."
  }
 }

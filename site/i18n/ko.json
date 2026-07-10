@@ -478,5 +478,13 @@
  "openai|gptlive|model": {
   "title": "GPT-Live 소개",
   "summary": "OpenAI는 자연스러운 인간-AI 상호작용을 위해 설계된 새로운 세대의 음성 모델 GPT-Live를 발표했으며, 이는 ChatGPT Voice를 지원할 것이다."
+ },
+ "openai|gpt56|model": {
+  "title": "GPT-5.6: 당신의 야망에 맞춰 확장되는 최전선 지능",
+  "summary": "OpenAI가 향상된 지능, 개선된 성능 대비 비용, 그리고 요구되는 작업을 위한 증가된 기능을 제공하는 GPT-5.6을 발표했습니다."
+ },
+ "openai|chatgptwork|feature": {
+  "title": "ChatGPT Work가 야심찬 프로젝트를 위해 출시되었습니다",
+  "summary": "OpenAI는 다양한 애플리케이션과 파일에서 작업을 수행하여 사용자가 프로젝트를 관리하는 데 도움을 주는 에이전트인 ChatGPT Work를 발표했습니다."
  }
 }
