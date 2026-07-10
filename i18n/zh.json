@@ -482,5 +482,9 @@
  "openai|gpt56|model": {
   "title": "GPT-5.6 现已成为 Microsoft 365 Copilot 的首选模型",
   "summary": "OpenAI 宣布 GPT-5.6 现已成为 Microsoft 365 Copilot 中使用的首选模型，提升了各类应用中的 AI 能力。"
+ },
+ "openai|chatgptwork|feature": {
+  "title": "ChatGPT Work现已推出，助力雄心勃勃的项目",
+  "summary": "OpenAI宣布推出ChatGPT Work，这是一款旨在帮助用户通过在各种应用程序和文件中采取行动来管理项目的智能助手。"
  }
 }

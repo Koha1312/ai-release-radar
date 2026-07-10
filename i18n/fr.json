@@ -482,5 +482,9 @@
  "openai|gpt56|model": {
   "title": "GPT-5.6 est désormais le modèle préféré dans Microsoft 365 Copilot",
   "summary": "OpenAI annonce que GPT-5.6 est désormais le modèle préféré utilisé dans Microsoft 365 Copilot, améliorant les capacités d'IA dans diverses applications."
+ },
+ "openai|chatgptwork|feature": {
+  "title": "ChatGPT Work est désormais disponible pour des projets ambitieux",
+  "summary": "OpenAI a annoncé ChatGPT Work, un agent conçu pour aider les utilisateurs à gérer des projets en effectuant des actions à travers diverses applications et fichiers."
  }
 }
