@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13 14:50 UTC",
+  "generated_at": "2026-07-13 17:20 UTC",
   "count": 122,
   "companies": [
     "Anthropic",
@@ -37,24 +37,6 @@
   "releases": [
     {
       "company": "OpenAI",
-      "product": "GPT-5.6",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "summary": "OpenAI announces GPT-5.6, which offers enhanced intelligence and performance for demanding tasks.",
-      "date": "2026-07-09",
-      "type": "model",
-      "url": "https://openai.com/index/gpt-5-6",
-      "tags": [
-        "AI",
-        "GPT",
-        "OpenAI",
-        "model"
-      ],
-      "open_source": false,
-      "image": "",
-      "official": true
-    },
-    {
-      "company": "OpenAI",
       "product": "ChatGPT Work",
       "title": "ChatGPT Work is now available for ambitious projects",
       "summary": "OpenAI has announced ChatGPT Work, an agent designed to assist users in managing projects by taking actions across various applications and files.",
@@ -65,6 +47,23 @@
         "ChatGPT",
         "AI",
         "productivity"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "OpenAI",
+      "product": "GPT-5.6",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "OpenAI announces that GPT-5.6 is now the preferred model used in Microsoft 365 Copilot, enhancing AI capabilities across various applications.",
+      "date": "2026-07-09",
+      "type": "model",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "tags": [
+        "GPT-5.6",
+        "Microsoft 365",
+        "AI model"
       ],
       "open_source": false,
       "image": "",
@@ -106,23 +105,6 @@
       "official": true
     },
     {
-      "company": "Google DeepMind",
-      "product": "Nano Banana 2 Lite, Gemini Omni Flash",
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "summary": "Google DeepMind announces the release of two new products, Nano Banana 2 Lite and Gemini Omni Flash, aimed at enhancing AI development capabilities.",
-      "date": "2026-06-30",
-      "type": "model",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "tags": [
-        "AI",
-        "DeepMind",
-        "release"
-      ],
-      "open_source": false,
-      "image": "",
-      "official": true
-    },
-    {
       "company": "OpenAI",
       "product": "GeneBench-Pro",
       "title": "Introducing GeneBench-Pro",
@@ -134,6 +116,23 @@
         "ai",
         "benchmark",
         "genomics"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "Google DeepMind",
+      "product": "Nano Banana 2 Lite, Gemini Omni Flash",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "summary": "Google DeepMind announces the release of two new products, Nano Banana 2 Lite and Gemini Omni Flash, aimed at enhancing AI development capabilities.",
+      "date": "2026-06-30",
+      "type": "model",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "tags": [
+        "AI",
+        "DeepMind",
+        "release"
       ],
       "open_source": false,
       "image": "",
@@ -175,6 +174,23 @@
       "official": true
     },
     {
+      "company": "OpenAI",
+      "product": "Jalapeño",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to enhance performance and efficiency for large language model inference.",
+      "date": "2026-06-24",
+      "type": "platform",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "tags": [
+        "AI",
+        "chip",
+        "inference"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
       "company": "Google DeepMind",
       "product": "Gemini 3.5 Flash",
       "title": "Introducing computer use in Gemini 3.5 Flash",
@@ -187,23 +203,6 @@
         "DeepMind",
         "Gemini",
         "release"
-      ],
-      "open_source": false,
-      "image": "",
-      "official": true
-    },
-    {
-      "company": "OpenAI",
-      "product": "Jalapeño",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to enhance performance and efficiency for large language model inference.",
-      "date": "2026-06-24",
-      "type": "platform",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "tags": [
-        "AI",
-        "chip",
-        "inference"
       ],
       "open_source": false,
       "image": "",
@@ -400,6 +399,23 @@
     },
     {
       "company": "Google DeepMind",
+      "product": "Gemini 3.5 Live Translate",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "summary": "Google DeepMind announces Gemini 3.5 Live Translate, offering near real-time, natural speech translation for Google AI Studio, Google Translate, and Google Meet.",
+      "date": "2026-06-09",
+      "type": "feature",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "tags": [
+        "translation",
+        "AI",
+        "Gemini"
+      ],
+      "open_source": false,
+      "image": "",
+      "official": true
+    },
+    {
+      "company": "Google DeepMind",
       "product": "Gemma 4 12B",
       "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
       "summary": "Google DeepMind has announced the release of Gemma 4 12B, a new unified multimodal model that operates without encoders.",
@@ -411,23 +427,6 @@
         "DeepMind",
         "Gemma",
         "multimodal"
-      ],
-      "open_source": false,
-      "image": "",
-      "official": true
-    },
-    {
-      "company": "Google DeepMind",
-      "product": "Gemini 3.5 Live Translate",
-      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-      "summary": "Google DeepMind announces Gemini 3.5 Live Translate, offering near real-time, natural speech translation for Google AI Studio, Google Translate, and Google Meet.",
-      "date": "2026-06-09",
-      "type": "feature",
-      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "tags": [
-        "translation",
-        "AI",
-        "Gemini"
       ],
       "open_source": false,
       "image": "",
