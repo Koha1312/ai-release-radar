@@ -5,7 +5,15 @@
     <title>AI Release Radar</title>
     <link>https://koha1312.github.io/ai-release-radar/</link>
     <description>Every AI release worth knowing — from the big labs to the tools we use.</description>
-    <lastBuildDate>Tue, 14 Jul 2026 16:20:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 19:36:39 +0000</lastBuildDate>
+    <item>
+      <title>GPT-5.6 — GPT-5.6: Frontier intelligence that scales with your ambition</title>
+      <link>https://openai.com/index/gpt-5-6</link>
+      <guid isPermaLink="false">OpenAI|GPT-5.6|model</guid>
+      <category>OpenAI</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] OpenAI announces GPT-5.6, which offers enhanced intelligence, improved performance per dollar, and increased capabilities for demanding tasks.</description>
+    </item>
     <item>
       <title>ChatGPT Work — ChatGPT Work is now available for ambitious projects</title>
       <link>https://openai.com/index/chatgpt-for-your-most-ambitious-work</link>
@@ -13,14 +21,6 @@
       <category>OpenAI</category>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
       <description>[OpenAI] OpenAI has announced ChatGPT Work, an agent designed to assist users in managing projects by taking actions across various applications and files.</description>
-    </item>
-    <item>
-      <title>GPT-5.6 — GPT-5.6 is now the preferred model in Microsoft 365 Copilot</title>
-      <link>https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot</link>
-      <guid isPermaLink="false">OpenAI|GPT-5.6|model</guid>
-      <category>OpenAI</category>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description>[OpenAI] OpenAI announces that GPT-5.6 is now the preferred model used in Microsoft 365 Copilot, enhancing AI capabilities across various applications for improved productivity.</description>
     </item>
     <item>
       <title>GPT-Live — Introducing GPT-Live</title>
@@ -39,20 +39,20 @@
       <description>[Google] Google announces the launch of a feature bundle for the Gemini API, which includes enhancements for background tasks and remote MCP.</description>
     </item>
     <item>
-      <title>GeneBench-Pro — Introducing GeneBench-Pro</title>
-      <link>https://openai.com/index/introducing-genebench-pro</link>
-      <guid isPermaLink="false">OpenAI|GeneBench-Pro|model</guid>
-      <category>OpenAI</category>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description>[OpenAI] OpenAI introduces GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research.</description>
-    </item>
-    <item>
       <title>Nano Banana 2 Lite, Gemini Omni Flash — Start building with Nano Banana 2 Lite and Gemini Omni Flash</title>
       <link>https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/</link>
       <guid isPermaLink="false">Google DeepMind|Nano Banana 2 Lite, Gemini Omni Flash|model</guid>
       <category>Google DeepMind</category>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       <description>[Google DeepMind] Google DeepMind announces the release of two new products, Nano Banana 2 Lite and Gemini Omni Flash, aimed at enhancing AI development capabilities.</description>
+    </item>
+    <item>
+      <title>GeneBench-Pro — Introducing GeneBench-Pro</title>
+      <link>https://openai.com/index/introducing-genebench-pro</link>
+      <guid isPermaLink="false">OpenAI|GeneBench-Pro|model</guid>
+      <category>OpenAI</category>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] OpenAI introduces GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research.</description>
     </item>
     <item>
       <title>GPT-4.5 — GPT-4.5 sunsetting June 27</title>
@@ -71,20 +71,20 @@
       <description>[OpenAI] OpenAI began a limited preview of GPT-5.6 in three sizes — Sol (flagship), Terra (balanced everyday), and Luna (fast and affordable) — adding a new &apos;max&apos; reasoning effort and an &apos;ultra&apos; mode that spins up subagents to accelerate complex work. Sol sets a new state of the art on Terminal-Bench 2.1 (command-line coding) and is OpenAI&apos;s strongest model yet for cybersecurity and science, but the launch is restricted to ~20 U.S.-government-approved organizations via the API and Codex, with general availability promised in the coming weeks. Pricing per 1M tokens: Sol $5 in / $30 out, Terra $2.50 / $15, Luna $1 / $6.</description>
     </item>
     <item>
-      <title>Jalapeño — OpenAI and Broadcom unveil LLM-optimized inference chip</title>
-      <link>https://openai.com/index/openai-broadcom-jalapeno-inference-chip</link>
-      <guid isPermaLink="false">OpenAI|Jalapeño|platform</guid>
-      <category>OpenAI</category>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <description>[OpenAI] OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to enhance performance and efficiency for large language model inference.</description>
-    </item>
-    <item>
       <title>Gemini 3.5 Flash — Introducing computer use in Gemini 3.5 Flash</title>
       <link>https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/</link>
       <guid isPermaLink="false">Google DeepMind|Gemini 3.5 Flash|model</guid>
       <category>Google DeepMind</category>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
       <description>[Google DeepMind] Google DeepMind has announced the release of Gemini 3.5 Flash, which introduces new capabilities for computer use.</description>
+    </item>
+    <item>
+      <title>Jalapeño — OpenAI and Broadcom unveil LLM-optimized inference chip</title>
+      <link>https://openai.com/index/openai-broadcom-jalapeno-inference-chip</link>
+      <guid isPermaLink="false">OpenAI|Jalapeño|platform</guid>
+      <category>OpenAI</category>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[OpenAI] OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to enhance performance and efficiency for large language model inference.</description>
     </item>
     <item>
       <title>GPT-5.5-Cyber — OpenAI Launches Daybreak Tools for Cybersecurity</title>
@@ -175,20 +175,20 @@
       <description>[Anthropic] Anthropic&apos;s latest flagship — an upgrade for coding, agentic tasks, and professional work.</description>
     </item>
     <item>
-      <title>Gemini 3.5 Live Translate — Fluid, natural voice translation with Gemini 3.5 Live Translate</title>
-      <link>https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/</link>
-      <guid isPermaLink="false">Google DeepMind|Gemini 3.5 Live Translate|feature</guid>
-      <category>Google DeepMind</category>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <description>[Google DeepMind] Google DeepMind announces Gemini 3.5 Live Translate, offering near real-time, natural speech translation for Google AI Studio, Google Translate, and Google Meet.</description>
-    </item>
-    <item>
       <title>Gemma 4 12B — Introducing Gemma 4 12B: a unified, encoder-free multimodal model</title>
       <link>https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/</link>
       <guid isPermaLink="false">Google DeepMind|Gemma 4 12B|model</guid>
       <category>Google DeepMind</category>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
       <description>[Google DeepMind] Google DeepMind has announced the release of Gemma 4 12B, a new unified multimodal model that operates without encoders.</description>
+    </item>
+    <item>
+      <title>Gemini 3.5 Live Translate — Fluid, natural voice translation with Gemini 3.5 Live Translate</title>
+      <link>https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/</link>
+      <guid isPermaLink="false">Google DeepMind|Gemini 3.5 Live Translate|feature</guid>
+      <category>Google DeepMind</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <description>[Google DeepMind] Google DeepMind announces Gemini 3.5 Live Translate, offering near real-time, natural speech translation for Google AI Studio, Google Translate, and Google Meet.</description>
     </item>
     <item>
       <title>Apple Intelligence + Siri — Apple unveils next-gen Apple Intelligence &amp; Siri at WWDC26</title>
