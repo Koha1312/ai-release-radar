@@ -1,14 +1,14 @@
 {
- "week_of": "2026-07-08",
- "generated_at": "2026-07-08",
- "count": 1,
+ "week_of": "2026-07-14",
+ "generated_at": "2026-07-14",
+ "count": 4,
  "text": {
-  "en": "This week, Google announced an expansion of its Gemini API, which now includes additional managed agents. This update aims to enhance the capabilities of developers using the API for various applications. The Gemini API is part of Google's ongoing efforts to improve AI integration in software development.",
-  "vi": "Tuần này, Google đã công bố mở rộng Gemini API, hiện bao gồm các tác nhân quản lý bổ sung. Cập nhật này nhằm nâng cao khả năng của các nhà phát triển sử dụng API cho nhiều ứng dụng khác nhau. Gemini API là một phần trong nỗ lực liên tục của Google để cải thiện tích hợp AI trong phát triển phần mềm.",
-  "es": "Esta semana, Google anunció una expansión de su Gemini API, que ahora incluye agentes gestionados adicionales. Esta actualización tiene como objetivo mejorar las capacidades de los desarrolladores que utilizan la API para diversas aplicaciones. La Gemini API es parte de los esfuerzos continuos de Google para mejorar la integración de la IA en el desarrollo de software.",
-  "zh": "本周，Google 宣布扩展其 Gemini API，现在包括更多的托管代理。此更新旨在增强开发者使用该 API 进行各种应用的能力。Gemini API 是 Google 持续努力改善 AI 在软件开发中集成的一部分。",
-  "ja": "今週、GoogleはGemini APIの拡張を発表し、追加の管理エージェントが含まれるようになりました。この更新は、さまざまなアプリケーションでAPIを使用する開発者の能力を向上させることを目的としています。Gemini APIは、ソフトウェア開発におけるAI統合を改善するためのGoogleの継続的な取り組みの一環です。",
-  "ko": "이번 주, Google은 Gemini API의 확장을 발표했으며, 이제 추가 관리형 에이전트를 포함합니다. 이 업데이트는 다양한 애플리케이션을 위해 API를 사용하는 개발자들의 기능을 향상시키는 것을 목표로 합니다. Gemini API는 소프트웨어 개발에서 AI 통합을 개선하기 위한 Google의 지속적인 노력의 일환입니다.",
-  "fr": "Cette semaine, Google a annoncé une expansion de son Gemini API, qui inclut désormais des agents gérés supplémentaires. Cette mise à jour vise à améliorer les capacités des développeurs utilisant l'API pour diverses applications. Le Gemini API fait partie des efforts continus de Google pour améliorer l'intégration de l'IA dans le développement logiciel."
+  "en": "This week, OpenAI launched ChatGPT Work, a new feature designed for ambitious projects. Additionally, GPT-5.6 has been designated as the preferred model for Microsoft 365 Copilot. OpenAI also introduced GPT-Live, a new model aimed at enhancing real-time interactions. On the API front, Google expanded the Managed Agents in its Gemini API.",
+  "vi": "Tuần này, OpenAI đã ra mắt ChatGPT Work, một tính năng mới được thiết kế cho các dự án tham vọng. Ngoài ra, GPT-5.6 đã được chỉ định là mô hình ưu tiên cho Microsoft 365 Copilot. OpenAI cũng giới thiệu GPT-Live, một mô hình mới nhằm nâng cao các tương tác theo thời gian thực. Về mặt API, Google đã mở rộng Managed Agents trong API Gemini của mình.",
+  "es": "Esta semana, OpenAI lanzó ChatGPT Work, una nueva función diseñada para proyectos ambiciosos. Además, GPT-5.6 ha sido designado como el modelo preferido para Microsoft 365 Copilot. OpenAI también presentó GPT-Live, un nuevo modelo destinado a mejorar las interacciones en tiempo real. En el frente de la API, Google amplió los Managed Agents en su Gemini API.",
+  "zh": "本周，OpenAI推出了ChatGPT Work，这是一个为雄心勃勃的项目设计的新功能。此外，GPT-5.6被指定为Microsoft 365 Copilot的首选模型。OpenAI还推出了GPT-Live，这是一个旨在增强实时互动的新模型。在API方面，Google扩展了其Gemini API中的Managed Agents。",
+  "ja": "今週、OpenAIは野心的なプロジェクト向けに設計された新機能ChatGPT Workを発表しました。さらに、GPT-5.6がMicrosoft 365 Copilotの推奨モデルに指定されました。OpenAIはリアルタイムのインタラクションを強化することを目的とした新モデルGPT-Liveも導入しました。APIの面では、GoogleがGemini APIのManaged Agentsを拡張しました。",
+  "ko": "이번 주, OpenAI는 야심찬 프로젝트를 위해 설계된 새로운 기능인 ChatGPT Work를 출시했습니다. 또한, GPT-5.6이 Microsoft 365 Copilot의 선호 모델로 지정되었습니다. OpenAI는 실시간 상호작용을 향상시키기 위한 새로운 모델인 GPT-Live도 소개했습니다. API 분야에서는 Google이 Gemini API의 Managed Agents를 확장했습니다.",
+  "fr": "Cette semaine, OpenAI a lancé ChatGPT Work, une nouvelle fonctionnalité conçue pour des projets ambitieux. De plus, GPT-5.6 a été désigné comme le modèle préféré pour Microsoft 365 Copilot. OpenAI a également introduit GPT-Live, un nouveau modèle visant à améliorer les interactions en temps réel. Sur le front de l'API, Google a élargi les Agents Gérés dans son API Gemini."
  }
 }
