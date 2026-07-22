@@ -494,5 +494,9 @@
  "google deepmind|gemini35flashcyber|model": {
   "title": "제미니 3.5 플래시 사이버 소개",
   "summary": "구글이 취약점을 찾아 수정하기 위해 설계된 경량 사이버 보안 모델 제미니 3.5 플래시 사이버를 소개합니다."
+ },
+ "openai|openaipresence|platform": {
+  "title": "OpenAI Presence 소개",
+  "summary": "OpenAI가 다양한 워크플로우를 위한 신뢰할 수 있는 음성 및 채팅 에이전트를 배포하는 데 도움을 주기 위해 설계된 기업 AI 에이전트 플랫폼인 OpenAI Presence를 출시했습니다."
  }
 }

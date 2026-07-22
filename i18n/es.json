@@ -494,5 +494,9 @@
  "google deepmind|gemini35flashcyber|model": {
   "title": "Presentamos Gemini 3.5 Flash Cyber",
   "summary": "Google presenta Gemini 3.5 Flash Cyber, un modelo de ciberseguridad ligero diseñado para encontrar y corregir vulnerabilidades."
+ },
+ "openai|openaipresence|platform": {
+  "title": "Presentamos OpenAI Presence",
+  "summary": "OpenAI ha lanzado OpenAI Presence, una plataforma de agentes de IA empresarial diseñada para ayudar a las organizaciones a implementar agentes de voz y chat confiables para diversos flujos de trabajo."
  }
 }

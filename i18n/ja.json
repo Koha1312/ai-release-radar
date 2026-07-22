@@ -494,5 +494,9 @@
  "google deepmind|gemini35flashcyber|model": {
   "title": "Gemini 3.5 Flash Cyberの発表",
   "summary": "Googleは、脆弱性を発見し修正するために設計された軽量サイバーセキュリティモデル、Gemini 3.5 Flash Cyberを発表しました。"
+ },
+ "openai|openaipresence|platform": {
+  "title": "OpenAI Presenceの導入",
+  "summary": "OpenAIは、さまざまなワークフローに対応する信頼性の高い音声およびチャットエージェントを展開するための企業向けAIエージェントプラットフォーム、OpenAI Presenceを発表しました。"
  }
 }
