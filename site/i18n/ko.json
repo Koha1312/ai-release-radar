@@ -486,5 +486,13 @@
  "openai|chatgptwork|feature": {
   "title": "ChatGPT Work가 야심찬 프로젝트를 위해 출시되었습니다",
   "summary": "OpenAI는 다양한 애플리케이션과 파일에서 작업을 수행하여 사용자가 프로젝트를 관리하는 데 도움을 주는 에이전트인 ChatGPT Work를 발표했습니다."
+ },
+ "google deepmind|gemini36flash35flashlite35flashcyber|model": {
+  "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, 및 3.5 Flash Cyber 출시",
+  "summary": "Google DeepMind가 Gemini 3.6 Flash, 3.5 Flash-Lite, 및 3.5 Flash Cyber를 포함한 새로운 Gemini 모델의 출시를 발표했습니다."
+ },
+ "google deepmind|gemini35flashcyber|model": {
+  "title": "제미니 3.5 플래시 사이버 소개",
+  "summary": "구글이 취약점을 찾아 수정하기 위해 설계된 경량 사이버 보안 모델 제미니 3.5 플래시 사이버를 소개합니다."
  }
 }
