@@ -494,5 +494,9 @@
  "google deepmind|gemini35flashcyber|model": {
   "title": "Giới thiệu Gemini 3.5 Flash Cyber",
   "summary": "Google giới thiệu Gemini 3.5 Flash Cyber, một mô hình an ninh mạng nhẹ được thiết kế để phát hiện và vá các lỗ hổng."
+ },
+ "openai|openaipresence|platform": {
+  "title": "Giới thiệu OpenAI Presence",
+  "summary": "OpenAI đã ra mắt OpenAI Presence, một nền tảng đại lý AI doanh nghiệp được thiết kế để hỗ trợ các tổ chức triển khai các đại lý giọng nói và trò chuyện đáng tin cậy cho nhiều quy trình làm việc."
  }
 }

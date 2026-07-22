@@ -494,5 +494,9 @@
  "google deepmind|gemini35flashcyber|model": {
   "title": "推出 Gemini 3.5 Flash Cyber",
   "summary": "谷歌推出 Gemini 3.5 Flash Cyber，这是一款轻量级网络安全模型，旨在发现和修补漏洞。"
+ },
+ "openai|openaipresence|platform": {
+  "title": "推出 OpenAI Presence",
+  "summary": "OpenAI 推出了 OpenAI Presence，这是一个企业 AI 代理平台，旨在帮助组织部署可靠的语音和聊天代理，以支持各种工作流程。"
  }
 }
