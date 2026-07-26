@@ -498,5 +498,9 @@
  "openai|openaipresence|platform": {
   "title": "Giới thiệu OpenAI Presence",
   "summary": "OpenAI đã ra mắt OpenAI Presence, một nền tảng đại lý AI doanh nghiệp được thiết kế để hỗ trợ các tổ chức triển khai các đại lý giọng nói và trò chuyện đáng tin cậy cho nhiều quy trình làm việc."
+ },
+ "openai|healthinchatgpt|feature": {
+  "title": "Ra mắt tính năng Health trong ChatGPT",
+  "summary": "OpenAI đã giới thiệu một tính năng mới trong ChatGPT cho phép người dùng đủ điều kiện tại Mỹ kết nối an toàn hồ sơ y tế và Apple Health để nhận thông tin sức khỏe cá nhân hóa."
  }
 }

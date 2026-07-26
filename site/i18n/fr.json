@@ -498,5 +498,9 @@
  "openai|openaipresence|platform": {
   "title": "Présentation d'OpenAI Presence",
   "summary": "OpenAI a lancé OpenAI Presence, une plateforme d'agent IA pour les entreprises conçue pour aider les organisations à déployer des agents vocaux et de chat fiables pour divers flux de travail."
+ },
+ "openai|healthinchatgpt|feature": {
+  "title": "Lancement de la santé dans ChatGPT",
+  "summary": "OpenAI a introduit une nouvelle fonctionnalité dans ChatGPT qui permet aux utilisateurs éligibles aux États-Unis de connecter en toute sécurité leurs dossiers médicaux et Apple Health pour des informations de santé personnalisées."
  }
 }

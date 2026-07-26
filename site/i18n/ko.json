@@ -498,5 +498,9 @@
  "openai|openaipresence|platform": {
   "title": "OpenAI Presence 소개",
   "summary": "OpenAI가 다양한 워크플로우를 위한 신뢰할 수 있는 음성 및 채팅 에이전트를 배포하는 데 도움을 주기 위해 설계된 기업 AI 에이전트 플랫폼인 OpenAI Presence를 출시했습니다."
+ },
+ "openai|healthinchatgpt|feature": {
+  "title": "ChatGPT에서 건강 기능 출시",
+  "summary": "OpenAI는 미국의 적격 사용자들이 개인화된 건강 통찰력을 위해 의료 기록과 Apple Health를 안전하게 연결할 수 있는 새로운 기능을 ChatGPT에 도입했습니다."
  }
 }
