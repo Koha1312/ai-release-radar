@@ -1,14 +1,14 @@
 {
- "week_of": "2026-07-20",
- "generated_at": "2026-07-20",
- "count": 1,
+ "week_of": "2026-07-26",
+ "generated_at": "2026-07-26",
+ "count": 2,
  "text": {
-  "en": "This week, Google announced the release of Gemini Omni, a new model integrated into Google Vids that allows users to create personal avatars. This development aims to enhance user interaction and personalization in video content. Gemini Omni represents a significant step in AI-driven video technology.",
-  "vi": "Tuần này, Google đã công bố việc phát hành Gemini Omni, một mô hình mới được tích hợp vào Google Vids cho phép người dùng tạo ra các hình đại diện cá nhân. Phát triển này nhằm nâng cao sự tương tác và cá nhân hóa của người dùng trong nội dung video. Gemini Omni đại diện cho một bước tiến quan trọng trong công nghệ video dựa trên AI.",
-  "es": "This week, Google announced the release of Gemini Omni, a new model integrated into Google Vids that allows users to create personal avatars. This development aims to enhance user interaction and personalization in video content. Gemini Omni represents a significant step in AI-driven video technology.",
-  "zh": "本周，Google 宣布发布 Gemini Omni，这是一个集成到 Google Vids 中的新模型，允许用户创建个人化头像。此项开发旨在增强用户在视频内容中的互动性和个性化。Gemini Omni 代表了 AI 驱动的视频技术的重要进步。",
-  "ja": "This week, Google announced the release of Gemini Omni, a new model integrated into Google Vids that allows users to create personal avatars. This development aims to enhance user interaction and personalization in video content. Gemini Omni represents a significant step in AI-driven video technology.",
-  "ko": "This week, Google announced the release of Gemini Omni, a new model integrated into Google Vids that allows users to create personal avatars. This development aims to enhance user interaction and personalization in video content. Gemini Omni represents a significant step in AI-driven video technology.",
-  "fr": "This week, Google announced the release of Gemini Omni, a new model integrated into Google Vids that allows users to create personal avatars. This development aims to enhance user interaction and personalization in video content. Gemini Omni represents a significant step in AI-driven video technology."
+  "en": "This week, OpenAI launched OpenAI Presence, a new platform aimed at enhancing user interaction with AI. Additionally, Google DeepMind introduced several updates to its Gemini model family, including Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, which focus on improving performance and capabilities in various applications.",
+  "vi": "Tuần này, OpenAI đã ra mắt OpenAI Presence, một nền tảng mới nhằm nâng cao tương tác của người dùng với AI. Ngoài ra, Google DeepMind đã giới thiệu một số cập nhật cho gia đình mô hình Gemini, bao gồm Gemini 3.6 Flash, 3.5 Flash-Lite và 3.5 Flash Cyber, tập trung vào việc cải thiện hiệu suất và khả năng trong các ứng dụng khác nhau.",
+  "es": "Esta semana, OpenAI lanzó OpenAI Presence, una nueva plataforma destinada a mejorar la interacción del usuario con la IA. Además, Google DeepMind presentó varias actualizaciones a su familia de modelos Gemini, incluyendo Gemini 3.6 Flash, 3.5 Flash-Lite y 3.5 Flash Cyber, que se centran en mejorar el rendimiento y las capacidades en diversas aplicaciones.",
+  "zh": "This week, OpenAI launched OpenAI Presence, a new platform aimed at enhancing user interaction with AI. Additionally, Google DeepMind introduced several updates to its Gemini model family, including Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, which focus on improving performance and capabilities in various applications.",
+  "ja": "今週、OpenAIはユーザーとAIのインタラクションを向上させる新しいプラットフォームOpenAI Presenceを発表しました。さらに、Google DeepMindはGeminiモデルファミリーにいくつかのアップデートを導入し、Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberが含まれ、さまざまなアプリケーションにおける性能と機能の向上に焦点を当てています。",
+  "ko": "이번 주, OpenAI는 사용자와 AI 간의 상호작용을 향상시키기 위한 새로운 플랫폼인 OpenAI Presence를 출시했습니다. 또한, Google DeepMind는 Gemini 모델 패밀리에 여러 업데이트를 도입했으며, 여기에는 성능과 다양한 애플리케이션에서의 기능 향상에 중점을 둔 Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber가 포함됩니다.",
+  "fr": "Cette semaine, OpenAI a lancé OpenAI Presence, une nouvelle plateforme visant à améliorer l'interaction des utilisateurs avec l'IA. De plus, Google DeepMind a introduit plusieurs mises à jour de sa famille de modèles Gemini, y compris Gemini 3.6 Flash, 3.5 Flash-Lite et 3.5 Flash Cyber, qui se concentrent sur l'amélioration des performances et des capacités dans diverses applications."
  }
 }
