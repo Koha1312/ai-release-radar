@@ -498,5 +498,9 @@
  "openai|openaipresence|platform": {
   "title": "OpenAI Presenceの導入",
   "summary": "OpenAIは、さまざまなワークフローに対応する信頼性の高い音声およびチャットエージェントを展開するための企業向けAIエージェントプラットフォーム、OpenAI Presenceを発表しました。"
+ },
+ "openai|healthinchatgpt|feature": {
+  "title": "ChatGPTにおけるHealthの開始",
+  "summary": "OpenAIは、対象となる米国のユーザーが医療記録とApple Healthを安全に接続し、個別化された健康インサイトを得ることができる新機能をChatGPTに導入しました。"
  }
 }
