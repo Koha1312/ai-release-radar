@@ -502,5 +502,9 @@
  "openai|healthinchatgpt|feature": {
   "title": "在ChatGPT中推出健康功能",
   "summary": "OpenAI推出了ChatGPT的新功能，允许符合条件的美国用户安全连接他们的医疗记录和Apple Health，以获取个性化的健康洞察。"
+ },
+ "google|gemini36flash|api": {
+  "title": "Gemini API 管理代理：3.6 Flash、hooks 及更多",
+  "summary": "谷歌宣布发布 Gemini 3.6 Flash，新增了 hooks 和 triggers 等功能，用于管理代理。"
  }
 }
