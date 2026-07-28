@@ -502,5 +502,9 @@
  "openai|healthinchatgpt|feature": {
   "title": "Lancement de la santé dans ChatGPT",
   "summary": "OpenAI a introduit une nouvelle fonctionnalité dans ChatGPT qui permet aux utilisateurs éligibles aux États-Unis de connecter en toute sécurité leurs dossiers médicaux et Apple Health pour des informations de santé personnalisées."
+ },
+ "google|gemini36flash|api": {
+  "title": "Gemini API Agents Gérés : 3.6 Flash, hooks, et plus",
+  "summary": "Google a annoncé la sortie de Gemini 3.6 Flash, qui comprend de nouvelles fonctionnalités telles que des hooks et des triggers pour les agents gérés."
  }
 }
