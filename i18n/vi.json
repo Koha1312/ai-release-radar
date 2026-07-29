@@ -506,5 +506,9 @@
  "google|gemini36flash|api": {
   "title": "Gemini API Managed Agents: 3.6 Flash, hooks, và nhiều hơn nữa",
   "summary": "Google đã công bố phát hành Gemini 3.6 Flash, bao gồm các tính năng mới như hooks và triggers cho các managed agents."
+ },
+ "google deepmind|lyria35|model": {
+  "title": "Google DeepMind Ra Mắt Lyria 3.5 Trong Google Flow Music",
+  "summary": "Google DeepMind đã công bố việc phát hành Lyria 3.5, với những cải tiến về tính nhạc, lời bài hát, giọng hát và khả năng kiểm soát sáng tạo trong nền tảng Google Flow Music."
  }
 }

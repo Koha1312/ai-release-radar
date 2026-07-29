@@ -506,5 +506,9 @@
  "google|gemini36flash|api": {
   "title": "Gemini API 管理代理：3.6 Flash、hooks 及更多",
   "summary": "谷歌宣布发布 Gemini 3.6 Flash，新增了 hooks 和 triggers 等功能，用于管理代理。"
+ },
+ "google deepmind|lyria35|model": {
+  "title": "谷歌DeepMind在Google Flow Music中推出Lyria 3.5",
+  "summary": "谷歌DeepMind宣布发布Lyria 3.5，带来了在Google Flow Music平台上音乐性、歌词、声乐和创作控制方面的改进。"
  }
 }

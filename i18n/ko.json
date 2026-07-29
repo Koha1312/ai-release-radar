@@ -506,5 +506,9 @@
  "google|gemini36flash|api": {
   "title": "Gemini API 관리 에이전트: 3.6 Flash, 후크 및 기타 기능",
   "summary": "Google은 관리 에이전트를 위한 후크 및 트리거와 같은 새로운 기능이 포함된 Gemini 3.6 Flash의 출시를 발표했습니다."
+ },
+ "google deepmind|lyria35|model": {
+  "title": "구글 딥마인드, 구글 플로우 뮤직에서 Lyria 3.5 출시",
+  "summary": "구글 딥마인드가 구글 플로우 뮤직 플랫폼에서 음악성, 가사, 보컬 및 창의적 제어의 개선을 특징으로 하는 Lyria 3.5의 출시를 발표했다."
  }
 }
