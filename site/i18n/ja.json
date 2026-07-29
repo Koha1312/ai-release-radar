@@ -506,5 +506,9 @@
  "google|gemini36flash|api": {
   "title": "Gemini API マネージドエージェント: 3.6 Flash、フック、その他",
   "summary": "Googleは、マネージドエージェント向けのフックやトリガーなどの新機能を含むGemini 3.6 Flashのリリースを発表しました。"
+ },
+ "google deepmind|lyria35|model": {
+  "title": "Google DeepMind、Google Flow MusicでLyria 3.5を発表",
+  "summary": "Google DeepMindは、Google Flow Musicプラットフォーム内での音楽性、歌詞、ボーカル、クリエイティブコントロールの改善を特徴とするLyria 3.5のリリースを発表しました。"
  }
 }
