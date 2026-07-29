@@ -502,5 +502,9 @@
  "openai|healthinchatgpt|feature": {
   "title": "ChatGPTにおけるHealthの開始",
   "summary": "OpenAIは、対象となる米国のユーザーが医療記録とApple Healthを安全に接続し、個別化された健康インサイトを得ることができる新機能をChatGPTに導入しました。"
+ },
+ "google|gemini36flash|api": {
+  "title": "Gemini API マネージドエージェント: 3.6 Flash、フック、その他",
+  "summary": "Googleは、マネージドエージェント向けのフックやトリガーなどの新機能を含むGemini 3.6 Flashのリリースを発表しました。"
  }
 }
