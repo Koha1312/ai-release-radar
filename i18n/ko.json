@@ -502,5 +502,9 @@
  "openai|healthinchatgpt|feature": {
   "title": "ChatGPT에서 건강 기능 출시",
   "summary": "OpenAI는 미국의 적격 사용자들이 개인화된 건강 통찰력을 위해 의료 기록과 Apple Health를 안전하게 연결할 수 있는 새로운 기능을 ChatGPT에 도입했습니다."
+ },
+ "google|gemini36flash|api": {
+  "title": "Gemini API 관리 에이전트: 3.6 Flash, 후크 및 기타 기능",
+  "summary": "Google은 관리 에이전트를 위한 후크 및 트리거와 같은 새로운 기능이 포함된 Gemini 3.6 Flash의 출시를 발표했습니다."
  }
 }
