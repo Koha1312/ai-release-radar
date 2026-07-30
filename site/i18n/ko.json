@@ -510,5 +510,13 @@
  "google deepmind|lyria35|model": {
   "title": "구글 딥마인드, 구글 플로우 뮤직에서 Lyria 3.5 출시",
   "summary": "구글 딥마인드가 구글 플로우 뮤직 플랫폼에서 음악성, 가사, 보컬 및 창의적 제어의 개선을 특징으로 하는 Lyria 3.5의 출시를 발표했다."
+ },
+ "google deepmind|geminiroboticser2|model": {
+  "title": "Gemini Robotics ER 2: 비디오 이해, 작업 조정 및 다중 로봇 협업으로 로봇 공학 강화",
+  "summary": "Google DeepMind가 고급 비디오 이해 및 다중 로봇 협업 기능을 통해 로봇 공학을 향상시키기 위해 설계된 새로운 모델 Gemini Robotics ER 2를 발표했습니다."
+ },
+ "google deepmind|geminirobotics2|model": {
+  "title": "제미니 로보틱스 2, 로봇에 전신 지능을 제공하다",
+  "summary": "구글 딥마인드가 전신 지능 기능을 갖춘 로봇을 강화하는 제미니 로보틱스 2의 출시를 발표했다."
  }
 }
