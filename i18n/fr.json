@@ -510,5 +510,13 @@
  "google deepmind|lyria35|model": {
   "title": "Google DeepMind lance Lyria 3.5 dans Google Flow Music",
   "summary": "Google DeepMind a annoncé la sortie de Lyria 3.5, avec des améliorations en musicalité, paroles, voix et contrôle créatif au sein de la plateforme Google Flow Music."
+ },
+ "google deepmind|geminiroboticser2|model": {
+  "title": "Gemini Robotics ER 2 : propulser la robotique avec la compréhension vidéo, l'orchestration des tâches et la collaboration multi-robots",
+  "summary": "Google DeepMind a annoncé Gemini Robotics ER 2, un nouveau modèle conçu pour améliorer la robotique grâce à une compréhension vidéo avancée et des capacités de collaboration multi-robots."
+ },
+ "google deepmind|geminirobotics2|model": {
+  "title": "Gemini Robotics 2 apporte une intelligence corporelle aux robots",
+  "summary": "Google DeepMind a annoncé la sortie de Gemini Robotics 2, qui améliore les robots avec des capacités d'intelligence corporelle."
  }
 }
